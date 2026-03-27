@@ -1,4 +1,4 @@
-# Custom Nanorobot Control Inverter
+# Scalable Power Inverter for Precision Magnetic Field Control
 This project is motivated by the growing interest in magnetic actuation systems for controlling microrobots and nanorobots in biomedical applications. These devices can be guided remotely using externally generated magnetic fields, enabling precise navigation inside the human body without the need for invasive procedures. Potential applications include targeted drug delivery, minimally invasive surgery, and the removal of blockages in blood vessels.
 
 To achieve accurate control of these robots, it is necessary to generate well-defined and time-varying magnetic fields. This is typically done using current-driven coils, where the magnetic field is directly related to the current flowing through the windings. As a result, precise current control becomes a critical requirement for reliable and repeatable operation.

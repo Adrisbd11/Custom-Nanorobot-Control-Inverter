@@ -3,4 +3,6 @@ This project is motivated by the growing interest in magnetic actuation systems 
 
 To achieve accurate control of these robots, it is necessary to generate well-defined and time-varying magnetic fields. This is typically done using current-driven coils, where the magnetic field is directly related to the current flowing through the windings. As a result, precise current control becomes a critical requirement for reliable and repeatable operation.
 
-In this context, the project focuses on the design of a power inverter capable of driving a high-inductance coil with controlled current. The system must ensure stable operation while handling relatively high currents and low-frequency dynamics, providing a suitable platform for experimental validation of magnetic actuation principles.
+In this context, the project focuses on the design of a power inverter capable of driving a high-inductance coil with controlled current. The system is designed to operate with a coil of approximately 300 mH, supplying currents in the range of 20–30 A, and powered from a 560 V DC bus. These specifications impose significant challenges in terms of voltage handling, current regulation, and transient management in an inductive load.
+
+This implementation represents a first functional prototype intended for laboratory validation. However, the design is conceived with scalability in mind, allowing extension toward significantly larger and more complex systems requiring higher power levels, multiple coils, and more advanced magnetic field control.

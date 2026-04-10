@@ -4035,12 +4035,6 @@
 		(uuid "d1b2f353-6e6a-48dc-81f7-cbbd59303d1c")
 	)
 	(junction
-		(at 83.82 73.66)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d497844f-ede6-4d68-8725-e65b474a6379")
-	)
-	(junction
 		(at 135.89 173.99)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4504,16 +4498,6 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 96.52) (xy 83.82 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1561fa6f-5748-445c-9494-1cb7734896e4")
-	)
-	(wire
-		(pts
 			(xy 198.12 82.55) (xy 200.66 82.55)
 		)
 		(stroke
@@ -4884,7 +4868,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 73.66) (xy 86.36 73.66)
+			(xy 80.01 73.66) (xy 86.36 73.66)
 		)
 		(stroke
 			(width 0)
@@ -5134,7 +5118,7 @@
 	)
 	(wire
 		(pts
-			(xy 241.3 213.36) (xy 241.3 226.06)
+			(xy 237.49 213.36) (xy 237.49 226.06)
 		)
 		(stroke
 			(width 0)
@@ -5784,7 +5768,7 @@
 	)
 	(wire
 		(pts
-			(xy 241.3 205.74) (xy 248.92 205.74)
+			(xy 237.49 205.74) (xy 248.92 205.74)
 		)
 		(stroke
 			(width 0)
@@ -6161,16 +6145,6 @@
 			(type default)
 		)
 		(uuid "9f167801-21f6-436e-a8c7-b984cbb12423")
-	)
-	(wire
-		(pts
-			(xy 80.01 73.66) (xy 83.82 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9f9e4f9c-5fce-4c16-bbae-6b69aba7aeaa")
 	)
 	(wire
 		(pts
@@ -7374,7 +7348,7 @@
 	)
 	(wire
 		(pts
-			(xy 241.3 226.06) (xy 274.32 226.06)
+			(xy 237.49 226.06) (xy 274.32 226.06)
 		)
 		(stroke
 			(width 0)
@@ -7997,7 +7971,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "16248f44-9c4a-48a2-ad0c-6d5d394585a1")
 		(property "Reference" "C15"
@@ -9637,6 +9611,72 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 83.82 104.14 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3425fba0-1704-4292-bc93-8e87ed0edb3a")
+		(property "Reference" "#PWR06"
+			(at 83.82 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 83.82 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 83.82 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 83.82 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 83.82 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f84c1a52-7881-464c-a712-7aa2f367d963")
+		)
+		(instances
+			(project "Adrion_1"
+				(path "/ca8b9c62-24ed-451b-8ada-8e095e6c3e3b/fa7ca0dd-ef0e-4471-8085-0b8f7bb7729a"
+					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 68.58 208.28 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10781,6 +10821,76 @@
 	)
 	(symbol
 		(lib_id "Device:C")
+		(at 284.48 71.12 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5360ab00-765f-417a-a794-bb8311231adf")
+		(property "Reference" "C50"
+			(at 288.29 69.8499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "C"
+			(at 288.29 72.3899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 285.4452 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 284.48 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 284.48 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "710477b4-c62c-4428-bcee-d222372f9a6b")
+		)
+		(pin "2"
+			(uuid "2d6c448a-a0dd-418e-9557-123ccc3d1b32")
+		)
+		(instances
+			(project ""
+				(path "/ca8b9c62-24ed-451b-8ada-8e095e6c3e3b/fa7ca0dd-ef0e-4471-8085-0b8f7bb7729a"
+					(reference "C50")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
 		(at 137.16 128.27 0)
 		(mirror y)
 		(unit 1)
@@ -10856,7 +10966,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "553de8df-b119-4880-932e-83c46f823428")
 		(property "Reference" "R23"
@@ -11245,7 +11355,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "661ba23b-8362-480b-aac2-79355033064a")
 		(property "Reference" "R25"
@@ -11795,7 +11905,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "7231d5d6-afea-4faa-9b05-bb38677dd261")
 		(property "Reference" "R24"
@@ -11929,32 +12039,34 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x04")
-		(at 236.22 210.82 180)
+		(lib_id "Device:C")
+		(at 83.82 100.33 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "7729d34e-129e-4d95-8d45-8a23d0ad9aa9")
-		(property "Reference" "J3"
-			(at 236.22 199.39 0)
+		(uuid "7637994a-daf2-4396-9082-2862326861c0")
+		(property "Reference" "C51"
+			(at 80.01 100.076 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "Conn_01x04"
-			(at 236.22 201.93 0)
+		(property "Value" "100n"
+			(at 80.772 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 236.22 210.82 0)
+			(at 82.8548 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11963,7 +12075,74 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 236.22 210.82 0)
+			(at 83.82 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 83.82 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d8ed240f-8375-4478-9e92-26fc299ee9e7")
+		)
+		(pin "2"
+			(uuid "a1be59cf-de3a-474b-9561-0b0a236e5a46")
+		)
+		(instances
+			(project "Adrion_1"
+				(path "/ca8b9c62-24ed-451b-8ada-8e095e6c3e3b/fa7ca0dd-ef0e-4471-8085-0b8f7bb7729a"
+					(reference "C51")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x04")
+		(at 232.41 210.82 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7729d34e-129e-4d95-8d45-8a23d0ad9aa9")
+		(property "Reference" "J3"
+			(at 232.41 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x04"
+			(at 232.41 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 232.41 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 232.41 210.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11972,7 +12151,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 236.22 210.82 0)
+			(at 232.41 210.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13798,7 +13977,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "c150e5fb-769a-4470-8c27-17f1faf42486")
 		(property "Reference" "R26"
@@ -14215,7 +14394,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "d02a08bb-1355-4f0b-af8b-982d29c6a68f")
 		(property "Reference" "C16"
@@ -15756,7 +15935,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "f86f638a-133a-436b-b1d6-5abc2e5fabd0")
 		(property "Reference" "C14"
@@ -15826,7 +16005,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "f8c5b77e-5c76-4d53-b1a9-df2fd1b77b38")
 		(property "Reference" "C6"

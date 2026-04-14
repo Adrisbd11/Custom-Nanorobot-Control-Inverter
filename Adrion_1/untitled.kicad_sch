@@ -1587,7 +1587,7 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 99.06) (xy 97.79 99.06)
+			(xy 91.44 99.06) (xy 99.06 99.06)
 		)
 		(stroke
 			(width 0)
@@ -1597,7 +1597,7 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 111.76) (xy 97.79 111.76)
+			(xy 91.44 111.76) (xy 99.06 111.76)
 		)
 		(stroke
 			(width 0)
@@ -1607,7 +1607,17 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 124.46) (xy 44.45 124.46)
+			(xy 91.44 58.42) (xy 99.06 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "78308ee3-9747-4226-8ae7-cf300e50ed8d")
+	)
+	(wire
+		(pts
+			(xy 36.83 124.46) (xy 45.72 124.46)
 		)
 		(stroke
 			(width 0)
@@ -1617,7 +1627,7 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 111.76) (xy 44.45 111.76)
+			(xy 36.83 111.76) (xy 45.72 111.76)
 		)
 		(stroke
 			(width 0)
@@ -1627,7 +1637,7 @@
 	)
 	(wire
 		(pts
-			(xy 34.29 86.36) (xy 44.45 86.36)
+			(xy 35.56 86.36) (xy 45.72 86.36)
 		)
 		(stroke
 			(width 0)
@@ -1637,7 +1647,7 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 109.22) (xy 44.45 109.22)
+			(xy 36.83 109.22) (xy 45.72 109.22)
 		)
 		(stroke
 			(width 0)
@@ -1645,9 +1655,29 @@
 		)
 		(uuid "a2d2b34a-8c27-4abe-92cc-49e5c5ea96bc")
 	)
+	(wire
+		(pts
+			(xy 91.44 109.22) (xy 96.52 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db840817-f5b5-488d-a3c3-465f6af1ef9f")
+	)
+	(wire
+		(pts
+			(xy 91.44 60.96) (xy 99.06 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f64df717-b81e-4bb4-a70f-fb9a00244976")
+	)
 	(hierarchical_label "PWM_AH"
 		(shape output)
-		(at 35.56 111.76 180)
+		(at 36.83 111.76 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1658,7 +1688,7 @@
 	)
 	(hierarchical_label "PWM_BH"
 		(shape output)
-		(at 35.56 124.46 180)
+		(at 36.83 124.46 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1669,7 +1699,7 @@
 	)
 	(hierarchical_label "EN_GLOBAL"
 		(shape output)
-		(at 34.29 86.36 180)
+		(at 35.56 86.36 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1680,7 +1710,7 @@
 	)
 	(hierarchical_label "OVP"
 		(shape input)
-		(at 97.79 111.76 0)
+		(at 99.06 111.76 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1689,20 +1719,20 @@
 		)
 		(uuid "8248b1ff-3146-477f-b20d-dfc9639a58dc")
 	)
-	(hierarchical_label "VBUS_SENSE"
-		(shape input)
-		(at 99.06 60.96 0)
+	(hierarchical_label "ENABLE_LDO"
+		(shape output)
+		(at 96.52 109.22 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "c1aa2bda-6bad-4cd1-a65f-f2c22050c081")
+		(uuid "88b8ddca-44b0-467a-a37d-bdc7a74d85e2")
 	)
 	(hierarchical_label "PWM_BL"
 		(shape output)
-		(at 97.79 99.06 0)
+		(at 99.06 99.06 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1711,9 +1741,20 @@
 		)
 		(uuid "d3ade9c1-422f-496f-825c-85201a54e09e")
 	)
+	(hierarchical_label "NTC_Sense"
+		(shape input)
+		(at 99.06 60.96 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e7f8a3ce-43fc-454c-a844-6fa87166bc03")
+	)
 	(hierarchical_label "PWM_AL"
 		(shape output)
-		(at 35.56 109.22 180)
+		(at 36.83 109.22 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1735,7 +1776,7 @@
 	)
 	(symbol
 		(lib_id "NUCLEO-G474RE_3p:NUCLEO-G474RE")
-		(at 67.31 106.68 0)
+		(at 68.58 106.68 0)
 		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1744,7 +1785,7 @@
 		(fields_autoplaced yes)
 		(uuid "321f2a1e-ea60-4cd1-9fb6-d025aa75aa3c")
 		(property "Reference" "U2"
-			(at 67.31 76.2 0)
+			(at 68.58 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1752,7 +1793,7 @@
 			)
 		)
 		(property "Value" "NUCLEO-G474RE"
-			(at 67.31 78.74 0)
+			(at 68.58 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1760,7 +1801,7 @@
 			)
 		)
 		(property "Footprint" "NUCLEO-G474RE:MODULE_NUCLEO-G474RE"
-			(at 67.31 106.68 0)
+			(at 68.58 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1770,7 +1811,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 67.31 106.68 0)
+			(at 68.58 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1779,7 +1820,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 67.31 106.68 0)
+			(at 68.58 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1788,7 +1829,7 @@
 			)
 		)
 		(property "MF" "STMicroelectronics"
-			(at 67.31 106.68 0)
+			(at 68.58 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1798,7 +1839,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" "20.7mm"
-			(at 67.31 106.68 0)
+			(at 68.58 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1808,7 +1849,7 @@
 			)
 		)
 		(property "Package" "None"
-			(at 67.31 106.68 0)
+			(at 68.58 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1818,7 +1859,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 67.31 106.68 0)
+			(at 68.58 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1828,7 +1869,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/NUCLEO-G474RE/STMicroelectronics/view-part/?ref=eda"
-			(at 67.31 106.68 0)
+			(at 68.58 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1838,7 +1879,7 @@
 			)
 		)
 		(property "STANDARD" "Manufacturer Recommendations"
-			(at 67.31 106.68 0)
+			(at 68.58 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1848,7 +1889,7 @@
 			)
 		)
 		(property "PARTREV" "17"
-			(at 67.31 106.68 0)
+			(at 68.58 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1858,7 +1899,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/NUCLEO-G474RE/STMicroelectronics/view-part/?ref=snap"
-			(at 67.31 106.68 0)
+			(at 68.58 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1868,7 +1909,7 @@
 			)
 		)
 		(property "MP" "NUCLEO-G474RE"
-			(at 67.31 106.68 0)
+			(at 68.58 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1878,7 +1919,7 @@
 			)
 		)
 		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=3662258&manufacturer=STMicroelectronics&part_name=NUCLEO-G474RE&search_term=None"
-			(at 67.31 106.68 0)
+			(at 68.58 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1888,7 +1929,7 @@
 			)
 		)
 		(property "Description_1" "STM32G474 Nucleo-64 STM32G4 ARM® Cortex®-M4 MCU 32-Bit Embedded Evaluation Board"
-			(at 67.31 106.68 0)
+			(at 68.58 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1898,7 +1939,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 67.31 106.68 0)
+			(at 68.58 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1908,7 +1949,7 @@
 			)
 		)
 		(property "MANUFACTURER" "STmicroelectronics"
-			(at 67.31 106.68 0)
+			(at 68.58 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)

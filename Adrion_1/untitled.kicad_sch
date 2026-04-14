@@ -1597,6 +1597,16 @@
 	)
 	(wire
 		(pts
+			(xy 90.17 111.76) (xy 97.79 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "552e0bae-d9a6-4104-9152-845b492d2827")
+	)
+	(wire
+		(pts
 			(xy 35.56 124.46) (xy 44.45 124.46)
 		)
 		(stroke
@@ -1635,16 +1645,6 @@
 		)
 		(uuid "a2d2b34a-8c27-4abe-92cc-49e5c5ea96bc")
 	)
-	(wire
-		(pts
-			(xy 90.17 101.6) (xy 97.79 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cf2193dd-a7e7-48d6-ba2f-a1bcc978fb4a")
-	)
 	(hierarchical_label "PWM_AH"
 		(shape output)
 		(at 35.56 111.76 180)
@@ -1655,17 +1655,6 @@
 			(justify right)
 		)
 		(uuid "23d843e5-d112-4a57-a228-bea7248edd29")
-	)
-	(hierarchical_label "LED_STATUS"
-		(shape output)
-		(at 97.79 101.6 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "5acea7da-ade2-42cf-a2c4-afa4d4b6254a")
 	)
 	(hierarchical_label "PWM_BH"
 		(shape output)
@@ -1688,6 +1677,17 @@
 			(justify right)
 		)
 		(uuid "7f23f16a-9da3-434a-aa21-d01568aea44b")
+	)
+	(hierarchical_label "OVP"
+		(shape input)
+		(at 97.79 111.76 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8248b1ff-3146-477f-b20d-dfc9639a58dc")
 	)
 	(hierarchical_label "VBUS_SENSE"
 		(shape input)

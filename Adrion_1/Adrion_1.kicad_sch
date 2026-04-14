@@ -6,7 +6,7 @@
 	(paper "A4")
 	(lib_symbols)
 	(sheet
-		(at 171.45 31.75)
+		(at 205.74 31.75)
 		(size 52.07 26.67)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -22,7 +22,7 @@
 		)
 		(uuid "1fe46f15-e332-4cdc-b189-550c3fd1d399")
 		(property "Sheetname" "Supply"
-			(at 171.45 31.0384 0)
+			(at 205.74 31.0384 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31,7 +31,7 @@
 			)
 		)
 		(property "Sheetfile" "supply.kicad_sch"
-			(at 171.45 59.0046 0)
+			(at 205.74 59.0046 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40,7 +40,7 @@
 			)
 		)
 		(property "Field2" ""
-			(at 171.45 31.75 0)
+			(at 205.74 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -56,7 +56,49 @@
 		)
 	)
 	(sheet
-		(at 99.06 31.75)
+		(at 29.21 72.39)
+		(size 54.61 27.94)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "958fea8c-9799-46c3-86df-9e7f509a3326")
+		(property "Sheetname" "OVP"
+			(at 29.21 71.6784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "OVP.kicad_sch"
+			(at 29.21 100.9146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Adrion_1"
+				(path "/ca8b9c62-24ed-451b-8ada-8e095e6c3e3b"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 113.03 31.75)
 		(size 54.61 26.67)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -72,7 +114,7 @@
 		)
 		(uuid "c394d021-dbd4-4b5e-82f1-8db0ed20e57b")
 		(property "Sheetname" "Control"
-			(at 99.06 31.0384 0)
+			(at 113.03 31.0384 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -81,7 +123,7 @@
 			)
 		)
 		(property "Sheetfile" "untitled.kicad_sch"
-			(at 99.06 59.0046 0)
+			(at 113.03 59.0046 0)
 			(effects
 				(font
 					(size 1.27 1.27)

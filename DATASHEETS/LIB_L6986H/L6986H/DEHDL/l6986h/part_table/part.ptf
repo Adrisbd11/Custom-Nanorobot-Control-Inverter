@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'L6986H'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "STMicroelectronics", "L6986H" (!) = "", "SOP65P640X120-17N", "Small Outline Packages", "511-L6986H", "https://www.mouser.co.uk/ProductDetail/STMicroelectronics/L6986H?qs=vLWxofP3U2yqeL91wKwlTQ%3D%3D", "L6986H", "https://www.arrow.com/en/products/l6986h/stmicroelectronics?region=nac", "38 V, 2 A synchronous step-down switching regulator with 30 &#181;A quiescent current", "https://www.st.com/resource/en/datasheet/l6986h.pdf", "1.2 mm"
+END_PART
+
+END.

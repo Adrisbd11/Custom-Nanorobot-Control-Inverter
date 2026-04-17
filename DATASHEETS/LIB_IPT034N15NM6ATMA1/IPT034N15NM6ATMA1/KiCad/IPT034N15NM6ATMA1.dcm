@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP IPT034N15NM6ATMA1
+D MOSFETs OptiMOS 6 power MOSFET 150 V normal level in TOLL package
+K
+F https://www.infineon.com/assets/row/public/documents/24/49/infineon-ipt034n15nm6-datasheet-en.pdf
+$ENDCMP
+#
+#End Doc Library

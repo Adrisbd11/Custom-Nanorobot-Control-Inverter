@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'CRCW251215K0FKEG'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Vishay", "CRCW251215K0FKEG" (!) = "", "RESC6332X70N", "Resistor Chip", "71-CRCW2512-15K-E3", "https://www.mouser.co.uk/ProductDetail/Vishay-Dale/CRCW251215K0FKEG?qs=Z1AZHWO%2FsqI0c6vK0jJZww%3D%3D", "CRCW251215K0FKEG", "https://www.arrow.com/en/products/crcw251215k0fkeg/vishay?region=nac", "VISHAY - CRCW251215K0FKEG - RESISTOR, THICK FILM CHIP, 15KOHM, 1W, 1%", "http://www.vishay.com/docs/20035/dcrcwe3.pdf", "0.7 mm"
+END_PART
+
+END.

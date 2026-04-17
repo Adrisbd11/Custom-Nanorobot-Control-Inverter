@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART '2EDL23N06PJ'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Infineon", "2EDL23N06PJ" (!) = "", "SOIC127P600X175-14N", "Small Outline Packages", "726-2EDL23N06PJ", "https://www.mouser.co.uk/ProductDetail/Infineon-Technologies/2EDL23N06PJ?qs=61g%252BPyeGH21MM1hsJUEj5A%3D%3D", "", "", "Infineon 2EDL23N06PJ, MOSFET Power Driver", "https://www.mouser.in/datasheet/2/196/Infineon_2EDL23x06xx_DataSheet_v02_08_EN-776784.pdf", "1.75 mm"
+END_PART
+
+END.

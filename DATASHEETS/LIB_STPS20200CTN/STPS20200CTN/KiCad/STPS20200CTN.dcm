@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP STPS20200CTN
+D STMicroelectronics 200V 30A, Dual Diode, 3-Pin TO-220AB STPS20200CTN
+K
+F http://www.st.com/web/en/resource/technical/document/datasheet/DM00079941.pdf
+$ENDCMP
+#
+#End Doc Library

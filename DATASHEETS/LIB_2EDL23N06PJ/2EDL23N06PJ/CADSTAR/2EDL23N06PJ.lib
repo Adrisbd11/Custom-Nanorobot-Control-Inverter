@@ -1,0 +1,18 @@
+.2EDL23N06PJ :1 ;Infineon 2EDL23N06PJ, MOSFET Power Driver
+SOIC127P600X175-14N
+*STM IC
+*NGS
+*PLB 1="VDD" 2="HIN" 3="LIN" 4="EN-/FLT" 5="GND" 6="PGND" 7="LO" 8="NC_1" 9="NC_2" 10="VS" 11="HO" 12="VB" 13="NC_3" 14="NC_4"
+*MXP 14
+*DFN 2EDL23N06PJ
+~!Manufacturer_Name (Infineon)
+~!Manufacturer_Part_Number (2EDL23N06PJ)
+~!Mouser Part Number (726-2EDL23N06PJ)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Infineon-Technologies/2EDL23N06PJ?qs=61g%252BPyeGH21MM1hsJUEj5A%3D%3D)
+~!Arrow Part Number (-)
+~!Arrow Price/Stock (-)
+~!Link Datasheet (https://www.mouser.in/datasheet/2/196/Infineon_2EDL23x06xx_DataSheet_v02_08_EN-776784.pdf)
+~!Height (1.75mm)
+~!3D_Model (2EDL23N06PJ)
+"2EDL23N06PJ"
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 6.1!U 7.1!U 14.1!U 13.1!U 12.1!U 11.1!U 10.1!U 9.1!U 8.1!U 

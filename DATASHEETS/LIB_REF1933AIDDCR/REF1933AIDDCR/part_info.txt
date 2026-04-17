@@ -1,0 +1,9 @@
+Manufacturer=Texas Instruments
+PartNumber=REF1933AIDDCR
+PartCategory=Integrated Circuit
+PackageCategory=SOT23 (5-Pin)
+PinCount=5
+Version=1.1
+Released=2016-07-10 20:03:14
+Downloaded=2026-04-15 14:32:25
+3D=Y

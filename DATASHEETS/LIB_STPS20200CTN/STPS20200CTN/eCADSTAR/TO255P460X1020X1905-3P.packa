@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "STPS20200CTN"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2021-01-01-10:15:54)
+    (mountForm default
+        (footprintRef "TO255P460X1020X1905-3P")
+        (spec "System")
+    )
+)

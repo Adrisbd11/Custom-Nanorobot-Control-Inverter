@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'D22V0H1U2LP_7B'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Diodes Incorporated", "D22V0H1U2LP-7B" (!) = "", "D22V0H1U2LP7B", "Other", "", "", "", "", "ESD Suppressors / TVS Diodes General Protection PP X1-DFN1006-2 T&R 10K", "https://www.diodes.com/assets/Datasheets/D22V0H1U2LP.pdf", "0.53 mm"
+END_PART
+
+END.

@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'MKP1F044706J00JSSD'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "WIMA", "MKP1F044706J00JSSD" (!) = "", "MKP1F044706J00JSSD", "Other", "505-MKP1F044706J00JS", "https://www.mouser.co.uk/ProductDetail/WIMA/MKP1F044706J00JSSD?qs=dTJS0cRn7ogT%252BWsuB87WZQ%3D%3D", "", "", "Film Capacitors 4.7 uF 250 VDC 5%", "https://www.wima.de/wp-content/uploads/media/e_WIMA_MKP_10.pdf", "39.5 mm"
+END_PART
+
+END.

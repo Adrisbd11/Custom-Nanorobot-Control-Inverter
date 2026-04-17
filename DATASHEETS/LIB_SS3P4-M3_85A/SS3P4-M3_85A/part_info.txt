@@ -1,0 +1,9 @@
+Manufacturer=Vishay
+PartNumber=SS3P4-M3/85A
+PartCategory=Schottky Diode
+PackageCategory=Other
+PinCount=2
+Version=1.4
+Released=2024-08-03 11:19:54
+Downloaded=2026-04-15 14:11:28
+3D=N

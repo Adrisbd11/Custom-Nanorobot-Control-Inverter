@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "IPT034N15NM6ATMA1"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2021-03-30-08:33:31)
+    (mountForm default
+        (footprintRef "IAUT150N10S5N035ATMA1")
+        (spec "System")
+    )
+)

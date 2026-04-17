@@ -1,0 +1,9 @@
+Manufacturer=STMicroelectronics
+PartNumber=STPS20200CTN
+PartCategory=Schottky Diode with Dual Anode
+PackageCategory=Transistor Outline, Vertical
+PinCount=3
+Version=4.1
+Released=2021-01-01 10:15:54
+Downloaded=2026-04-17 10:26:18
+3D=Y

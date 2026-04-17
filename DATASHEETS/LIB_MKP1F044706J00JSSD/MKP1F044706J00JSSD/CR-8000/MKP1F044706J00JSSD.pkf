@@ -1,0 +1,10 @@
+(unit MM)
+
+(package "MKP1F044706J00JSSD"
+    (type UNDEF)
+    (uver 2)
+    (mountForm default
+        (footprintRef "MKP1F044706J00JSSD")
+        (spec "default")
+    )
+)

@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'SS3P4_M3_85A'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Vishay", "SS3P4-M3/85A" (!) = "", "SS3P4M385A", "Other", "625-SS3P4-M3/85A", "https://www.mouser.co.uk/ProductDetail/Vishay-General-Semiconductor/SS3P4-M3-85A?qs=HSPD0Bff7ibKviouswwnaQ%3D%3D", "", "", "High Current Density Surface-Mount Schottky Rectifiers", "https://www.vishay.com/docs/88954/ss3p4.pdf", "1.15 mm"
+END_PART
+
+END.

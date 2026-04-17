@@ -1,0 +1,18 @@
+.MKP1F044706J00JSSD :1 ;Film Capacitors 4.7 uF 250 VDC 5%
+MKP1F044706J00JSSD
+*STM C
+*NGS
+*PLB 1="1" 2="2"
+*MXP 2
+*DFN MKP1F044706J00JSSD
+~!Manufacturer_Name (WIMA)
+~!Manufacturer_Part_Number (MKP1F044706J00JSSD)
+~!Mouser Part Number (505-MKP1F044706J00JS)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/WIMA/MKP1F044706J00JSSD?qs=dTJS0cRn7ogT%252BWsuB87WZQ%3D%3D)
+~!Arrow Part Number (-)
+~!Arrow Price/Stock (-)
+~!Link Datasheet (https://www.wima.de/wp-content/uploads/media/e_WIMA_MKP_10.pdf)
+~!Height (39.5mm)
+~!3D_Model (MKP1F044706J00JSSD)
+MKP1F044706J00JSSD
+1.1!U 2.1!U 

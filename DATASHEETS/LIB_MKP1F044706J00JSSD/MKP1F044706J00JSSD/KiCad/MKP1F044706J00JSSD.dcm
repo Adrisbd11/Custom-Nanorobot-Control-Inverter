@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP MKP1F044706J00JSSD
+D Film Capacitors 4.7 uF 250 VDC 5%
+K
+F https://www.wima.de/wp-content/uploads/media/e_WIMA_MKP_10.pdf
+$ENDCMP
+#
+#End Doc Library

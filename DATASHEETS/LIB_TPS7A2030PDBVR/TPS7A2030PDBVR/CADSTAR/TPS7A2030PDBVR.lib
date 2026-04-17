@@ -1,0 +1,18 @@
+.TPS7A2030PDBVR :1 ;LDO Voltage Regulators 300-mA, ultra-low-noise, low-IQ, low-dropout (LDO) linear regulator with high PSRR
+SOT95P280X145-5N
+*STM IC
+*NGS
+*PLB 1="IN" 2="GND" 3="EN" 4="N/C" 5="OUT"
+*MXP 5
+*DFN TPS7A2030PDBVR
+~!Manufacturer_Name (Texas Instruments)
+~!Manufacturer_Part_Number (TPS7A2030PDBVR)
+~!Mouser Part Number (595-TPS7A2030PDBVR)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TPS7A2030PDBVR?qs=hd1VzrDQEGgZMtQinkbhYw%3D%3D)
+~!Arrow Part Number (TPS7A2030PDBVR)
+~!Link Arrow Price/Stock (https://www.arrow.com/en/products/tps7a2030pdbvr/texas-instruments?utm_currency=USD&region=nac)
+~!Link Datasheet (https://www.arrow.com/en/products/tps7a2030pdbvr/texas-instruments)
+~!Height (1.45mm)
+~!3D_Model (TPS7A2030PDBVR)
+TPS7A2030PDBVR
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 

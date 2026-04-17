@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP TPS7A2030PDBVR
+D LDO Voltage Regulators 300-mA, ultra-low-noise, low-IQ, low-dropout (LDO) linear regulator with high PSRR
+K
+F https://www.arrow.com/en/products/tps7a2030pdbvr/texas-instruments
+$ENDCMP
+#
+#End Doc Library

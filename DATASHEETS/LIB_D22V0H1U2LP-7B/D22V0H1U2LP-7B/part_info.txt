@@ -1,0 +1,9 @@
+Manufacturer=Diodes Incorporated
+PartNumber=D22V0H1U2LP-7B
+PartCategory=TVS Diode (Uni-directional)
+PackageCategory=Other
+PinCount=2
+Version=1.2
+Released=2023-05-10 06:44:08
+Downloaded=2026-04-15 14:04:24
+3D=N

@@ -1,0 +1,18 @@
+.STPS20200CTN :1 ;STMicroelectronics 200V 30A, Dual Diode, 3-Pin TO-220AB STPS20200CTN
+TO255P460X1020X1905-3P
+*STM D
+*NGS
+*PLB 1="A1" 2="K" 3="A2"
+*MXP 3
+*DFN STPS20200CTN
+~!Manufacturer_Name (STMicroelectronics)
+~!Manufacturer_Part_Number (STPS20200CTN)
+~!Mouser Part Number (-)
+~!Mouser Price/Stock (-)
+~!Arrow Part Number (-)
+~!Arrow Price/Stock (-)
+~!Link Datasheet (http://www.st.com/web/en/resource/technical/document/datasheet/DM00079941.pdf)
+~!Height (4.6mm)
+~!3D_Model (STPS20200CTN)
+STPS20200CTN
+1.1!U 2.1!U 3.1!U 

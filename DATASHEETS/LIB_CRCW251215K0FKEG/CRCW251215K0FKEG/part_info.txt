@@ -1,0 +1,9 @@
+Manufacturer=Vishay
+PartNumber=CRCW251215K0FKEG
+PartCategory=Resistor
+PackageCategory=Resistor Chip
+PinCount=2
+Version=1.1
+Released=2023-03-07 09:16:33
+Downloaded=2026-04-17 14:45:08
+3D=Y

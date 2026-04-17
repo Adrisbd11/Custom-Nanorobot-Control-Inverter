@@ -1,0 +1,9 @@
+Manufacturer=TDK
+PartNumber=B43547F2108M067
+PartCategory=Capacitor Polarised
+PackageCategory=Capacitor, Polarized Radial Diameter
+PinCount=2
+Version=4.1
+Released=2021-08-28 13:21:52
+Downloaded=2026-04-17 12:01:31
+3D=Y

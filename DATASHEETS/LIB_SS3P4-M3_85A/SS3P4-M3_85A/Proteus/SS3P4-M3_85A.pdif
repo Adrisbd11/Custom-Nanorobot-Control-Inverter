@@ -1,0 +1,116 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "SS3P4-M3_85A"
+   (description "High Current Density Surface-Mount Schottky Rectifiers")
+   (family "DIO")
+   (package "SS3P4M385A")
+   (attribute "Datasheet Link" "https://www.vishay.com/docs/88954/ss3p4.pdf")
+   (attribute "Geometry.Height" "1.15mm")
+   (attribute "Manufacturer_Name" "Vishay")
+   (attribute "Manufacturer_Part_Number" "SS3P4-M3/85A")
+   (attribute "Mouser Part Number" "625-SS3P4-M3/85A")
+   (attribute "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Vishay-General-Semiconductor/SS3P4-M3-85A?qs=HSPD0Bff7ibKviouswwnaQ%3D%3D")
+   (attribute "Arrow Part Number" "")
+   (attribute "Arrow Price/Stock" "")
+   (gate
+    (symbol "SS3P4-M3_85A")
+    (pin "K" 1 PS)
+    (pin "A" 2 PS)
+   )
+  )
+  (symbol "SS3P4-M3_85A"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 300 100) (pt 300 -100))
+   )
+   (graphic
+    (stroke 10)
+    (path (pt 300 100) (pt 340 100) (pt 340 60))
+   )
+   (graphic
+    (stroke 10)
+    (path (pt 300 -100) (pt 260 -100) (pt 260 -60))
+   )
+   (graphic
+    (stroke 10)
+    (path (pt 200 0) (pt 300 0))
+   )
+   (graphic
+    (stroke 10)
+    (path (pt 500 0) (pt 600 0))
+   )
+   (graphic
+    (stroke 10)
+    (path (closed true) (pt 300 0) (pt 500 100) (pt 500 -100) (pt 300 0))
+   )
+   (terminal
+    (body (symbol "PINSHORT") (pt 100 0) (rot 0) (mir 0) (visible true))
+    (name (pt 140 10) (rot 0) (just MIDDLE LEFT) (visible false))
+    (number (pt 60 10) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PINSHORT") (pt 700 0) (rot 0) (mir X) (visible true))
+    (name (pt 140 10) (rot 0) (just MIDDLE LEFT) (visible false))
+    (number (pt 60 10) (rot 0) (just BOTTOM RIGHT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "SS3P4M385A"
+   (units MM)
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -1.7 1.015)
+      (pt 1.7 1.015)
+      (pt 1.7 -1.015)
+      (pt -1.7 -1.015)
+      (pt -1.7 1.015))))
+   (layer OCCA
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -3.034 2.27)
+      (pt 3.034 2.27)
+      (pt 3.034 -2.27)
+      (pt -3.034 -2.27)
+      (pt -3.034 2.27))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -2.5 0)
+      (arc (pt -2.500 0.000) (pt -2.500 -0.050) (pt -2.400 0.050) (start 180.0) (sweep 180.0))
+      (pt -2.4 0)
+      (arc (pt -2.400 0.000) (pt -2.500 -0.050) (pt -2.400 0.050) (start 180.0) (sweep .0))
+      (pt -2.5 0))))
+   (leg 1 (pt -0.699 0.000) (padstack 0))
+   (leg 2 (pt 1.652 0.000) (padstack 2))
+   (padstack 0
+    (plated false)
+    (pad (layer TCOP) (rectf 2.540 2.670 0 0 0.000))
+   )
+   (padstack 2
+    (plated false)
+    (pad (layer TCOP) (rectf 0.762 1.270 0 0 90.000))
+   )
+  )
+ )
+)

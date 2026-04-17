@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'CKSR_25_NP'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "LEM", "CKSR 25-NP" (!) = "", "CKSR25NP", "Other", "61-CKSR25-NP", "https://www.mouser.co.uk/ProductDetail/LEM/CKSR-25-NP?qs=Vi0JKjFBtYkW3%252BTuOs1CCw%3D%3D", "", "", "LEM - CKSR 25-NP - CURRENT TRANSDUCER, 25A, 5V", "https://www.lem.com/sites/default/files/products_datasheets/cksr_series.pdf", "16 mm"
+END_PART
+
+END.

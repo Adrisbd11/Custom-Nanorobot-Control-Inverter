@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "SS3P4-M3_85A"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2024-08-03-11:19:54)
+    (mountForm default
+        (footprintRef "SS3P4M385A")
+        (spec "System")
+    )
+)

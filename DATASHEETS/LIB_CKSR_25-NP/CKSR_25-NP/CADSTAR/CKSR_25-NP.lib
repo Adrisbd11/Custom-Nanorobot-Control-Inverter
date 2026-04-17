@@ -1,0 +1,18 @@
+.CKSR_25-NP :1 ;LEM - CKSR 25-NP - CURRENT TRANSDUCER, 25A, 5V
+CKSR25NP
+*STM IC
+*NGS
+*PLB 2="IN_1" 3="IN_2" 4="IN_3" 5="IN_4" 6="OUT_1" 7="OUT_2" 8="OUT_3" 9="OUT_4" 11="VREF" 12="VOUT" 13="GND" 14="UC"
+*MXP 12
+*DFN CKSR_25-NP
+~!Manufacturer_Name (LEM)
+~!Manufacturer_Part_Number (CKSR 25-NP)
+~!Mouser Part Number (61-CKSR25-NP)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/LEM/CKSR-25-NP?qs=Vi0JKjFBtYkW3%252BTuOs1CCw%3D%3D)
+~!Arrow Part Number (-)
+~!Arrow Price/Stock (-)
+~!Link Datasheet (https://www.lem.com/sites/default/files/products_datasheets/cksr_series.pdf)
+~!Height (16mm)
+~!3D_Model (CKSR_25-NP)
+CKSR_25-NP
+2.1!U 3.1!U 4.1!U 5.1!U 6.1!U 7.1!U 8.1!U 9.1!U 11.1!U 12.1!U 13.1!U 14.1!U 

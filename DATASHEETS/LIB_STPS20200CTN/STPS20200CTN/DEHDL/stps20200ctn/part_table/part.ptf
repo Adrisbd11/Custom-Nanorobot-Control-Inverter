@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'STPS20200CTN'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "STMicroelectronics", "STPS20200CTN" (!) = "", "TO255P460X1020X1905-3P", "Transistor Outline, Vertical", "", "", "", "", "STMicroelectronics 200V 30A, Dual Diode, 3-Pin TO-220AB STPS20200CTN", "http://www.st.com/web/en/resource/technical/document/datasheet/DM00079941.pdf", "4.6 mm"
+END_PART
+
+END.

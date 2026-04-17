@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 2EDL23N06PJ
+D Infineon 2EDL23N06PJ, MOSFET Power Driver
+K
+F https://www.mouser.in/datasheet/2/196/Infineon_2EDL23x06xx_DataSheet_v02_08_EN-776784.pdf
+$ENDCMP
+#
+#End Doc Library

@@ -1,0 +1,10 @@
+(unit MM)
+
+(package "IAUT150N10S5N035ATMA1"
+    (type UNDEF)
+    (uver 2)
+    (mountForm default
+        (footprintRef "IAUT150N10S5N035ATMA1")
+        (spec "default")
+    )
+)

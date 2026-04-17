@@ -1,0 +1,9 @@
+Manufacturer=Texas Instruments
+PartNumber=TPS7A2030PDBVR
+PartCategory=Integrated Circuit
+PackageCategory=SOT23 (5-Pin)
+PinCount=5
+Version=1.2
+Released=2021-02-05 04:30:38
+Downloaded=2026-03-27 16:05:31
+3D=Y

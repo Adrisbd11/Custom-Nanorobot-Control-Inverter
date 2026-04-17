@@ -1,0 +1,10 @@
+(unit MM)
+
+(package "D22V0H1U2LP7B"
+    (type UNDEF)
+    (uver 2)
+    (mountForm default
+        (footprintRef "D22V0H1U2LP7B")
+        (spec "default")
+    )
+)

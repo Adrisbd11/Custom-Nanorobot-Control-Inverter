@@ -1,0 +1,9 @@
+Manufacturer=STMicroelectronics
+PartNumber=L6986H
+PartCategory=Integrated Circuit
+PackageCategory=Small Outline Packages
+PinCount=17
+Version=3.1
+Released=2022-08-26 12:11:37
+Downloaded=2026-03-27 15:30:04
+3D=Y

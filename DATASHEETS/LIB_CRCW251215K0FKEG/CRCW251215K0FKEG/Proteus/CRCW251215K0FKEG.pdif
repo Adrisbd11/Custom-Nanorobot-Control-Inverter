@@ -1,0 +1,93 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "CRCW251215K0FKEG"
+   (description "VISHAY - CRCW251215K0FKEG - RESISTOR, THICK FILM CHIP, 15KOHM, 1W, 1%")
+   (family "RES")
+   (package "RESC6332X70N")
+   (attribute "Datasheet Link" "http://www.vishay.com/docs/20035/dcrcwe3.pdf")
+   (attribute "Geometry.Height" "0.7mm")
+   (attribute "Manufacturer_Name" "Vishay")
+   (attribute "Manufacturer_Part_Number" "CRCW251215K0FKEG")
+   (attribute "Mouser Part Number" "71-CRCW2512-15K-E3")
+   (attribute "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Vishay-Dale/CRCW251215K0FKEG?qs=Z1AZHWO%2FsqI0c6vK0jJZww%3D%3D")
+   (attribute "Arrow Part Number" "CRCW251215K0FKEG")
+   (attribute "Arrow Price/Stock" "https://www.arrow.com/en/products/crcw251215k0fkeg/vishay?region=nac")
+   (gate
+    (symbol "CRCW251215K0FKEG")
+    (pin "1" 1 PS)
+    (pin "2" 2 PS)
+   )
+  )
+  (symbol "CRCW251215K0FKEG"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 50) (pt 500 50) (pt 500 -50) (pt 200 -50) (pt 200 50) (closed))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 0 -10) (rot 0) (just TOP LEFT) (visible false))
+    (number (pt 0 10) (rot 0) (just BOTTOM LEFT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 700 0) (rot 0) (mir X) (visible true))
+    (name (pt 0 -10) (rot 0) (just TOP LEFT) (visible false))
+    (number (pt 0 10) (rot 0) (just BOTTOM LEFT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "RESC6332X70N"
+   (units MM)
+   (layer OCCA
+    (graphic
+     (stroke 0.05)
+     (path
+      (closed true)
+      (pt -3.875 1.95)
+      (pt 3.875 1.95)
+      (pt 3.875 -1.95)
+      (pt -3.875 -1.95)
+      (pt -3.875 1.95))))
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -3.15 1.575)
+      (pt 3.15 1.575)
+      (pt 3.15 -1.575)
+      (pt -3.15 -1.575)
+      (pt -3.15 1.575))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt 0 1.475)
+      (pt 0 -1.475))))
+   (leg 1 (pt -3 0) (padstack 0))
+   (leg 2 (pt 3 0) (padstack 0))
+   (padstack 0
+    (plated false)
+    (pad (layer TCOP) (rectf 1.25 3.35 0 0 90))
+   )
+   (model "CRCW251215K0FKEG.stp"
+    (euler 90 0 0)
+    (offset 0 0 0)
+   )
+  )
+ )
+)

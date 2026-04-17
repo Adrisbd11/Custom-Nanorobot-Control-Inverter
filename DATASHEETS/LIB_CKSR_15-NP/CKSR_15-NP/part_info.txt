@@ -1,0 +1,9 @@
+Manufacturer=LEM
+PartNumber=CKSR 15-NP
+PartCategory=Integrated Circuit
+PackageCategory=Other
+PinCount=12
+Version=1.2
+Released=2019-03-12 16:42:06
+Downloaded=2026-03-27 17:21:33
+3D=Y

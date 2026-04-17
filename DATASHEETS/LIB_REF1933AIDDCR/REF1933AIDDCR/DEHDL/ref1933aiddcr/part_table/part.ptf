@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'REF1933AIDDCR'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Texas Instruments", "REF1933AIDDCR" (!) = "", "SOT95P280X110-5N", "SOT23 (5-Pin)", "595-REF1933AIDDCR", "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/REF1933AIDDCR?qs=asCBFxFfL1SSAJuHGdYYcw%3D%3D", "REF1933AIDDCR", "https://www.arrow.com/en/products/ref1933aiddcr/texas-instruments?utm_currency=USD&region=nac", "Voltage References Dual Output Vref & Vref/2 Voltage Ref", "http://www.mouser.com/ds/2/405/ref1933-464431.pdf", "1.1 mm"
+END_PART
+
+END.

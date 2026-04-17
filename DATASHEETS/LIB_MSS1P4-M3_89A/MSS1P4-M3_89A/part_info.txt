@@ -1,0 +1,9 @@
+Manufacturer=Vishay
+PartNumber=MSS1P4-M3/89A
+PartCategory=Schottky Diode
+PackageCategory=Other
+PinCount=2
+Version=1.5
+Released=2018-09-13 10:08:13
+Downloaded=2026-04-08 12:38:20
+3D=Y

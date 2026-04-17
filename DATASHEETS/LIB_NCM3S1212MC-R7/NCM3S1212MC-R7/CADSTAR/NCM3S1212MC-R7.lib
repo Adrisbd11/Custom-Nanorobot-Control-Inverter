@@ -1,0 +1,18 @@
+.NCM3S1212MC-R7 :1 ;Surface Mount Isolated Module DC DC Converter 1 Output 12V 250mA 9V - 36V Input -40C ~ 105C  4-SMD Module
+NCM3S1212MCR7
+*STM PS
+*NGS
+*PLB 1="-VIN" 2="+VIN" 3="+VOUT" 4="-VOUT"
+*MXP 4
+*DFN NCM3S1212MC-R7
+~!Manufacturer_Name (Murata Electronics)
+~!Manufacturer_Part_Number (NCM3S1212MC-R7)
+~!Mouser Part Number (-)
+~!Mouser Price/Stock (-)
+~!Arrow Part Number (-)
+~!Arrow Price/Stock (-)
+~!Link Datasheet (https://pim.murata.com/asset/pim4/isolatedDCDCconverter/KDC_NCM3_PDF_ISOLATEDDCDCCONVERTER?lastModifiedDatetime=20250826165014)
+~!Height (5.95mm)
+~!3D_Model (NCM3S1212MC-R7)
+NCM3S1212MC-R7
+1.1!U 2.1!U 3.1!U 4.1!U 

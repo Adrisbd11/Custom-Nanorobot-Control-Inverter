@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP SS3P4-M3_85A
+D High Current Density Surface-Mount Schottky Rectifiers
+K
+F https://www.vishay.com/docs/88954/ss3p4.pdf
+$ENDCMP
+#
+#End Doc Library

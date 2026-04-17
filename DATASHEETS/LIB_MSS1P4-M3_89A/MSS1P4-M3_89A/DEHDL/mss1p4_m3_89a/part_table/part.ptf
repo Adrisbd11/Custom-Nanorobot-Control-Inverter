@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'MSS1P4_M3_89A'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "DESCRIPTION", "DATASHEET";
+{========================================================================================}
+ "Vishay", "MSS1P4-M3/89A" (!) = "", "MICROSMP", "Other", "625-MSS1P4-M3", "https://www.mouser.co.uk/ProductDetail/Vishay-General-Semiconductor/MSS1P4-M3-89A?qs=fLSHF8TigmUkO6GnwlXAxQ%3D%3D", "MSS1P4-M3/89A", "https://www.arrow.com/en/products/mss1p4-m389a/vishay?utm_currency=USD&region=europe", "Vishay MSS1P4-M3/89A SMT Schottky Diode, 40V 1A, 2-Pin uSMP", "https://www.vishay.com/docs/89019/mss1p4.pdf"
+END_PART
+
+END.

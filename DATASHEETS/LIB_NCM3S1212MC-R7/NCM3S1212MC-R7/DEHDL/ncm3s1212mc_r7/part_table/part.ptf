@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'NCM3S1212MC_R7'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Murata Electronics", "NCM3S1212MC-R7" (!) = "", "NCM3S1212MCR7", "Other", "", "", "", "", "Surface Mount Isolated Module DC DC Converter 1 Output 12V 250mA 9V - 36V Input -40C ~ 105C  4-SMD Module", "https://pim.murata.com/asset/pim4/isolatedDCDCconverter/KDC_NCM3_PDF_ISOLATEDDCDCCONVERTER?lastModifiedDatetime=20250826165014", "5.95 mm"
+END_PART
+
+END.

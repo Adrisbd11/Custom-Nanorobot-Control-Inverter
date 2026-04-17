@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'IPT034N15NM6ATMA1'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "DESCRIPTION", "DATASHEET";
+{========================================================================================}
+ "Infineon", "IPT034N15NM6ATMA1" (!) = "", "IAUT150N10S5N035ATMA1", "Other", "726-IPT034N15NM6ATMA", "https://www.mouser.co.uk/ProductDetail/Infineon-Technologies/IPT034N15NM6ATMA1?qs=7%2F6SraaimPSH5LUgDMi%2FsQ%3D%3D", "", "", "MOSFETs OptiMOS 6 power MOSFET 150 V normal level in TOLL package", "https://www.infineon.com/assets/row/public/documents/24/49/infineon-ipt034n15nm6-datasheet-en.pdf"
+END_PART
+
+END.

@@ -1,0 +1,142 @@
+(footprint "MICROSMP"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "MicroSMP")
+	(tags "Schottky Diode")
+	(property "Reference" "D**"
+		(at -0.93 -1.214 0)
+		(layer "F.SilkS")
+		(uuid "a3b46952-348b-4205-a5f0-d53a3d8545dd")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "MICROSMP"
+		(at -0.93 -1.214 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "1b180cfb-27b8-45c2-8340-643faedae2fa")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f02bb1d9-63af-4e87-8e18-0054e6154508")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2b57ab85-7519-4b6c-8a4a-4bc3bf42ea39")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_circle
+		(center -1.831 -0.026)
+		(end -1.831 -0.007)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "d5809eb8-ac04-4f63-a44f-393c7a570b20")
+	)
+	(fp_line
+		(start -1.1 -0.65)
+		(end 1.1 -0.65)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "4c7ba411-8e23-4818-8c50-0c0e5d537e5a")
+	)
+	(fp_line
+		(start -1.1 0.65)
+		(end -1.1 -0.65)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "885269d0-78e7-4ee1-9fe4-4a8f745db8e6")
+	)
+	(fp_line
+		(start 1.1 -0.65)
+		(end 1.1 0.65)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c877b919-ab34-4d12-9d11-0bf3227fca57")
+	)
+	(fp_line
+		(start 1.1 0.65)
+		(end -1.1 0.65)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c4a15027-a7a5-41e6-80f1-42ff9bf99774")
+	)
+	(fp_text user "${REFERENCE}"
+		(at -0.93 -1.214 0)
+		(layer "F.Fab")
+		(uuid "ea679654-3181-454f-950a-2ec5822b4f86")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -0.65 0 90)
+		(size 1.1 2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "00604029-d701-49da-90ba-ccc213f35290")
+	)
+	(pad "2" smd rect
+		(at 1.25 0 90)
+		(size 0.8 0.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "a6335986-3961-4820-ab83-a22a61349f18")
+	)
+	(embedded_fonts no)
+	(model "MSS1P4-M3_89A.stp"
+		(offset
+			(xyz 0.5199999731 0.2099999903 0.09000000222)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
+)

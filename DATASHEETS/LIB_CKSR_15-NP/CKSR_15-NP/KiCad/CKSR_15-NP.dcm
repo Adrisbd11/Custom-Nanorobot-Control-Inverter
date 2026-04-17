@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP CKSR_15-NP
+D LEM CKSR Series Closed Loop Current Sensor, 15A
+K
+F https://www.lem.com/sites/default/files/products_datasheets/cksr_series.pdf
+$ENDCMP
+#
+#End Doc Library

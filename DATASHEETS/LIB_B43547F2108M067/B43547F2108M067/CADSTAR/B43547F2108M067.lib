@@ -1,0 +1,18 @@
+.B43547F2108M067 :1 ;Snap-in Capacitors, 1000?F/250VDC, 35mm dia x 40mm length
+CAPPRD1000W190D3550H4200
+*STM C
+*NGS
+*PLB 1="+" 2="-"
+*MXP 2
+*DFN B43547F2108M067
+~!Manufacturer_Name (TDK)
+~!Manufacturer_Part_Number (B43547F2108M067)
+~!Mouser Part Number (-)
+~!Mouser Price/Stock (-)
+~!Arrow Part Number (-)
+~!Arrow Price/Stock (-)
+~!Link Datasheet (https://product.tdk.com/system/files/dam/doc/product/capacitor/aluminum-electrolytic/snap-in/data_sheet/20/30/db/aec/b43547.pdf)
+~!Height (42mm)
+~!3D_Model (B43547F2108M067)
+B43547F2108M067
+1.1!U 2.1!U 

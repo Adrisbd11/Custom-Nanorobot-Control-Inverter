@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP MSS1P4-M3_89A
+D Vishay MSS1P4-M3/89A SMT Schottky Diode, 40V 1A, 2-Pin uSMP
+K
+F https://www.vishay.com/docs/89019/mss1p4.pdf
+$ENDCMP
+#
+#End Doc Library

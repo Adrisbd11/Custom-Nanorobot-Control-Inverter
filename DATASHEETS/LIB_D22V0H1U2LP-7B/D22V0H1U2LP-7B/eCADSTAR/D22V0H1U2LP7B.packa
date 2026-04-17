@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "D22V0H1U2LP-7B"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2023-05-10-06:44:08)
+    (mountForm default
+        (footprintRef "D22V0H1U2LP7B")
+        (spec "System")
+    )
+)

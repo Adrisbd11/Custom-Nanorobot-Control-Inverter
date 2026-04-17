@@ -1,0 +1,10 @@
+(unit MM)
+
+(package "MICROSMP"
+    (type UNDEF)
+    (uver 2)
+    (mountForm default
+        (footprintRef "MICROSMP")
+        (spec "default")
+    )
+)

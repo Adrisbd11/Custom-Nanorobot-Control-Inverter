@@ -1,0 +1,18 @@
+.REF1933AIDDCR :1 ;Voltage References Dual Output Vref & Vref/2 Voltage Ref
+SOT95P280X110-5N
+*STM IC
+*NGS
+*PLB 1="VBIAS" 2="GND" 3="EN" 4="VIN" 5="VREF"
+*MXP 5
+*DFN REF1933AIDDCR
+~!Manufacturer_Name (Texas Instruments)
+~!Manufacturer_Part_Number (REF1933AIDDCR)
+~!Mouser Part Number (595-REF1933AIDDCR)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Texas-Instruments/REF1933AIDDCR?qs=asCBFxFfL1SSAJuHGdYYcw%3D%3D)
+~!Arrow Part Number (REF1933AIDDCR)
+~!Link Arrow Price/Stock (https://www.arrow.com/en/products/ref1933aiddcr/texas-instruments?utm_currency=USD&region=nac)
+~!Link Datasheet (http://www.mouser.com/ds/2/405/ref1933-464431.pdf)
+~!Height (1.1mm)
+~!3D_Model (REF1933AIDDCR)
+REF1933AIDDCR
+1.1!U 2.1!G 3.1!U 4.1!I 5.1!I 

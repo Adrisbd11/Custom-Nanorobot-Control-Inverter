@@ -1,0 +1,9 @@
+Manufacturer=Infineon
+PartNumber=IPT034N15NM6ATMA1
+PartCategory=MOSFET (N-Channel)
+PackageCategory=Other
+PinCount=12
+Version=2.1
+Released=2025-09-16 21:00:19
+Downloaded=2026-03-30 10:12:58
+3D=Y

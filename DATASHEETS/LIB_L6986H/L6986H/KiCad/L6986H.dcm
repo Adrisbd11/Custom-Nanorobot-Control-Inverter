@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP L6986H
+D 38 V, 2 A synchronous step-down switching regulator with 30 &#181;A quiescent current
+K
+F https://www.st.com/resource/en/datasheet/l6986h.pdf
+$ENDCMP
+#
+#End Doc Library

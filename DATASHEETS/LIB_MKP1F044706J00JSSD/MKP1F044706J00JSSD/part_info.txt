@@ -1,0 +1,9 @@
+Manufacturer=WIMA
+PartNumber=MKP1F044706J00JSSD
+PartCategory=Capacitor
+PackageCategory=Other
+PinCount=2
+Version=1.3
+Released=2024-02-22 08:55:21
+Downloaded=2026-04-17 14:10:59
+3D=Y

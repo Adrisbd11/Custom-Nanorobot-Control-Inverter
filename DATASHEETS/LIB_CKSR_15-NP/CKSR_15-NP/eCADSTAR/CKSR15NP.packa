@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "CKSR_15-NP"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2019-03-12-16:42:06)
+    (mountForm default
+        (footprintRef "CKSR15NP")
+        (spec "System")
+    )
+)

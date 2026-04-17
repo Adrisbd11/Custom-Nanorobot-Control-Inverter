@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "B43547F2108M067"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2021-06-17-11:20:59)
+    (mountForm default
+        (footprintRef "CAPPRD1000W190D3550H4200")
+        (spec "System")
+    )
+)

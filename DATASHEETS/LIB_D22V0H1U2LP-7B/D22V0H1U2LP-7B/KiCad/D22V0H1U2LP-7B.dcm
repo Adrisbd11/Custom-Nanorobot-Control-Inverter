@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP D22V0H1U2LP-7B
+D ESD Suppressors / TVS Diodes General Protection PP X1-DFN1006-2 T&R 10K
+K
+F https://www.diodes.com/assets/Datasheets/D22V0H1U2LP.pdf
+$ENDCMP
+#
+#End Doc Library

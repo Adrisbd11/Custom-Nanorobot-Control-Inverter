@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP NCM3S1212MC-R7
+D Surface Mount Isolated Module DC DC Converter 1 Output 12V 250mA 9V - 36V Input -40C ~ 105C  4-SMD Module
+K
+F https://pim.murata.com/asset/pim4/isolatedDCDCconverter/KDC_NCM3_PDF_ISOLATEDDCDCCONVERTER?lastModifiedDatetime=20250826165014
+$ENDCMP
+#
+#End Doc Library

@@ -1,0 +1,9 @@
+Manufacturer=Murata Electronics
+PartNumber=NCM3S1212MC-R7
+PartCategory=Power Supply
+PackageCategory=Other
+PinCount=4
+Version=1.2
+Released=2026-01-21 08:22:49
+Downloaded=2026-03-27 10:41:34
+3D=Y

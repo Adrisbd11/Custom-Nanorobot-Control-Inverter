@@ -1,0 +1,18 @@
+.L6986H :1 ;38 V, 2 A synchronous step-down switching regulator with 30 &#181;A quiescent current
+SOP65P640X120-17N
+*STM IC
+*NGS
+*PLB 1="RST" 2="VCC" 3="SS/'INH'" 4="SYNCH/ISKIP" 5="FSW" 6="MLF" 7="COMP" 8="DELAY" 9="VOUT" 10="SGND" 11="PGND_1" 12="PGND_2" 13="LX_1" 14="LX_2" 15="VIN" 16="VBIAS" 17="GND"
+*MXP 17
+*DFN L6986H
+~!Manufacturer_Name (STMicroelectronics)
+~!Manufacturer_Part_Number (L6986H)
+~!Mouser Part Number (511-L6986H)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/STMicroelectronics/L6986H?qs=vLWxofP3U2yqeL91wKwlTQ%3D%3D)
+~!Arrow Part Number (L6986H)
+~!Link Arrow Price/Stock (https://www.arrow.com/en/products/l6986h/stmicroelectronics?region=nac)
+~!Link Datasheet (https://www.st.com/resource/en/datasheet/l6986h.pdf)
+~!Height (1.2mm)
+~!3D_Model (L6986H)
+L6986H
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 6.1!U 7.1!U 8.1!U 17.1!U 16.1!U 15.1!U 14.1!U 13.1!U 12.1!U 11.1!U 10.1!U 9.1!U 

@@ -1066,47 +1066,42 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "TPS7A2030PDBVR:TPS7A2030PDBVR"
+		(symbol "TPS7A2033PDBVR:TPS7A2033PDBVR"
+			(pin_names
+				(offset 1.016)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "IC3"
-				(at 12.7 7.62 0)
+			(property "Reference" "U"
+				(at -12.7 8.382 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left bottom)
 				)
 			)
-			(property "Value" "TPS7A2030PDBVR"
-				(at 12.7 5.08 0)
+			(property "Value" "TPS7A2033PDBVR"
+				(at -12.7 -10.16 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left bottom)
 				)
 			)
-			(property "Footprint" "SOT95P280X145-5N"
-				(at 21.59 -94.92 0)
+			(property "Footprint" "TPS7A2033PDBVR:SOT95P280X145-5N"
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left top)
+					(justify bottom)
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.arrow.com/en/products/tps7a2030pdbvr/texas-instruments"
-				(at 21.59 -194.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Description" "LDO Voltage Regulators 300-mA, ultra-low-noise, low-IQ, low-dropout (LDO) linear regulator with high PSRR"
+			(property "Datasheet" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -1115,80 +1110,159 @@
 					(hide yes)
 				)
 			)
-			(property "Height" "1.45"
-				(at 21.59 -394.92 0)
+			(property "Description" ""
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left top)
 					(hide yes)
 				)
 			)
-			(property "Manufacturer_Name" "Texas Instruments"
-				(at 21.59 -494.92 0)
+			(property "MF" "Texas Instruments"
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left top)
+					(justify bottom)
 					(hide yes)
 				)
 			)
-			(property "Manufacturer_Part_Number" "TPS7A2030PDBVR"
-				(at 21.59 -594.92 0)
+			(property "MAXIMUM_PACKAGE_HEIGHT" "1.45mm"
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left top)
+					(justify bottom)
 					(hide yes)
 				)
 			)
-			(property "Mouser Part Number" "595-TPS7A2030PDBVR"
-				(at 21.59 -694.92 0)
+			(property "CREATOR" "ANA"
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left top)
+					(justify bottom)
 					(hide yes)
 				)
 			)
-			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TPS7A2030PDBVR?qs=hd1VzrDQEGgZMtQinkbhYw%3D%3D"
-				(at 21.59 -794.92 0)
+			(property "Price" "None"
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left top)
+					(justify bottom)
 					(hide yes)
 				)
 			)
-			(property "Arrow Part Number" "TPS7A2030PDBVR"
-				(at 21.59 -894.92 0)
+			(property "Package" "SOT-23 Texas Instruments"
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left top)
+					(justify bottom)
 					(hide yes)
 				)
 			)
-			(property "Arrow Price/Stock" "https://www.arrow.com/en/products/tps7a2030pdbvr/texas-instruments?utm_currency=USD&region=nac"
-				(at 21.59 -994.92 0)
+			(property "Check_prices" "https://www.snapeda.com/parts/TPS7A2033PDBVR/Texas+Instruments/view-part/?ref=eda"
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left top)
+					(justify bottom)
 					(hide yes)
 				)
 			)
-			(symbol "TPS7A2030PDBVR_1_1"
+			(property "STANDARD" "IPC-7351B"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "PARTREV" "H"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "VERIFIER" "RODRIGO"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "SnapEDA_Link" "https://www.snapeda.com/parts/TPS7A2033PDBVR/Texas+Instruments/view-part/?ref=snap"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MP" "TPS7A2033PDBVR"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Description_1" "300mA ultra-low-noise low-IQ low-dropout (LDO) linear regulator with high PSRR"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Availability" "In Stock"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MANUFACTURER" "Texas Instruments"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(symbol "TPS7A2033PDBVR_0_0"
 				(rectangle
-					(start 5.08 2.54)
-					(end 20.32 -7.62)
+					(start -12.7 -7.62)
+					(end 12.7 7.62)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -1197,92 +1271,92 @@
 						(type background)
 					)
 				)
-				(pin passive line
-					(at 0 0 0)
+				(pin input line
+					(at -17.78 5.08 0)
 					(length 5.08)
 					(name "IN"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 					(number "1"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 				)
-				(pin passive line
-					(at 0 -6.35 0)
+				(pin input line
+					(at -17.78 0 0)
 					(length 5.08)
 					(name "EN"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 					(number "3"
 						(effects
 							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 12.7 -12.7 90)
-					(length 5.08)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 				)
 				(pin no_connect line
-					(at 25.4 0 180)
+					(at -17.78 -5.08 0)
 					(length 5.08)
 					(name "N/C"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 					(number "4"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 				)
-				(pin passive line
-					(at 25.4 -2.54 180)
+				(pin output line
+					(at 17.78 5.08 180)
 					(length 5.08)
 					(name "OUT"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 					(number "5"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 17.78 -5.08 180)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
 							)
 						)
 					)
@@ -1586,12 +1660,6 @@
 		(uuid "600bd84b-5a6e-433e-aada-e676c936135f")
 	)
 	(junction
-		(at 214.63 58.42)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6f66d527-ad20-4ec8-8335-5461c2fa692a")
-	)
-	(junction
 		(at 96.52 55.88)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1610,6 +1678,12 @@
 		(uuid "b4e5167e-3000-4bb9-8e44-6a4ea9d38c6f")
 	)
 	(junction
+		(at 234.95 41.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cc1b5e92-7b9d-4e25-b793-1a85fa8da138")
+	)
+	(junction
 		(at 143.51 55.88)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1617,7 +1691,7 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 55.88) (xy 189.23 55.88)
+			(xy 175.26 41.91) (xy 186.69 41.91)
 		)
 		(stroke
 			(width 0)
@@ -1677,7 +1751,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 62.23) (xy 185.42 76.2)
+			(xy 184.15 46.99) (xy 184.15 62.23)
 		)
 		(stroke
 			(width 0)
@@ -1737,6 +1811,16 @@
 	)
 	(wire
 		(pts
+			(xy 222.25 41.91) (xy 234.95 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a024c1b1-177a-495f-b0bb-007313e7a5d6")
+	)
+	(wire
+		(pts
 			(xy 68.58 55.88) (xy 81.28 55.88)
 		)
 		(stroke
@@ -1787,13 +1871,23 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 62.23) (xy 189.23 62.23)
+			(xy 184.15 46.99) (xy 186.69 46.99)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "c72d349e-3c85-4b9d-862a-50a064e11476")
+	)
+	(wire
+		(pts
+			(xy 175.26 41.91) (xy 175.26 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c9c2eb32-fdf8-4e77-90f2-90b5846ba72f")
 	)
 	(wire
 		(pts
@@ -1807,7 +1901,7 @@
 	)
 	(wire
 		(pts
-			(xy 214.63 58.42) (xy 224.79 58.42)
+			(xy 234.95 41.91) (xy 245.11 41.91)
 		)
 		(stroke
 			(width 0)
@@ -1893,7 +1987,7 @@
 	)
 	(global_label "3.3V"
 		(shape output)
-		(at 224.79 58.42 0)
+		(at 245.11 41.91 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1903,7 +1997,7 @@
 		)
 		(uuid "faee8939-261e-4af4-a2b1-a118f0d1266c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 231.8876 58.42 0)
+			(at 252.2076 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1937,7 +2031,7 @@
 	)
 	(hierarchical_label "ENABLE_LDO"
 		(shape input)
-		(at 185.42 76.2 270)
+		(at 184.15 62.23 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2653,7 +2747,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 214.63 66.04 0)
+		(at 234.95 49.53 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2662,7 +2756,7 @@
 		(fields_autoplaced yes)
 		(uuid "4b06ebd1-16ab-4fa0-af6c-087ccc843e58")
 		(property "Reference" "#PWR024"
-			(at 214.63 72.39 0)
+			(at 234.95 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2671,7 +2765,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 214.63 71.12 0)
+			(at 234.95 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2679,7 +2773,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 214.63 66.04 0)
+			(at 234.95 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2688,7 +2782,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 214.63 66.04 0)
+			(at 234.95 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2697,7 +2791,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 214.63 66.04 0)
+			(at 234.95 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2719,7 +2813,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 214.63 62.23 0)
+		(at 234.95 45.72 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2728,7 +2822,7 @@
 		(fields_autoplaced yes)
 		(uuid "5185b6b2-83dc-40eb-bd3f-9a6c0f526c13")
 		(property "Reference" "C34"
-			(at 218.44 60.9599 0)
+			(at 238.76 44.4499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2737,7 +2831,7 @@
 			)
 		)
 		(property "Value" "1u"
-			(at 218.44 63.4999 0)
+			(at 238.76 46.9899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2746,7 +2840,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 215.5952 66.04 0)
+			(at 235.9152 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2755,7 +2849,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 214.63 62.23 0)
+			(at 234.95 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2764,7 +2858,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 214.63 62.23 0)
+			(at 234.95 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3327,6 +3421,224 @@
 		)
 	)
 	(symbol
+		(lib_id "TPS7A2033PDBVR:TPS7A2033PDBVR")
+		(at 204.47 46.99 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c0b0a8e3-5e86-4118-b314-6b3649966edb")
+		(property "Reference" "U4"
+			(at 204.47 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TPS7A2033PDBVR"
+			(at 204.47 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TPS7A2033PDBVR:SOT95P280X145-5N"
+			(at 204.47 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 204.47 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 204.47 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Texas Instruments"
+			(at 204.47 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "1.45mm"
+			(at 204.47 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "CREATOR" "ANA"
+			(at 204.47 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 204.47 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "SOT-23 Texas Instruments"
+			(at 204.47 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/TPS7A2033PDBVR/Texas+Instruments/view-part/?ref=eda"
+			(at 204.47 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "IPC-7351B"
+			(at 204.47 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "H"
+			(at 204.47 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "VERIFIER" "RODRIGO"
+			(at 204.47 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/TPS7A2033PDBVR/Texas+Instruments/view-part/?ref=snap"
+			(at 204.47 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "TPS7A2033PDBVR"
+			(at 204.47 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "300mA ultra-low-noise low-IQ low-dropout (LDO) linear regulator with high PSRR"
+			(at 204.47 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 204.47 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Texas Instruments"
+			(at 204.47 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "0942e4ea-b2d4-4193-b665-2a1c47d3f6aa")
+		)
+		(pin "3"
+			(uuid "7fcdf106-3c94-4518-a295-228faa81f981")
+		)
+		(pin "5"
+			(uuid "30478be9-4382-4e61-b397-629d73b09766")
+		)
+		(pin "1"
+			(uuid "602338d1-5f20-4808-a112-442e94c1781c")
+		)
+		(pin "4"
+			(uuid "c0efe38c-e38b-4aa8-857a-00bc28f73c17")
+		)
+		(instances
+			(project ""
+				(path "/ca8b9c62-24ed-451b-8ada-8e095e6c3e3b/1fe46f15-e332-4cdc-b189-550c3fd1d399"
+					(reference "U4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 143.51 59.69 0)
 		(unit 1)
@@ -3538,157 +3850,8 @@
 		)
 	)
 	(symbol
-		(lib_id "TPS7A2030PDBVR:TPS7A2030PDBVR")
-		(at 189.23 55.88 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f91462e6-e310-4af4-b53a-3d394727285c")
-		(property "Reference" "IC3"
-			(at 201.93 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TPS7A2030PDBVR"
-			(at 201.93 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "SOT95P280X145-5N"
-			(at 210.82 150.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.arrow.com/en/products/tps7a2030pdbvr/texas-instruments"
-			(at 210.82 250.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "LDO Voltage Regulators 300-mA, ultra-low-noise, low-IQ, low-dropout (LDO) linear regulator with high PSRR"
-			(at 189.23 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "1.45"
-			(at 210.82 450.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Texas Instruments"
-			(at 210.82 550.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "TPS7A2030PDBVR"
-			(at 210.82 650.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "595-TPS7A2030PDBVR"
-			(at 210.82 750.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TPS7A2030PDBVR?qs=hd1VzrDQEGgZMtQinkbhYw%3D%3D"
-			(at 210.82 850.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" "TPS7A2030PDBVR"
-			(at 210.82 950.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/tps7a2030pdbvr/texas-instruments?utm_currency=USD&region=nac"
-			(at 210.82 1050.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0e984c74-662a-406f-9017-dd4c7696f83e")
-		)
-		(pin "2"
-			(uuid "5c941a08-ae2a-4804-8469-388801d5da24")
-		)
-		(pin "5"
-			(uuid "b99e0044-a58d-4c6c-899a-ad1d47c5c7ee")
-		)
-		(pin "3"
-			(uuid "cfba2e4c-2cfa-4a16-a7bc-8ea74ae77498")
-		)
-		(pin "4"
-			(uuid "9bed52e0-7835-4c8b-b9bc-5369a401f2d8")
-		)
-		(instances
-			(project ""
-				(path "/ca8b9c62-24ed-451b-8ada-8e095e6c3e3b/1fe46f15-e332-4cdc-b189-550c3fd1d399"
-					(reference "IC3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
-		(at 201.93 68.58 0)
+		(at 222.25 52.07 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3697,7 +3860,7 @@
 		(fields_autoplaced yes)
 		(uuid "f9d9e976-a8a7-4b94-83ca-65471ab4a491")
 		(property "Reference" "#PWR019"
-			(at 201.93 74.93 0)
+			(at 222.25 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3706,7 +3869,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 201.93 73.66 0)
+			(at 222.25 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3714,7 +3877,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 201.93 68.58 0)
+			(at 222.25 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3723,7 +3886,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 201.93 68.58 0)
+			(at 222.25 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3732,7 +3895,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 201.93 68.58 0)
+			(at 222.25 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)

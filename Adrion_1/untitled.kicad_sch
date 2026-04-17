@@ -1597,16 +1597,6 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 111.76) (xy 99.06 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "552e0bae-d9a6-4104-9152-845b492d2827")
-	)
-	(wire
-		(pts
 			(xy 91.44 58.42) (xy 99.06 58.42)
 		)
 		(stroke
@@ -1655,26 +1645,6 @@
 		)
 		(uuid "a2d2b34a-8c27-4abe-92cc-49e5c5ea96bc")
 	)
-	(wire
-		(pts
-			(xy 91.44 109.22) (xy 96.52 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "db840817-f5b5-488d-a3c3-465f6af1ef9f")
-	)
-	(wire
-		(pts
-			(xy 91.44 60.96) (xy 99.06 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f64df717-b81e-4bb4-a70f-fb9a00244976")
-	)
 	(hierarchical_label "PWM_AH"
 		(shape output)
 		(at 36.83 111.76 180)
@@ -1708,28 +1678,6 @@
 		)
 		(uuid "7f23f16a-9da3-434a-aa21-d01568aea44b")
 	)
-	(hierarchical_label "OVP"
-		(shape input)
-		(at 99.06 111.76 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "8248b1ff-3146-477f-b20d-dfc9639a58dc")
-	)
-	(hierarchical_label "ENABLE_LDO"
-		(shape output)
-		(at 96.52 109.22 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "88b8ddca-44b0-467a-a37d-bdc7a74d85e2")
-	)
 	(hierarchical_label "PWM_BL"
 		(shape output)
 		(at 99.06 99.06 0)
@@ -1740,17 +1688,6 @@
 			(justify left)
 		)
 		(uuid "d3ade9c1-422f-496f-825c-85201a54e09e")
-	)
-	(hierarchical_label "NTC_Sense"
-		(shape input)
-		(at 99.06 60.96 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "e7f8a3ce-43fc-454c-a844-6fa87166bc03")
 	)
 	(hierarchical_label "PWM_AL"
 		(shape output)

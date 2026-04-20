@@ -5,6 +5,194 @@
 	(uuid "9df9d4f0-c08a-4150-b499-ae03d20f52ed")
 	(paper "A3")
 	(lib_symbols
+		(symbol "1705469:1705469"
+			(pin_names
+				(offset 0.762)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 16.51 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "1705469"
+				(at 16.51 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "1705469"
+				(at 16.51 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.phoenixcontact.com/en-us/products/printed-circuit-board-terminal-smkds-25-2-508-1705469?type=pdf"
+				(at 16.51 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "Fixed Terminal Blocks 2P 5.08mm 40DEG"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description_1" "Fixed Terminal Blocks 2P 5.08mm 40DEG"
+				(at 16.51 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Height" "19.6"
+				(at 16.51 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Phoenix Contact"
+				(at 16.51 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "1705469"
+				(at 16.51 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "651-1705469"
+				(at 16.51 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Phoenix-Contact/1705469?qs=qgZcrvoyHAeKr1p0qncEog%3D%3D"
+				(at 16.51 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Arrow Part Number" "1705469"
+				(at 16.51 -17.78 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Arrow Price/Stock" "https://www.arrow.com/en/products/1705469/phoenix-contact?utm_currency=USD&region=nac"
+				(at 16.51 -20.32 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(symbol "1705469_0_0"
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "1705469_0_1"
+				(polyline
+					(pts
+						(xy 5.08 2.54) (xy 15.24 2.54) (xy 15.24 -5.08) (xy 5.08 -5.08) (xy 5.08 2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "B43547F2108M067:B43547F2108M067"
 			(pin_names
 				(offset 0.762)
@@ -436,396 +624,6 @@
 					)
 					(fill
 						(type none)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Connector:Screw_Terminal_01x02"
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Screw_Terminal_01x02"
-				(at 0 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "screw terminal"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "TerminalBlock*:*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Screw_Terminal_01x02_1_1"
-				(rectangle
-					(start -1.27 1.27)
-					(end 1.27 -3.81)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.5334 0.3302) (xy 0.3302 -0.508)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.5334 -2.2098) (xy 0.3302 -3.048)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.3556 0.508) (xy 0.508 -0.3302)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.3556 -2.032) (xy 0.508 -2.8702)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0 0)
-					(radius 0.635)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0 -2.54)
-					(radius 0.635)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 3.81)
-					(name "Pin_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -2.54 0)
-					(length 3.81)
-					(name "Pin_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Connector_Generic:Conn_01x04"
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Conn_01x04"
-				(at 0 -7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "connector"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Connector*:*_1x??_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Conn_01x04_1_1"
-				(rectangle
-					(start -1.27 3.81)
-					(end 1.27 -6.35)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(rectangle
-					(start -1.27 2.667)
-					(end 0 2.413)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 0.127)
-					(end 0 -0.127)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 -2.413)
-					(end 0 -2.667)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 -4.953)
-					(end 0 -5.207)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -5.08 2.54 0)
-					(length 3.81)
-					(name "Pin_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 3.81)
-					(name "Pin_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -2.54 0)
-					(length 3.81)
-					(name "Pin_3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -5.08 0)
-					(length 3.81)
-					(name "Pin_4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
 					)
 				)
 			)
@@ -3906,131 +3704,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:VDD"
-			(power)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "VDD"
-				(at 0 3.556 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"VDD\""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "VDD_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "VDD_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 	)
 	(text "RGATE\n"
 		(exclude_from_sim no)
@@ -4054,7 +3727,7 @@
 	)
 	(text "COIL TERMINALS"
 		(exclude_from_sim no)
-		(at 361.188 131.572 0)
+		(at 379.984 119.126 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4074,7 +3747,7 @@
 	)
 	(text "HIGH CURRENT\nPRINTED CIRCUIT\nBOARD POWER TAP \n"
 		(exclude_from_sim no)
-		(at 375.158 122.936 0)
+		(at 379.73 112.776 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4515,12 +4188,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "54334a19-3fcd-4509-9ce6-8ddd332c5ae5")
-	)
-	(junction
-		(at 180.34 231.14)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5726638d-47fa-4e83-bf7a-58a87efef618")
 	)
 	(junction
 		(at 196.85 156.21)
@@ -5105,6 +4772,12 @@
 		(uuid "d6db40f8-6114-4b56-9941-f5f6887b58ff")
 	)
 	(junction
+		(at 180.34 227.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d7d15a70-2498-48db-9842-ee05c87ce83f")
+	)
+	(junction
 		(at 195.58 68.58)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5549,6 +5222,16 @@
 			(type default)
 		)
 		(uuid "12ee9ab9-ad62-4625-b375-f6e2b44b7249")
+	)
+	(wire
+		(pts
+			(xy 273.05 74.93) (xy 271.78 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "13177d79-e19a-4f4f-9198-87c9b8e02701")
 	)
 	(wire
 		(pts
@@ -6022,6 +5705,16 @@
 	)
 	(wire
 		(pts
+			(xy 267.97 180.34) (xy 270.51 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3297d78a-0680-4060-a09f-22b8b9f1686c")
+	)
+	(wire
+		(pts
 			(xy 54.61 165.1) (xy 54.61 170.18)
 		)
 		(stroke
@@ -6099,16 +5792,6 @@
 			(type default)
 		)
 		(uuid "379dd5c3-b4ed-49bc-a983-305dc53b5d2f")
-	)
-	(wire
-		(pts
-			(xy 184.15 227.33) (xy 186.69 227.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "38053743-ad9c-4630-ae61-255681ee1fcd")
 	)
 	(wire
 		(pts
@@ -6239,6 +5922,16 @@
 			(type default)
 		)
 		(uuid "43af9de4-cdb2-42fa-a707-14cddeced92e")
+	)
+	(wire
+		(pts
+			(xy 69.85 46.99) (xy 80.01 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "43bf03e3-0e76-43d5-97d4-e412f06eadf2")
 	)
 	(wire
 		(pts
@@ -6392,7 +6085,7 @@
 	)
 	(wire
 		(pts
-			(xy 241.3 228.6) (xy 241.3 241.3)
+			(xy 245.11 228.6) (xy 245.11 241.3)
 		)
 		(stroke
 			(width 0)
@@ -6449,6 +6142,16 @@
 			(type default)
 		)
 		(uuid "5764f095-6177-49cf-80b4-9506bf559529")
+	)
+	(wire
+		(pts
+			(xy 80.01 46.99) (xy 80.01 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "579ee630-0ec6-45d9-91cb-d83a5d875a24")
 	)
 	(wire
 		(pts
@@ -6522,6 +6225,16 @@
 	)
 	(wire
 		(pts
+			(xy 200.66 15.24) (xy 214.63 15.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5e8436c6-a1f9-4232-a48a-f1293b4cabe8")
+	)
+	(wire
+		(pts
 			(xy 322.58 241.3) (xy 330.2 241.3)
 		)
 		(stroke
@@ -6569,6 +6282,16 @@
 			(type default)
 		)
 		(uuid "5f46ec9e-e5ad-452a-8bea-d2d02bdc9dfb")
+	)
+	(wire
+		(pts
+			(xy 200.66 120.65) (xy 203.2 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "602a72cb-c8ad-42e1-947d-3adf6bc37e6e")
 	)
 	(wire
 		(pts
@@ -6652,7 +6375,7 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 222.25) (xy 180.34 231.14)
+			(xy 180.34 222.25) (xy 180.34 227.33)
 		)
 		(stroke
 			(width 0)
@@ -6952,16 +6675,6 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 52.07) (xy 80.01 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7d553d3f-e2e9-42c5-a10d-fa0ed52c9541")
-	)
-	(wire
-		(pts
 			(xy 195.58 114.3) (xy 195.58 119.38)
 		)
 		(stroke
@@ -7222,16 +6935,6 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 227.33) (xy 184.15 231.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8fda0c68-64b5-4c18-9b8b-929277e172d1")
-	)
-	(wire
-		(pts
 			(xy 256.54 78.74) (xy 271.78 78.74)
 		)
 		(stroke
@@ -7339,6 +7042,16 @@
 			(type default)
 		)
 		(uuid "9668fee1-ffc8-4d4c-a7e9-9ccef86f5b5d")
+	)
+	(wire
+		(pts
+			(xy 180.34 227.33) (xy 186.69 227.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "96e0bade-2079-4b52-8251-9b2f78f553dc")
 	)
 	(wire
 		(pts
@@ -8042,16 +7755,6 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 231.14) (xy 184.15 231.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c22bc6b9-3617-43a7-a670-57304cae0b3c")
-	)
-	(wire
-		(pts
 			(xy 176.53 170.18) (xy 184.15 170.18)
 		)
 		(stroke
@@ -8062,7 +7765,7 @@
 	)
 	(wire
 		(pts
-			(xy 271.78 76.2) (xy 271.78 78.74)
+			(xy 271.78 74.93) (xy 271.78 78.74)
 		)
 		(stroke
 			(width 0)
@@ -8332,7 +8035,7 @@
 	)
 	(wire
 		(pts
-			(xy 267.97 181.61) (xy 267.97 186.69)
+			(xy 267.97 180.34) (xy 267.97 186.69)
 		)
 		(stroke
 			(width 0)
@@ -8409,6 +8112,16 @@
 			(type default)
 		)
 		(uuid "dce1c9ec-4c03-4958-baa7-1ae472086a8a")
+	)
+	(wire
+		(pts
+			(xy 245.11 220.98) (xy 245.11 226.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd133eb1-3cd9-4866-afe7-c4e892e38cec")
 	)
 	(wire
 		(pts
@@ -8502,7 +8215,7 @@
 	)
 	(wire
 		(pts
-			(xy 241.3 220.98) (xy 247.65 220.98)
+			(xy 245.11 220.98) (xy 247.65 220.98)
 		)
 		(stroke
 			(width 0)
@@ -8750,6 +8463,16 @@
 		)
 		(uuid "f40d6f31-1433-487b-af1b-52caf5661770")
 	)
+	(wire
+		(pts
+			(xy 180.34 227.33) (xy 180.34 231.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f44950bb-cc98-402b-81f9-a1288f788f6a")
+	)
 	(polyline
 		(pts
 			(xy 290.83 210.82) (xy 271.78 210.82)
@@ -8872,7 +8595,7 @@
 	)
 	(wire
 		(pts
-			(xy 241.3 241.3) (xy 278.13 241.3)
+			(xy 245.11 241.3) (xy 278.13 241.3)
 		)
 		(stroke
 			(width 0)
@@ -8919,6 +8642,116 @@
 			(type default)
 		)
 		(uuid "ffff7ed8-936a-43a1-af2d-57555313209f")
+	)
+	(global_label "12V"
+		(shape input)
+		(at 273.05 74.93 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "532e3ceb-cbb3-4f33-bc55-788200725fcf")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 279.5428 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "12V"
+		(shape input)
+		(at 214.63 15.24 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7938cc50-cfaf-4679-82f9-65376daec58d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 221.1228 15.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "12V"
+		(shape input)
+		(at 203.2 120.65 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "aff5ed0c-62a9-40b0-a3ea-281c957e8f87")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 209.6928 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "12V"
+		(shape input)
+		(at 270.51 180.34 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c567f3db-2eee-4a60-b35d-4a0bce76210f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 277.0028 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "3.3V"
+		(shape input)
+		(at 69.85 46.99 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d33909a7-8412-4abc-a0e8-5a6fbc5375d9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 62.7524 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "1.65V"
 		(shape input)
@@ -9408,6 +9241,156 @@
 			(project "Adrion_1"
 				(path "/ca8b9c62-24ed-451b-8ada-8e095e6c3e3b/fa7ca0dd-ef0e-4471-8085-0b8f7bb7729a"
 					(reference "C15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "1705469:1705469")
+		(at 245.11 228.6 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "166463d1-81d0-4af1-a635-6c79f254f3bd")
+		(property "Reference" "J2"
+			(at 234.95 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1705469"
+			(at 234.95 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "1705469"
+			(at 228.6 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.phoenixcontact.com/en-us/products/printed-circuit-board-terminal-smkds-25-2-508-1705469?type=pdf"
+			(at 228.6 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Fixed Terminal Blocks 2P 5.08mm 40DEG"
+			(at 245.11 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "Fixed Terminal Blocks 2P 5.08mm 40DEG"
+			(at 228.6 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Height" "19.6"
+			(at 228.6 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Phoenix Contact"
+			(at 228.6 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "1705469"
+			(at 228.6 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "651-1705469"
+			(at 228.6 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Phoenix-Contact/1705469?qs=qgZcrvoyHAeKr1p0qncEog%3D%3D"
+			(at 228.6 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "1705469"
+			(at 228.6 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/1705469/phoenix-contact?utm_currency=USD&region=nac"
+			(at 228.6 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "688c1e30-362e-42cd-86c2-370f691cdc9a")
+		)
+		(pin "2"
+			(uuid "5f25bb44-7f53-445a-8929-252da9c7ff14")
+		)
+		(instances
+			(project ""
+				(path "/ca8b9c62-24ed-451b-8ada-8e095e6c3e3b/fa7ca0dd-ef0e-4471-8085-0b8f7bb7729a"
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -11418,7 +11401,7 @@
 		(dnp no)
 		(uuid "36285d55-4c55-4b81-b4be-c1bb5d82736e")
 		(property "Reference" "Q1"
-			(at 215.646 100.838 0)
+			(at 228.346 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11426,7 +11409,7 @@
 			)
 		)
 		(property "Value" "IPT034N15NM6ATMA1"
-			(at 217.17 103.124 0)
+			(at 230.886 101.854 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12117,7 +12100,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "3fb09653-87a7-4e56-bf09-0a1dd12f6ab0")
 		(property "Reference" "U8"
 			(at 290.83 88.8999 0)
@@ -12129,7 +12111,7 @@
 			)
 		)
 		(property "Value" "CKSR_6-NP"
-			(at 290.83 91.4399 0)
+			(at 300.228 106.934 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12288,72 +12270,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VCC")
-		(at 80.01 52.07 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4273b030-e5e1-4e42-b333-b65d6424b30d")
-		(property "Reference" "#PWR018"
-			(at 80.01 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VCC"
-			(at 80.01 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 80.01 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 80.01 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 80.01 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5995f81f-c832-47d5-85bb-e584f7b58d2d")
-		)
-		(instances
-			(project ""
-				(path "/ca8b9c62-24ed-451b-8ada-8e095e6c3e3b/fa7ca0dd-ef0e-4471-8085-0b8f7bb7729a"
-					(reference "#PWR018")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 135.89 128.27 0)
 		(mirror y)
@@ -12426,72 +12342,6 @@
 			(project "Adrion_1"
 				(path "/ca8b9c62-24ed-451b-8ada-8e095e6c3e3b/fa7ca0dd-ef0e-4471-8085-0b8f7bb7729a"
 					(reference "C20")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VDD")
-		(at 200.66 120.65 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "45476720-fa80-46e6-99fb-aafcbb47264d")
-		(property "Reference" "#PWR012"
-			(at 200.66 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VDD"
-			(at 205.74 118.364 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 200.66 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 200.66 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VDD\""
-			(at 200.66 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ca14bc1e-f7b2-49dc-b680-69db7ec42c5a")
-		)
-		(instances
-			(project "Adrion_1"
-				(path "/ca8b9c62-24ed-451b-8ada-8e095e6c3e3b/fa7ca0dd-ef0e-4471-8085-0b8f7bb7729a"
-					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -13764,6 +13614,158 @@
 			(project "Adrion_1"
 				(path "/ca8b9c62-24ed-451b-8ada-8e095e6c3e3b/fa7ca0dd-ef0e-4471-8085-0b8f7bb7729a"
 					(reference "#PWR038")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "1705469:1705469")
+		(at 354.33 121.92 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5ebcc8f9-2c1c-4fe8-8227-bc5bb15b361e")
+		(property "Reference" "J1"
+			(at 370.84 121.9199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1705469"
+			(at 370.84 124.4599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "1705469"
+			(at 370.84 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.phoenixcontact.com/en-us/products/printed-circuit-board-terminal-smkds-25-2-508-1705469?type=pdf"
+			(at 370.84 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Fixed Terminal Blocks 2P 5.08mm 40DEG"
+			(at 354.33 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "Fixed Terminal Blocks 2P 5.08mm 40DEG"
+			(at 370.84 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Height" "19.6"
+			(at 370.84 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Phoenix Contact"
+			(at 370.84 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "1705469"
+			(at 370.84 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "651-1705469"
+			(at 370.84 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Phoenix-Contact/1705469?qs=qgZcrvoyHAeKr1p0qncEog%3D%3D"
+			(at 370.84 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "1705469"
+			(at 370.84 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/1705469/phoenix-contact?utm_currency=USD&region=nac"
+			(at 370.84 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b810e5f1-ab03-469e-a16b-d1f2963e6e86")
+		)
+		(pin "2"
+			(uuid "b678d089-fa7c-45bc-a44d-9f845da5d3f1")
+		)
+		(instances
+			(project "Adrion_1"
+				(path "/ca8b9c62-24ed-451b-8ada-8e095e6c3e3b/fa7ca0dd-ef0e-4471-8085-0b8f7bb7729a"
+					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -15051,79 +15053,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x04")
-		(at 236.22 226.06 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "7729d34e-129e-4d95-8d45-8a23d0ad9aa9")
-		(property "Reference" "J3"
-			(at 236.22 214.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_01x04"
-			(at 236.22 217.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 236.22 226.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 236.22 226.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 236.22 226.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "d5075ebe-6501-4518-a913-2c1ce4835893")
-		)
-		(pin "1"
-			(uuid "73fa6e01-56a1-48da-b59c-140b2b4b00b7")
-		)
-		(pin "3"
-			(uuid "23ffc2a9-a9fe-4d23-94d2-c5e80934d296")
-		)
-		(pin "4"
-			(uuid "ce6dd597-3d34-4b6c-8d1e-30c0f8854c7a")
-		)
-		(instances
-			(project ""
-				(path "/ca8b9c62-24ed-451b-8ada-8e095e6c3e3b/fa7ca0dd-ef0e-4471-8085-0b8f7bb7729a"
-					(reference "J3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 82.55 201.93 0)
 		(unit 1)
@@ -15800,72 +15729,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VDD")
-		(at 271.78 76.2 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "8bd0d38f-1174-4e45-b73c-26c54b913511")
-		(property "Reference" "#PWR037"
-			(at 271.78 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VDD"
-			(at 276.86 73.914 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 271.78 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 271.78 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VDD\""
-			(at 271.78 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "038b4c53-9488-4547-a7bc-9bc60e3dfc69")
-		)
-		(instances
-			(project "Adrion_1"
-				(path "/ca8b9c62-24ed-451b-8ada-8e095e6c3e3b/fa7ca0dd-ef0e-4471-8085-0b8f7bb7729a"
-					(reference "#PWR037")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_name "IPT034N15NM6ATMA1_1")
 		(lib_id "IPT034N15NM6ATMA1:IPT034N15NM6ATMA1")
 		(at 191.77 238.76 90)
@@ -16030,72 +15893,6 @@
 			(project "Adrion_1"
 				(path "/ca8b9c62-24ed-451b-8ada-8e095e6c3e3b/fa7ca0dd-ef0e-4471-8085-0b8f7bb7729a"
 					(reference "Q2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VDD")
-		(at 200.66 15.24 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "8da9510a-da5b-464b-ac2f-71342c649554")
-		(property "Reference" "#PWR021"
-			(at 200.66 19.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VDD"
-			(at 205.74 12.954 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 200.66 15.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 200.66 15.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VDD\""
-			(at 200.66 15.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "042146c7-30e9-4b31-b951-2dd25d0a6873")
-		)
-		(instances
-			(project "Adrion_1"
-				(path "/ca8b9c62-24ed-451b-8ada-8e095e6c3e3b/fa7ca0dd-ef0e-4471-8085-0b8f7bb7729a"
-					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -16313,72 +16110,6 @@
 			(project ""
 				(path "/ca8b9c62-24ed-451b-8ada-8e095e6c3e3b/fa7ca0dd-ef0e-4471-8085-0b8f7bb7729a"
 					(reference "#PWR028")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VDD")
-		(at 267.97 181.61 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "92fd9779-d8e2-4d7f-9986-9c1c15f0ea1b")
-		(property "Reference" "#PWR035"
-			(at 267.97 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VDD"
-			(at 273.05 179.324 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 267.97 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 267.97 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VDD\""
-			(at 267.97 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "20b862b4-5c0d-4b6e-bc00-8d65d12eb92c")
-		)
-		(instances
-			(project "Adrion_1"
-				(path "/ca8b9c62-24ed-451b-8ada-8e095e6c3e3b/fa7ca0dd-ef0e-4471-8085-0b8f7bb7729a"
-					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -19442,75 +19173,6 @@
 			(project "Adrion_1"
 				(path "/ca8b9c62-24ed-451b-8ada-8e095e6c3e3b/fa7ca0dd-ef0e-4471-8085-0b8f7bb7729a"
 					(reference "PS4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Screw_Terminal_01x02")
-		(at 359.41 121.92 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "def9c79d-1b16-4b7e-ab5f-a282e55ce969")
-		(property "Reference" "J1"
-			(at 361.95 121.9199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Screw_Terminal_01x02"
-			(at 336.296 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 359.41 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 359.41 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 359.41 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "a60d6c9e-8494-44a8-90d8-b070afc35913")
-		)
-		(pin "1"
-			(uuid "5b12b515-be18-46b5-ab4e-71a9ebf6b3be")
-		)
-		(instances
-			(project ""
-				(path "/ca8b9c62-24ed-451b-8ada-8e095e6c3e3b/fa7ca0dd-ef0e-4471-8085-0b8f7bb7729a"
-					(reference "J1")
 					(unit 1)
 				)
 			)

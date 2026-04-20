@@ -5,7 +5,645 @@
 	(uuid "99e6e2d5-5e03-4ae3-bf82-40ac0c31a1ab")
 	(paper "A4")
 	(lib_symbols
-		(symbol "NUCLEO-G474RE_3p:NUCLEO-G474RE"
+		(symbol "M20-7821546:M20-7821546"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at -6.85 20.32 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "M20-7821546"
+				(at -6.35 -22.86 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "M20-7821546:HARWIN_M20-7821546"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MF" "Harwin"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MAXIMUM_PACKAGE_HEIGHT" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Package" "None"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Price" "None"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Check_prices" "https://www.snapeda.com/parts/M20-7821546/Harwin/view-part/?ref=eda"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "STANDARD" "Manufacturer Recommendations"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "PARTREV" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "SnapEDA_Link" "https://www.snapeda.com/parts/M20-7821546/Harwin/view-part/?ref=snap"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MP" "M20-7821546"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Description_1" "2.54mm (0.1) Pitch SIL Vertical Throughboard Socket Assembly, tin, 15 contacts"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Availability" "In Stock"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MANUFACTURER" "HARWIN"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(symbol "M20-7821546_0_0"
+				(rectangle
+					(start -6.35 -20.32)
+					(end 6.35 20.32)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(arc
+					(start 4.445 18.415)
+					(mid 5.0772 17.78)
+					(end 4.445 17.145)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 4.445 15.875)
+					(mid 5.0772 15.24)
+					(end 4.445 14.605)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 4.445 13.335)
+					(mid 5.0772 12.7)
+					(end 4.445 12.065)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 4.445 10.795)
+					(mid 5.0772 10.16)
+					(end 4.445 9.525)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 4.445 8.255)
+					(mid 5.0772 7.62)
+					(end 4.445 6.985)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 4.445 5.715)
+					(mid 5.0772 5.08)
+					(end 4.445 4.445)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 4.445 3.175)
+					(mid 5.0772 2.54)
+					(end 4.445 1.905)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 4.445 0.635)
+					(mid 5.0772 0)
+					(end 4.445 -0.635)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 4.445 -1.905)
+					(mid 5.0772 -2.54)
+					(end 4.445 -3.175)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 4.445 -4.445)
+					(mid 5.0772 -5.08)
+					(end 4.445 -5.715)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 4.445 -6.985)
+					(mid 5.0772 -7.62)
+					(end 4.445 -8.255)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 4.445 -9.525)
+					(mid 5.0772 -10.16)
+					(end 4.445 -10.795)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 4.445 -12.065)
+					(mid 5.0772 -12.7)
+					(end 4.445 -13.335)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 4.445 -14.605)
+					(mid 5.0772 -15.24)
+					(end 4.445 -15.875)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 4.445 -17.145)
+					(mid 5.0772 -17.78)
+					(end 4.445 -18.415)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 10.16 17.78 180)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 15.24 180)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 12.7 180)
+					(length 5.08)
+					(name "3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 10.16 180)
+					(length 5.08)
+					(name "4"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 7.62 180)
+					(length 5.08)
+					(name "5"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 5.08 180)
+					(length 5.08)
+					(name "6"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 2.54 180)
+					(length 5.08)
+					(name "7"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 0 180)
+					(length 5.08)
+					(name "8"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 -2.54 180)
+					(length 5.08)
+					(name "9"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 -5.08 180)
+					(length 5.08)
+					(name "10"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 -7.62 180)
+					(length 5.08)
+					(name "11"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 -10.16 180)
+					(length 5.08)
+					(name "12"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 -12.7 180)
+					(length 5.08)
+					(name "13"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 -15.24 180)
+					(length 5.08)
+					(name "14"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 -17.78 180)
+					(length 5.08)
+					(name "15"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "NUCLEO-G431KB:NUCLEO-G431KB"
 			(pin_names
 				(offset 1.016)
 			)
@@ -13,7 +651,7 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "U"
-				(at -17.78 26.162 0)
+				(at -20.32 26.162 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -21,8 +659,8 @@
 					(justify left bottom)
 				)
 			)
-			(property "Value" "NUCLEO-G474RE"
-				(at -17.78 -27.94 0)
+			(property "Value" "NUCLEO-G431KB"
+				(at -20.32 -30.226 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -30,7 +668,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Footprint" "NUCLEO-G474RE:MODULE_NUCLEO-G474RE"
+			(property "Footprint" "NUCLEO-G431KB:MODULE_NUCLEO-G431KB"
 				(at 0 0 0)
 				(effects
 					(font
@@ -68,7 +706,7 @@
 					(hide yes)
 				)
 			)
-			(property "MAXIMUM_PACKAGE_HEIGHT" "20.7mm"
+			(property "Description_1" "STM32G431 Nucleo-32 STM32G4 ARM® Cortex®-M4 MCU 32-Bit Embedded Evaluation Board"
 				(at 0 0 0)
 				(effects
 					(font
@@ -98,7 +736,7 @@
 					(hide yes)
 				)
 			)
-			(property "Check_prices" "https://www.snapeda.com/parts/NUCLEO-G474RE/STMicroelectronics/view-part/?ref=eda"
+			(property "Check_prices" "https://www.snapeda.com/parts/NUCLEO-G431KB/STMicroelectronics/view-part/?ref=eda"
 				(at 0 0 0)
 				(effects
 					(font
@@ -118,7 +756,7 @@
 					(hide yes)
 				)
 			)
-			(property "PARTREV" "17"
+			(property "PARTREV" "2"
 				(at 0 0 0)
 				(effects
 					(font
@@ -128,7 +766,7 @@
 					(hide yes)
 				)
 			)
-			(property "SnapEDA_Link" "https://www.snapeda.com/parts/NUCLEO-G474RE/STMicroelectronics/view-part/?ref=snap"
+			(property "SnapEDA_Link" "https://www.snapeda.com/parts/NUCLEO-G431KB/STMicroelectronics/view-part/?ref=snap"
 				(at 0 0 0)
 				(effects
 					(font
@@ -138,27 +776,7 @@
 					(hide yes)
 				)
 			)
-			(property "MP" "NUCLEO-G474RE"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=3662258&manufacturer=STMicroelectronics&part_name=NUCLEO-G474RE&search_term=None"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Description_1" "STM32G474 Nucleo-64 STM32G4 ARM® Cortex®-M4 MCU 32-Bit Embedded Evaluation Board"
+			(property "MP" "NUCLEO-G431KB"
 				(at 0 0 0)
 				(effects
 					(font
@@ -178,7 +796,7 @@
 					(hide yes)
 				)
 			)
-			(property "MANUFACTURER" "STmicroelectronics"
+			(property "MANUFACTURER" "STMicroelectronics"
 				(at 0 0 0)
 				(effects
 					(font
@@ -188,10 +806,10 @@
 					(hide yes)
 				)
 			)
-			(symbol "NUCLEO-G474RE_1_0"
+			(symbol "NUCLEO-G431KB_0_0"
 				(rectangle
-					(start -17.78 -25.4)
-					(end 17.78 25.4)
+					(start -20.32 -27.94)
+					(end 20.32 25.4)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -200,179 +818,152 @@
 						(type background)
 					)
 				)
-				(pin bidirectional line
-					(at -22.86 22.86 0)
-					(length 5.08)
-					(name "PC10"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
+				(polyline
+					(pts
+						(xy -7.62 11.43) (xy -6.35 11.43)
 					)
-					(number "CN7_1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -6.35 11.43) (xy -6.35 -26.67)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -6.35 -26.67) (xy -7.62 -26.67)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 24.13) (xy 3.81 24.13)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 13.97) (xy 2.54 24.13)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 11.43) (xy 2.54 -26.67)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -26.67) (xy 3.81 -26.67)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 13.97) (xy 2.54 13.97)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 11.43) (xy 2.54 11.43)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(text "CN4"
+					(at -3.81 -8.89 900)
+					(effects
+						(font
+							(size 1.778 1.778)
 						)
+						(justify left bottom)
+					)
+				)
+				(text "CN2"
+					(at 1.27 16.51 900)
+					(effects
+						(font
+							(size 1.778 1.778)
+						)
+						(justify left bottom)
+					)
+				)
+				(text "CN3"
+					(at 1.27 -8.89 900)
+					(effects
+						(font
+							(size 1.778 1.778)
+						)
+						(justify left bottom)
 					)
 				)
 				(pin bidirectional line
-					(at -22.86 20.32 0)
+					(at -25.4 10.16 0)
 					(length 5.08)
-					(name "PC12"
+					(name "PA9(D1)"
 						(effects
 							(font
 								(size 1.016 1.016)
 							)
 						)
 					)
-					(number "CN7_3"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -22.86 17.78 0)
-					(length 5.08)
-					(name "VDD"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "CN7_5"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -22.86 15.24 0)
-					(length 5.08)
-					(name "P8-BOOT0"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "CN7_7"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin no_connect line
-					(at -22.86 12.7 0)
-					(length 5.08)
-					(name "NC_CN7_9"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "CN7_9"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin no_connect line
-					(at -22.86 10.16 0)
-					(length 5.08)
-					(name "NC_CN7_11"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "CN7_11"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -22.86 7.62 0)
-					(length 5.08)
-					(name "PA13"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "CN7_13"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -22.86 5.08 0)
-					(length 5.08)
-					(name "PA14"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "CN7_15"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -22.86 2.54 0)
-					(length 5.08)
-					(name "PA15"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "CN7_17"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -22.86 0 0)
-					(length 5.08)
-					(name "GND_CN7_19"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "CN7_19"
+					(number "CN4_1"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -381,250 +972,16 @@
 					)
 				)
 				(pin bidirectional line
-					(at -22.86 -2.54 0)
+					(at -25.4 7.62 0)
 					(length 5.08)
-					(name "PB7"
+					(name "PA10(D0)"
 						(effects
 							(font
 								(size 1.016 1.016)
 							)
 						)
 					)
-					(number "CN7_21"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -22.86 -5.08 0)
-					(length 5.08)
-					(name "PC13"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "CN7_23"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -22.86 -7.62 0)
-					(length 5.08)
-					(name "PC14"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "CN7_25"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -22.86 -10.16 0)
-					(length 5.08)
-					(name "PC15"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "CN7_27"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -22.86 -12.7 0)
-					(length 5.08)
-					(name "PF0"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "CN7_29"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -22.86 -15.24 0)
-					(length 5.08)
-					(name "PF1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "CN7_31"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -22.86 -17.78 0)
-					(length 5.08)
-					(name "VBAT"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "CN7_33"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -22.86 -20.32 0)
-					(length 5.08)
-					(name "PC2"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "CN7_35"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -22.86 -22.86 0)
-					(length 5.08)
-					(name "PC3"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "CN7_37"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 22.86 22.86 180)
-					(length 5.08)
-					(name "PC11"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "CN7_2"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 22.86 20.32 180)
-					(length 5.08)
-					(name "PD2"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "CN7_4"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 22.86 17.78 180)
-					(length 5.08)
-					(name "E5V"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "CN7_6"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 22.86 15.24 180)
-					(length 5.08)
-					(name "GND_CN7_8"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "CN7_8"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin no_connect line
-					(at 22.86 12.7 180)
-					(length 5.08)
-					(name "NC_CN7_10"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "CN7_10"
+					(number "CN4_2"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -633,16 +990,34 @@
 					)
 				)
 				(pin input line
-					(at 22.86 10.16 180)
+					(at -25.4 5.08 0)
 					(length 5.08)
-					(name "IOREF"
+					(name "~{RST}_CN4"
 						(effects
 							(font
 								(size 1.016 1.016)
 							)
 						)
 					)
-					(number "CN7_12"
+					(number "CN4_3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -25.4 2.54 0)
+					(length 5.08)
+					(name "GND_CN4"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "CN4_4"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -651,16 +1026,196 @@
 					)
 				)
 				(pin bidirectional line
-					(at 22.86 7.62 180)
+					(at -25.4 0 0)
 					(length 5.08)
-					(name "~{RST}"
+					(name "PA12(D2)"
 						(effects
 							(font
 								(size 1.016 1.016)
 							)
 						)
 					)
-					(number "CN7_14"
+					(number "CN4_5"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -25.4 -2.54 0)
+					(length 5.08)
+					(name "PB0(D3)"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "CN4_6"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -25.4 -5.08 0)
+					(length 5.08)
+					(name "PB7(D4)"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "CN4_7"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -25.4 -7.62 0)
+					(length 5.08)
+					(name "PA15(D5)"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "CN4_8"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -25.4 -10.16 0)
+					(length 5.08)
+					(name "PB6(D6)"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "CN4_9"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -25.4 -12.7 0)
+					(length 5.08)
+					(name "PF0(D7)"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "CN4_10"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -25.4 -15.24 0)
+					(length 5.08)
+					(name "PF1(D8)"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "CN4_11"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -25.4 -17.78 0)
+					(length 5.08)
+					(name "PA8(D9)"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "CN4_12"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -25.4 -20.32 0)
+					(length 5.08)
+					(name "PA11(D10)"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "CN4_13"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -25.4 -22.86 0)
+					(length 5.08)
+					(name "PB5(D11)"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "CN4_14"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -25.4 -25.4 0)
+					(length 5.08)
+					(name "PB4(D12)"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "CN4_15"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -669,16 +1224,34 @@
 					)
 				)
 				(pin power_in line
-					(at 22.86 5.08 180)
+					(at 25.4 22.86 180)
 					(length 5.08)
-					(name "+3V3"
+					(name "VCC"
 						(effects
 							(font
 								(size 1.016 1.016)
 							)
 						)
 					)
-					(number "CN7_16"
+					(number "CN2_1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 25.4 20.32 180)
+					(length 5.08)
+					(name "SWCLK"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "CN2_2"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -687,16 +1260,34 @@
 					)
 				)
 				(pin power_in line
-					(at 22.86 2.54 180)
+					(at 25.4 17.78 180)
 					(length 5.08)
-					(name "+5V"
+					(name "GND_SWD"
 						(effects
 							(font
 								(size 1.016 1.016)
 							)
 						)
 					)
-					(number "CN7_18"
+					(number "CN2_3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 25.4 15.24 180)
+					(length 5.08)
+					(name "SWDIO"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "CN2_4"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -705,43 +1296,7 @@
 					)
 				)
 				(pin power_in line
-					(at 22.86 0 180)
-					(length 5.08)
-					(name "GND_CN7_20"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "CN7_20"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 22.86 -2.54 180)
-					(length 5.08)
-					(name "GND_CN7_22"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "CN7_22"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 22.86 -5.08 180)
+					(at 25.4 10.16 180)
 					(length 5.08)
 					(name "VIN"
 						(effects
@@ -750,200 +1305,7 @@
 							)
 						)
 					)
-					(number "CN7_24"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin no_connect line
-					(at 22.86 -7.62 180)
-					(length 5.08)
-					(name "NC_CN7_26"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "CN7_26"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 22.86 -10.16 180)
-					(length 5.08)
-					(name "PA0"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "CN7_28"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 22.86 -12.7 180)
-					(length 5.08)
-					(name "PA1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "CN7_30"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 22.86 -15.24 180)
-					(length 5.08)
-					(name "PA4"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "CN7_32"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 22.86 -17.78 180)
-					(length 5.08)
-					(name "PB0"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "CN7_34"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 22.86 -20.32 180)
-					(length 5.08)
-					(name "PC1/PB9"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "CN7_36"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 22.86 -22.86 180)
-					(length 5.08)
-					(name "PC0/PA15"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "CN7_38"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-			)
-			(symbol "NUCLEO-G474RE_2_0"
-				(rectangle
-					(start -17.78 -25.4)
-					(end 17.78 25.4)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin bidirectional line
-					(at -22.86 22.86 0)
-					(length 5.08)
-					(name "PC9"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "CN10_1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -22.86 20.32 0)
-					(length 5.08)
-					(name "PB8"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "CN10_3"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -22.86 17.78 0)
-					(length 5.08)
-					(name "PB9"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "CN10_5"
+					(number "CN3_1"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -952,16 +1314,34 @@
 					)
 				)
 				(pin power_in line
-					(at -22.86 15.24 0)
+					(at 25.4 7.62 180)
 					(length 5.08)
-					(name "AVDD"
+					(name "GND_CN3"
 						(effects
 							(font
 								(size 1.016 1.016)
 							)
 						)
 					)
-					(number "CN10_7"
+					(number "CN3_2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 25.4 5.08 180)
+					(length 5.08)
+					(name "~{RST}_CN3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "CN3_3"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -970,16 +1350,16 @@
 					)
 				)
 				(pin power_in line
-					(at -22.86 12.7 0)
+					(at 25.4 2.54 180)
 					(length 5.08)
-					(name "GND_CN10_9"
+					(name "5V"
 						(effects
 							(font
 								(size 1.016 1.016)
 							)
 						)
 					)
-					(number "CN10_9"
+					(number "CN3_4"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -988,16 +1368,16 @@
 					)
 				)
 				(pin bidirectional line
-					(at -22.86 10.16 0)
+					(at 25.4 0 180)
 					(length 5.08)
-					(name "PA5"
+					(name "PA2(A7)"
 						(effects
 							(font
 								(size 1.016 1.016)
 							)
 						)
 					)
-					(number "CN10_11"
+					(number "CN3_5"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -1006,16 +1386,16 @@
 					)
 				)
 				(pin bidirectional line
-					(at -22.86 7.62 0)
+					(at 25.4 -2.54 180)
 					(length 5.08)
-					(name "PA6"
+					(name "PA7(A6)"
 						(effects
 							(font
 								(size 1.016 1.016)
 							)
 						)
 					)
-					(number "CN10_13"
+					(number "CN3_6"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -1024,16 +1404,16 @@
 					)
 				)
 				(pin bidirectional line
-					(at -22.86 5.08 0)
+					(at 25.4 -5.08 180)
 					(length 5.08)
-					(name "PA7"
+					(name "PA6/PA15(A5)"
 						(effects
 							(font
 								(size 1.016 1.016)
 							)
 						)
 					)
-					(number "CN10_15"
+					(number "CN3_7"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -1042,16 +1422,16 @@
 					)
 				)
 				(pin bidirectional line
-					(at -22.86 2.54 0)
+					(at 25.4 -7.62 180)
 					(length 5.08)
-					(name "PB6"
+					(name "PA5/PB7(A4)"
 						(effects
 							(font
 								(size 1.016 1.016)
 							)
 						)
 					)
-					(number "CN10_17"
+					(number "CN3_8"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -1060,16 +1440,16 @@
 					)
 				)
 				(pin bidirectional line
-					(at -22.86 0 0)
+					(at 25.4 -10.16 180)
 					(length 5.08)
-					(name "PC7"
+					(name "PA4(A3)"
 						(effects
 							(font
 								(size 1.016 1.016)
 							)
 						)
 					)
-					(number "CN10_19"
+					(number "CN3_9"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -1078,16 +1458,16 @@
 					)
 				)
 				(pin bidirectional line
-					(at -22.86 -2.54 0)
+					(at 25.4 -12.7 180)
 					(length 5.08)
-					(name "PA9"
+					(name "PA3(A2)"
 						(effects
 							(font
 								(size 1.016 1.016)
 							)
 						)
 					)
-					(number "CN10_21"
+					(number "CN3_10"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -1096,16 +1476,16 @@
 					)
 				)
 				(pin bidirectional line
-					(at -22.86 -5.08 0)
+					(at 25.4 -15.24 180)
 					(length 5.08)
-					(name "PA8"
+					(name "PA1(A1)"
 						(effects
 							(font
 								(size 1.016 1.016)
 							)
 						)
 					)
-					(number "CN10_23"
+					(number "CN3_11"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -1114,178 +1494,16 @@
 					)
 				)
 				(pin bidirectional line
-					(at -22.86 -7.62 0)
+					(at 25.4 -17.78 180)
 					(length 5.08)
-					(name "PB10"
+					(name "PA0(A0)"
 						(effects
 							(font
 								(size 1.016 1.016)
 							)
 						)
 					)
-					(number "CN10_25"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -22.86 -10.16 0)
-					(length 5.08)
-					(name "PB4"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "CN10_27"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -22.86 -12.7 0)
-					(length 5.08)
-					(name "PB5"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "CN10_29"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -22.86 -15.24 0)
-					(length 5.08)
-					(name "PB3"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "CN10_31"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -22.86 -17.78 0)
-					(length 5.08)
-					(name "PA10"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "CN10_33"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -22.86 -20.32 0)
-					(length 5.08)
-					(name "PA2/PC4"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "CN10_35"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -22.86 -22.86 0)
-					(length 5.08)
-					(name "PA3/PC5"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "CN10_37"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 22.86 22.86 180)
-					(length 5.08)
-					(name "PC8"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "CN10_2"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 22.86 20.32 180)
-					(length 5.08)
-					(name "PC6"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "CN10_4"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 22.86 17.78 180)
-					(length 5.08)
-					(name "PC5"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "CN10_6"
+					(number "CN3_12"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -1294,106 +1512,16 @@
 					)
 				)
 				(pin power_in line
-					(at 22.86 15.24 180)
+					(at 25.4 -20.32 180)
 					(length 5.08)
-					(name "5V_USB_CHGR"
+					(name "AREF"
 						(effects
 							(font
 								(size 1.016 1.016)
 							)
 						)
 					)
-					(number "CN10_8"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin no_connect line
-					(at 22.86 12.7 180)
-					(length 5.08)
-					(name "NC_CN10_10"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "CN10_10"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 22.86 10.16 180)
-					(length 5.08)
-					(name "PA12"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "CN10_12"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 22.86 7.62 180)
-					(length 5.08)
-					(name "PA11"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "CN10_14"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 22.86 5.08 180)
-					(length 5.08)
-					(name "PB12"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "CN10_16"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 22.86 2.54 180)
-					(length 5.08)
-					(name "PB11"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "CN10_18"
+					(number "CN3_13"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -1402,16 +1530,16 @@
 					)
 				)
 				(pin power_in line
-					(at 22.86 0 180)
+					(at 25.4 -22.86 180)
 					(length 5.08)
-					(name "GND_CN10_20"
+					(name "3V3"
 						(effects
 							(font
 								(size 1.016 1.016)
 							)
 						)
 					)
-					(number "CN10_20"
+					(number "CN3_14"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -1420,160 +1548,16 @@
 					)
 				)
 				(pin bidirectional line
-					(at 22.86 -2.54 180)
+					(at 25.4 -25.4 180)
 					(length 5.08)
-					(name "PB2"
+					(name "PB3/PB8(D13)"
 						(effects
 							(font
 								(size 1.016 1.016)
 							)
 						)
 					)
-					(number "CN10_22"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 22.86 -5.08 180)
-					(length 5.08)
-					(name "PB1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "CN10_24"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 22.86 -7.62 180)
-					(length 5.08)
-					(name "PB15"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "CN10_26"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 22.86 -10.16 180)
-					(length 5.08)
-					(name "PB14"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "CN10_28"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 22.86 -12.7 180)
-					(length 5.08)
-					(name "PB13"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "CN10_30"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 22.86 -15.24 180)
-					(length 5.08)
-					(name "AGND"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "CN10_32"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 22.86 -17.78 180)
-					(length 5.08)
-					(name "PC4"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "CN10_34"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin no_connect line
-					(at 22.86 -20.32 180)
-					(length 5.08)
-					(name "NC_CN10_36"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "CN10_36"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin no_connect line
-					(at 22.86 -22.86 180)
-					(length 5.08)
-					(name "NC_CN10_38"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "CN10_38"
+					(number "CN3_15"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -1584,66 +1568,6 @@
 			)
 			(embedded_fonts no)
 		)
-	)
-	(wire
-		(pts
-			(xy 91.44 99.06) (xy 99.06 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "30756c86-cf27-4556-b56a-c0834dd7841a")
-	)
-	(wire
-		(pts
-			(xy 91.44 58.42) (xy 99.06 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "78308ee3-9747-4226-8ae7-cf300e50ed8d")
-	)
-	(wire
-		(pts
-			(xy 36.83 124.46) (xy 45.72 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7c5a3630-0c2f-44a6-ace6-cf94b1d71cee")
-	)
-	(wire
-		(pts
-			(xy 36.83 111.76) (xy 45.72 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "926db4ba-94be-4c52-803d-582e3a770f45")
-	)
-	(wire
-		(pts
-			(xy 35.56 86.36) (xy 45.72 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a2151dc2-10ec-44da-ae11-0bb393ab18de")
-	)
-	(wire
-		(pts
-			(xy 36.83 109.22) (xy 45.72 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a2d2b34a-8c27-4abe-92cc-49e5c5ea96bc")
 	)
 	(hierarchical_label "PWM_AH"
 		(shape output)
@@ -1680,12 +1604,12 @@
 	)
 	(hierarchical_label "PWM_BL"
 		(shape output)
-		(at 99.06 99.06 0)
+		(at 38.1 115.57 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "d3ade9c1-422f-496f-825c-85201a54e09e")
 	)
@@ -1702,7 +1626,7 @@
 	)
 	(hierarchical_label "I_Sense"
 		(shape input)
-		(at 99.06 58.42 0)
+		(at 29.21 119.38 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1712,454 +1636,33 @@
 		(uuid "f1d56775-0b05-4352-8674-1aed21fc50bb")
 	)
 	(symbol
-		(lib_id "NUCLEO-G474RE_3p:NUCLEO-G474RE")
-		(at 68.58 106.68 0)
-		(unit 2)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "321f2a1e-ea60-4cd1-9fb6-d025aa75aa3c")
-		(property "Reference" "U2"
-			(at 68.58 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "NUCLEO-G474RE"
-			(at 68.58 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "NUCLEO-G474RE:MODULE_NUCLEO-G474RE"
-			(at 68.58 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 68.58 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 68.58 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" "STMicroelectronics"
-			(at 68.58 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "20.7mm"
-			(at 68.58 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "None"
-			(at 68.58 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
-			(at 68.58 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/NUCLEO-G474RE/STMicroelectronics/view-part/?ref=eda"
-			(at 68.58 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" "Manufacturer Recommendations"
-			(at 68.58 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" "17"
-			(at 68.58 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/NUCLEO-G474RE/STMicroelectronics/view-part/?ref=snap"
-			(at 68.58 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "NUCLEO-G474RE"
-			(at 68.58 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=3662258&manufacturer=STMicroelectronics&part_name=NUCLEO-G474RE&search_term=None"
-			(at 68.58 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "STM32G474 Nucleo-64 STM32G4 ARM® Cortex®-M4 MCU 32-Bit Embedded Evaluation Board"
-			(at 68.58 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 68.58 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "STmicroelectronics"
-			(at 68.58 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "CN10_16"
-			(uuid "88ba0435-feb2-4cab-a0bd-062b39b0cf6d")
-		)
-		(pin "CN10_26"
-			(uuid "17dc8408-083e-41fe-a14b-e7abd306e305")
-		)
-		(pin "CN10_6"
-			(uuid "acc7f4c9-365e-466c-a2b8-415f12cd1a47")
-		)
-		(pin "CN10_14"
-			(uuid "1c3b580b-a20f-44ab-88c5-0225e550196c")
-		)
-		(pin "CN10_18"
-			(uuid "e3daecc5-bc35-4e9d-945b-605e6dd2639d")
-		)
-		(pin "CN10_10"
-			(uuid "42ae2b28-fb6e-4850-a5bf-ca460b291a02")
-		)
-		(pin "CN10_4"
-			(uuid "45de9557-be88-42c0-8493-052714204451")
-		)
-		(pin "CN10_8"
-			(uuid "bae242ca-f2d9-48fe-901b-8997f0a060d2")
-		)
-		(pin "CN10_12"
-			(uuid "5780633c-3af4-4044-8ec1-c22e27a15a07")
-		)
-		(pin "CN10_20"
-			(uuid "efc00276-736a-4650-a7ab-50976c0ff98e")
-		)
-		(pin "CN10_22"
-			(uuid "32160aa9-d538-4dee-a809-6f1dfb6ac834")
-		)
-		(pin "CN10_24"
-			(uuid "13190575-40d8-4914-87a9-82f84978ebc9")
-		)
-		(pin "CN10_17"
-			(uuid "d8fc97a3-ecc1-4768-9296-907048be1d09")
-		)
-		(pin "CN10_2"
-			(uuid "37179032-e258-44ff-97a0-31a3b235ab59")
-		)
-		(pin "CN10_19"
-			(uuid "3591e0ef-2384-4e95-9c11-e3a33f107dd3")
-		)
-		(pin "CN10_27"
-			(uuid "e6be2390-d2df-4299-836c-79614cf98f87")
-		)
-		(pin "CN10_21"
-			(uuid "951e60ea-bafc-4e18-9b67-0f0e83a6fb82")
-		)
-		(pin "CN10_23"
-			(uuid "7cc135fc-f17f-4f70-8dc7-85e39ca1a14c")
-		)
-		(pin "CN10_29"
-			(uuid "a5e6a659-e241-4742-a937-9fc8c48d02ef")
-		)
-		(pin "CN10_25"
-			(uuid "62fadd84-4f00-4775-ae6d-555180eb1e90")
-		)
-		(pin "CN10_31"
-			(uuid "b45ce3e3-d984-43e3-b919-3da2e1772ba0")
-		)
-		(pin "CN10_33"
-			(uuid "5977915d-17ea-4633-bf55-ab337817e4c8")
-		)
-		(pin "CN10_35"
-			(uuid "6bb87941-56b1-486d-9541-5d24eda5150b")
-		)
-		(pin "CN10_37"
-			(uuid "329d6de6-68d5-453e-8982-706190c4cb84")
-		)
-		(pin "CN10_28"
-			(uuid "a9c1587f-8e43-4502-9223-f96fdf408f36")
-		)
-		(pin "CN10_30"
-			(uuid "e910d702-a650-46ba-a57e-6be89bc01775")
-		)
-		(pin "CN10_32"
-			(uuid "d0b360d5-7c42-4483-bea0-d7793c5bf5ec")
-		)
-		(pin "CN10_38"
-			(uuid "7cc9b185-4215-4f03-96d0-bd15b046f018")
-		)
-		(pin "CN10_36"
-			(uuid "fbd29271-c38c-4258-a7e2-713876811a18")
-		)
-		(pin "CN10_34"
-			(uuid "a560c793-3075-4245-94e9-0d42390a9788")
-		)
-		(pin "CN7_12"
-			(uuid "75ec0a7d-0c1b-4468-bb88-d1716e84a018")
-		)
-		(pin "CN7_30"
-			(uuid "88cf3a22-b444-40d7-8203-ff13a7736898")
-		)
-		(pin "CN7_8"
-			(uuid "4fb1a6d1-b319-4636-a7de-12214c26c980")
-		)
-		(pin "CN7_14"
-			(uuid "dc30ec0c-6fdf-4b7f-8beb-3799753a630a")
-		)
-		(pin "CN7_16"
-			(uuid "4deafd86-b603-4f50-aad1-76d4ed6e74e6")
-		)
-		(pin "CN7_18"
-			(uuid "4080f943-cb3f-4734-adb5-ac77c7f89718")
-		)
-		(pin "CN7_20"
-			(uuid "3239c40e-bb0b-4e84-a49c-e7351f6e8fcd")
-		)
-		(pin "CN7_10"
-			(uuid "550bfbd4-bcb2-4832-960b-ce322f2abd1b")
-		)
-		(pin "CN7_24"
-			(uuid "c881e26d-adca-4e46-b935-2fe3a33e539b")
-		)
-		(pin "CN7_26"
-			(uuid "4edd446c-9923-4ce3-9e56-122de6bc4a7e")
-		)
-		(pin "CN7_22"
-			(uuid "5a4e2316-e71b-4d81-b058-0cd79d8709a7")
-		)
-		(pin "CN7_28"
-			(uuid "4d34101a-e6f0-427a-9724-cabcbb8f3cde")
-		)
-		(pin "CN7_36"
-			(uuid "c6aa384b-73a0-4ebc-8052-f716cf15fca5")
-		)
-		(pin "CN7_38"
-			(uuid "4cd88d1d-b686-45e5-9aa0-d4a28fe03425")
-		)
-		(pin "CN10_13"
-			(uuid "5ab0eabf-74da-4355-8ea7-daee915c2c55")
-		)
-		(pin "CN10_15"
-			(uuid "d532b151-e89e-46f6-a96b-afc7a8e67102")
-		)
-		(pin "CN7_34"
-			(uuid "a232204c-aa3c-4293-ab01-f08d20f30f5a")
-		)
-		(pin "CN7_32"
-			(uuid "56f1f533-8439-4b6f-8cb7-d4f3002dcb17")
-		)
-		(pin "CN10_1"
-			(uuid "a05ed9e8-df94-4e07-9640-5579f25b85b2")
-		)
-		(pin "CN10_5"
-			(uuid "c12313c7-4917-4ea7-91f6-2af8c7d79ee2")
-		)
-		(pin "CN10_9"
-			(uuid "fa6187cd-d1f7-4ae7-8d31-9c7bf8fcc018")
-		)
-		(pin "CN10_3"
-			(uuid "48471679-41b1-4bea-9e9d-a18377665f56")
-		)
-		(pin "CN10_7"
-			(uuid "4fec652d-dce2-4009-b55a-e54a3da97d42")
-		)
-		(pin "CN10_11"
-			(uuid "f44c73f5-f035-4cd6-9103-da75e5022910")
-		)
-		(pin "CN7_2"
-			(uuid "030a9a1a-1217-4241-897a-e4fbb336caed")
-		)
-		(pin "CN7_6"
-			(uuid "70e6c858-5269-4e30-ad70-df5e43048d5c")
-		)
-		(pin "CN7_4"
-			(uuid "b1935641-cb7d-41c4-89e0-090d157958d0")
-		)
-		(pin "CN7_21"
-			(uuid "55fd46f3-6002-49c2-bc6f-4f324832d762")
-		)
-		(pin "CN7_1"
-			(uuid "cb7fe3f4-e607-48c4-9e3d-10f2d621b531")
-		)
-		(pin "CN7_15"
-			(uuid "bd02f082-9f98-4309-8db0-4222002e591b")
-		)
-		(pin "CN7_9"
-			(uuid "4af1e6f7-de1b-4c80-83ff-c65726e1c978")
-		)
-		(pin "CN7_13"
-			(uuid "218df365-4737-4ceb-8f29-0f213920eb4a")
-		)
-		(pin "CN7_19"
-			(uuid "1b657cc4-ed38-4258-8f3b-4bf3b567aee2")
-		)
-		(pin "CN7_3"
-			(uuid "2e0ecae5-cdbc-481b-acde-12c74348c833")
-		)
-		(pin "CN7_7"
-			(uuid "91fe13f1-8891-4545-afde-de4543f9843e")
-		)
-		(pin "CN7_11"
-			(uuid "befca8ed-647f-4134-a7ef-c5e29565b58a")
-		)
-		(pin "CN7_5"
-			(uuid "f9083628-ebe0-4f64-adb9-376b40c078e8")
-		)
-		(pin "CN7_17"
-			(uuid "173a38c2-3934-4c59-990e-6306530c147c")
-		)
-		(pin "CN7_33"
-			(uuid "77bc9851-6a2f-49b3-ac7c-0cd5c65a4a7a")
-		)
-		(pin "CN7_35"
-			(uuid "b9768fd1-b893-4f83-9324-d4b314a11cc9")
-		)
-		(pin "CN7_25"
-			(uuid "144517b4-2b7f-4346-b62c-89ddaee6b06e")
-		)
-		(pin "CN7_37"
-			(uuid "66d101af-c32c-46a6-953c-1e2bcad7bec4")
-		)
-		(pin "CN7_23"
-			(uuid "81c52ffa-1d15-4570-bed3-e5957a731727")
-		)
-		(pin "CN7_27"
-			(uuid "35ef6aa0-990c-4161-9c49-5fc36bc66c9d")
-		)
-		(pin "CN7_29"
-			(uuid "2fa0a299-6c13-4380-9996-3de23660e4da")
-		)
-		(pin "CN7_31"
-			(uuid "ff3b1145-9c01-4f14-b8b0-55efc0c86b5c")
-		)
-		(instances
-			(project ""
-				(path "/ca8b9c62-24ed-451b-8ada-8e095e6c3e3b/c394d021-dbd4-4b5e-82f1-8db0ed20e57b"
-					(reference "U2")
-					(unit 2)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "NUCLEO-G474RE_3p:NUCLEO-G474RE")
-		(at 68.58 48.26 0)
+		(lib_id "NUCLEO-G431KB:NUCLEO-G431KB")
+		(at 80.01 104.14 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "9984d5d4-3509-4656-9b24-6fac04e1221c")
-		(property "Reference" "U5"
-			(at 68.58 17.78 0)
+		(uuid "4f27ad58-a781-473d-be02-e22aa0e400cd")
+		(property "Reference" "U6"
+			(at 80.01 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "NUCLEO-G474RE"
-			(at 68.58 20.32 0)
+		(property "Value" "NUCLEO-G431KB"
+			(at 80.01 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "NUCLEO-G474RE:MODULE_NUCLEO-G474RE"
-			(at 68.58 48.26 0)
+		(property "Footprint" "NUCLEO-G431KB:MODULE_NUCLEO-G431KB"
+			(at 80.01 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2169,7 +1672,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 68.58 48.26 0)
+			(at 80.01 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2178,7 +1681,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 68.58 48.26 0)
+			(at 80.01 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2187,7 +1690,7 @@
 			)
 		)
 		(property "MF" "STMicroelectronics"
-			(at 68.58 48.26 0)
+			(at 80.01 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2196,8 +1699,8 @@
 				(hide yes)
 			)
 		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "20.7mm"
-			(at 68.58 48.26 0)
+		(property "Description_1" "STM32G431 Nucleo-32 STM32G4 ARM® Cortex®-M4 MCU 32-Bit Embedded Evaluation Board"
+			(at 80.01 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2207,7 +1710,7 @@
 			)
 		)
 		(property "Package" "None"
-			(at 68.58 48.26 0)
+			(at 80.01 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2217,7 +1720,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 68.58 48.26 0)
+			(at 80.01 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2226,8 +1729,8 @@
 				(hide yes)
 			)
 		)
-		(property "Check_prices" "https://www.snapeda.com/parts/NUCLEO-G474RE/STMicroelectronics/view-part/?ref=eda"
-			(at 68.58 48.26 0)
+		(property "Check_prices" "https://www.snapeda.com/parts/NUCLEO-G431KB/STMicroelectronics/view-part/?ref=eda"
+			(at 80.01 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2237,7 +1740,7 @@
 			)
 		)
 		(property "STANDARD" "Manufacturer Recommendations"
-			(at 68.58 48.26 0)
+			(at 80.01 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2246,8 +1749,8 @@
 				(hide yes)
 			)
 		)
-		(property "PARTREV" "17"
-			(at 68.58 48.26 0)
+		(property "PARTREV" "2"
+			(at 80.01 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2256,8 +1759,8 @@
 				(hide yes)
 			)
 		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/NUCLEO-G474RE/STMicroelectronics/view-part/?ref=snap"
-			(at 68.58 48.26 0)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/NUCLEO-G431KB/STMicroelectronics/view-part/?ref=snap"
+			(at 80.01 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2266,28 +1769,8 @@
 				(hide yes)
 			)
 		)
-		(property "MP" "NUCLEO-G474RE"
-			(at 68.58 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=3662258&manufacturer=STMicroelectronics&part_name=NUCLEO-G474RE&search_term=None"
-			(at 68.58 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "STM32G474 Nucleo-64 STM32G4 ARM® Cortex®-M4 MCU 32-Bit Embedded Evaluation Board"
-			(at 68.58 48.26 0)
+		(property "MP" "NUCLEO-G431KB"
+			(at 80.01 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2297,7 +1780,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 68.58 48.26 0)
+			(at 80.01 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2306,8 +1789,8 @@
 				(hide yes)
 			)
 		)
-		(property "MANUFACTURER" "STmicroelectronics"
-			(at 68.58 48.26 0)
+		(property "MANUFACTURER" "STMicroelectronics"
+			(at 80.01 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2316,238 +1799,568 @@
 				(hide yes)
 			)
 		)
-		(pin "CN10_16"
-			(uuid "88ba0435-feb2-4cab-a0bd-062b39b0cf6e")
+		(pin "CN4_11"
+			(uuid "da3bc1d1-ce79-4175-be44-9572d97c6e16")
 		)
-		(pin "CN10_26"
-			(uuid "17dc8408-083e-41fe-a14b-e7abd306e306")
+		(pin "CN4_2"
+			(uuid "9c713f0a-af62-4ae5-a5b2-606f5116bf91")
 		)
-		(pin "CN10_6"
-			(uuid "acc7f4c9-365e-466c-a2b8-415f12cd1a48")
+		(pin "CN4_1"
+			(uuid "9ad1a3f7-4d79-46e0-94a6-3b073aa0ebcf")
 		)
-		(pin "CN10_14"
-			(uuid "1c3b580b-a20f-44ab-88c5-0225e550196d")
+		(pin "CN4_12"
+			(uuid "f594d4a7-0980-49ad-8b03-8946a018a6e4")
 		)
-		(pin "CN10_18"
-			(uuid "e3daecc5-bc35-4e9d-945b-605e6dd2639e")
+		(pin "CN4_14"
+			(uuid "0098bbd2-b6de-48a4-ab09-52335b1e23a5")
 		)
-		(pin "CN10_10"
-			(uuid "42ae2b28-fb6e-4850-a5bf-ca460b291a03")
+		(pin "CN4_15"
+			(uuid "3bc52991-c53c-4ce8-975d-5fa2500708b3")
 		)
-		(pin "CN10_4"
-			(uuid "45de9557-be88-42c0-8493-052714204452")
+		(pin "CN2_1"
+			(uuid "5b629b81-f3cc-4ae0-9a46-55fae56ea583")
 		)
-		(pin "CN10_8"
-			(uuid "bae242ca-f2d9-48fe-901b-8997f0a060d3")
+		(pin "CN4_4"
+			(uuid "45d2f611-bb23-4075-876c-172380626328")
 		)
-		(pin "CN10_12"
-			(uuid "5780633c-3af4-4044-8ec1-c22e27a15a08")
+		(pin "CN4_5"
+			(uuid "ab14bc66-502b-465d-9f9e-c5c1681d529c")
 		)
-		(pin "CN10_20"
-			(uuid "efc00276-736a-4650-a7ab-50976c0ff98f")
+		(pin "CN4_7"
+			(uuid "86a460b0-c520-4228-8e7d-dc77658865f2")
 		)
-		(pin "CN10_22"
-			(uuid "32160aa9-d538-4dee-a809-6f1dfb6ac835")
+		(pin "CN4_8"
+			(uuid "10aa4c4f-0272-4456-85c6-f4b0cd9d09f7")
 		)
-		(pin "CN10_24"
-			(uuid "13190575-40d8-4914-87a9-82f84978ebca")
+		(pin "CN4_9"
+			(uuid "3f55ca23-f054-4d1d-aa16-9e548fd4ddd5")
 		)
-		(pin "CN10_17"
-			(uuid "d8fc97a3-ecc1-4768-9296-907048be1d0a")
+		(pin "CN4_6"
+			(uuid "317406a2-d510-4a85-b75a-a90e503d3a8e")
 		)
-		(pin "CN10_2"
-			(uuid "37179032-e258-44ff-97a0-31a3b235ab5a")
+		(pin "CN4_3"
+			(uuid "8ca77fb1-37b4-47ca-a271-d08f93237d7d")
 		)
-		(pin "CN10_19"
-			(uuid "3591e0ef-2384-4e95-9c11-e3a33f107dd4")
+		(pin "CN4_10"
+			(uuid "c9f814f9-d384-4c89-83fd-ba46be4058c4")
 		)
-		(pin "CN10_27"
-			(uuid "e6be2390-d2df-4299-836c-79614cf98f88")
+		(pin "CN4_13"
+			(uuid "d5aebb47-b600-4389-9a6d-b9599a66b454")
 		)
-		(pin "CN10_21"
-			(uuid "951e60ea-bafc-4e18-9b67-0f0e83a6fb83")
+		(pin "CN2_3"
+			(uuid "fbe1ae12-829d-46e4-adc7-687982fab078")
 		)
-		(pin "CN10_23"
-			(uuid "7cc135fc-f17f-4f70-8dc7-85e39ca1a14d")
+		(pin "CN2_4"
+			(uuid "2c540732-6c03-4ef2-9272-455fd1d388ff")
 		)
-		(pin "CN10_29"
-			(uuid "a5e6a659-e241-4742-a937-9fc8c48d02f0")
+		(pin "CN3_11"
+			(uuid "dff4e879-81d8-4c45-b778-4be7635bf86f")
 		)
-		(pin "CN10_25"
-			(uuid "62fadd84-4f00-4775-ae6d-555180eb1e91")
+		(pin "CN2_2"
+			(uuid "ad0e474d-33fb-49ea-a7f2-75b3e997a469")
 		)
-		(pin "CN10_31"
-			(uuid "b45ce3e3-d984-43e3-b919-3da2e1772ba1")
+		(pin "CN3_1"
+			(uuid "6ee286ec-52af-464d-a559-b8881473a7c5")
 		)
-		(pin "CN10_33"
-			(uuid "5977915d-17ea-4633-bf55-ab337817e4c9")
+		(pin "CN3_4"
+			(uuid "28df03d6-3004-42b6-b912-623831f790e9")
 		)
-		(pin "CN10_35"
-			(uuid "6bb87941-56b1-486d-9541-5d24eda5150c")
+		(pin "CN3_6"
+			(uuid "bf3078b5-90b9-4208-90f5-4e52a008e439")
 		)
-		(pin "CN10_37"
-			(uuid "329d6de6-68d5-453e-8982-706190c4cb85")
+		(pin "CN3_8"
+			(uuid "0c23bedb-b0ed-4d9e-bbe7-0fea4558ea79")
 		)
-		(pin "CN10_28"
-			(uuid "a9c1587f-8e43-4502-9223-f96fdf408f37")
+		(pin "CN3_10"
+			(uuid "1487158b-4426-4d37-9bfd-7fde1ed018bc")
 		)
-		(pin "CN10_30"
-			(uuid "e910d702-a650-46ba-a57e-6be89bc01776")
+		(pin "CN3_9"
+			(uuid "d342edf2-ea11-40d1-966e-ab8dfc1b0c8f")
 		)
-		(pin "CN10_32"
-			(uuid "d0b360d5-7c42-4483-bea0-d7793c5bf5ed")
+		(pin "CN3_12"
+			(uuid "0bf5ad23-1d9b-43a3-bc14-0758218b7ec4")
 		)
-		(pin "CN10_38"
-			(uuid "7cc9b185-4215-4f03-96d0-bd15b046f019")
+		(pin "CN3_14"
+			(uuid "e03b7db6-94b1-4e64-acb4-9946d64f7978")
 		)
-		(pin "CN10_36"
-			(uuid "fbd29271-c38c-4258-a7e2-713876811a19")
+		(pin "CN3_3"
+			(uuid "c2e9ef90-533b-4a3e-8e9c-8e9f9964c854")
 		)
-		(pin "CN10_34"
-			(uuid "a560c793-3075-4245-94e9-0d42390a9789")
+		(pin "CN3_5"
+			(uuid "706f18b8-4172-4cc6-914e-a6999cb802d5")
 		)
-		(pin "CN7_12"
-			(uuid "75ec0a7d-0c1b-4468-bb88-d1716e84a019")
+		(pin "CN3_2"
+			(uuid "3e2cad3e-5743-4183-8764-bc7ec1026250")
 		)
-		(pin "CN7_30"
-			(uuid "88cf3a22-b444-40d7-8203-ff13a7736899")
+		(pin "CN3_7"
+			(uuid "a50100ab-b60f-46e1-ae98-4c1e60640f1f")
 		)
-		(pin "CN7_8"
-			(uuid "4fb1a6d1-b319-4636-a7de-12214c26c981")
+		(pin "CN3_13"
+			(uuid "0b71fe4c-0126-4512-b01d-7fb362a9bc3e")
 		)
-		(pin "CN7_14"
-			(uuid "dc30ec0c-6fdf-4b7f-8beb-3799753a630b")
-		)
-		(pin "CN7_16"
-			(uuid "4deafd86-b603-4f50-aad1-76d4ed6e74e7")
-		)
-		(pin "CN7_18"
-			(uuid "4080f943-cb3f-4734-adb5-ac77c7f89719")
-		)
-		(pin "CN7_20"
-			(uuid "3239c40e-bb0b-4e84-a49c-e7351f6e8fce")
-		)
-		(pin "CN7_10"
-			(uuid "550bfbd4-bcb2-4832-960b-ce322f2abd1c")
-		)
-		(pin "CN7_24"
-			(uuid "c881e26d-adca-4e46-b935-2fe3a33e539c")
-		)
-		(pin "CN7_26"
-			(uuid "4edd446c-9923-4ce3-9e56-122de6bc4a7f")
-		)
-		(pin "CN7_22"
-			(uuid "5a4e2316-e71b-4d81-b058-0cd79d8709a8")
-		)
-		(pin "CN7_28"
-			(uuid "4d34101a-e6f0-427a-9724-cabcbb8f3cdf")
-		)
-		(pin "CN7_36"
-			(uuid "c6aa384b-73a0-4ebc-8052-f716cf15fca6")
-		)
-		(pin "CN7_38"
-			(uuid "4cd88d1d-b686-45e5-9aa0-d4a28fe03426")
-		)
-		(pin "CN10_13"
-			(uuid "5ab0eabf-74da-4355-8ea7-daee915c2c56")
-		)
-		(pin "CN10_15"
-			(uuid "d532b151-e89e-46f6-a96b-afc7a8e67103")
-		)
-		(pin "CN7_34"
-			(uuid "a232204c-aa3c-4293-ab01-f08d20f30f5b")
-		)
-		(pin "CN7_32"
-			(uuid "56f1f533-8439-4b6f-8cb7-d4f3002dcb18")
-		)
-		(pin "CN10_1"
-			(uuid "a05ed9e8-df94-4e07-9640-5579f25b85b3")
-		)
-		(pin "CN10_5"
-			(uuid "c12313c7-4917-4ea7-91f6-2af8c7d79ee3")
-		)
-		(pin "CN10_9"
-			(uuid "fa6187cd-d1f7-4ae7-8d31-9c7bf8fcc019")
-		)
-		(pin "CN10_3"
-			(uuid "48471679-41b1-4bea-9e9d-a18377665f57")
-		)
-		(pin "CN10_7"
-			(uuid "4fec652d-dce2-4009-b55a-e54a3da97d43")
-		)
-		(pin "CN10_11"
-			(uuid "f44c73f5-f035-4cd6-9103-da75e5022911")
-		)
-		(pin "CN7_2"
-			(uuid "030a9a1a-1217-4241-897a-e4fbb336caee")
-		)
-		(pin "CN7_6"
-			(uuid "70e6c858-5269-4e30-ad70-df5e43048d5d")
-		)
-		(pin "CN7_4"
-			(uuid "b1935641-cb7d-41c4-89e0-090d157958d1")
-		)
-		(pin "CN7_21"
-			(uuid "55fd46f3-6002-49c2-bc6f-4f324832d763")
-		)
-		(pin "CN7_1"
-			(uuid "cb7fe3f4-e607-48c4-9e3d-10f2d621b532")
-		)
-		(pin "CN7_15"
-			(uuid "bd02f082-9f98-4309-8db0-4222002e591c")
-		)
-		(pin "CN7_9"
-			(uuid "4af1e6f7-de1b-4c80-83ff-c65726e1c979")
-		)
-		(pin "CN7_13"
-			(uuid "218df365-4737-4ceb-8f29-0f213920eb4b")
-		)
-		(pin "CN7_19"
-			(uuid "1b657cc4-ed38-4258-8f3b-4bf3b567aee3")
-		)
-		(pin "CN7_3"
-			(uuid "2e0ecae5-cdbc-481b-acde-12c74348c834")
-		)
-		(pin "CN7_7"
-			(uuid "91fe13f1-8891-4545-afde-de4543f9843f")
-		)
-		(pin "CN7_11"
-			(uuid "befca8ed-647f-4134-a7ef-c5e29565b58b")
-		)
-		(pin "CN7_5"
-			(uuid "f9083628-ebe0-4f64-adb9-376b40c078e9")
-		)
-		(pin "CN7_17"
-			(uuid "173a38c2-3934-4c59-990e-6306530c147d")
-		)
-		(pin "CN7_33"
-			(uuid "77bc9851-6a2f-49b3-ac7c-0cd5c65a4a7b")
-		)
-		(pin "CN7_35"
-			(uuid "b9768fd1-b893-4f83-9324-d4b314a11cca")
-		)
-		(pin "CN7_25"
-			(uuid "144517b4-2b7f-4346-b62c-89ddaee6b06f")
-		)
-		(pin "CN7_37"
-			(uuid "66d101af-c32c-46a6-953c-1e2bcad7bec5")
-		)
-		(pin "CN7_23"
-			(uuid "81c52ffa-1d15-4570-bed3-e5957a731728")
-		)
-		(pin "CN7_27"
-			(uuid "35ef6aa0-990c-4161-9c49-5fc36bc66c9e")
-		)
-		(pin "CN7_29"
-			(uuid "2fa0a299-6c13-4380-9996-3de23660e4db")
-		)
-		(pin "CN7_31"
-			(uuid "ff3b1145-9c01-4f14-b8b0-55efc0c86b5d")
+		(pin "CN3_15"
+			(uuid "b97f8251-4b94-48a8-99a7-16c652a03cc2")
 		)
 		(instances
 			(project ""
 				(path "/ca8b9c62-24ed-451b-8ada-8e095e6c3e3b/c394d021-dbd4-4b5e-82f1-8db0ed20e57b"
-					(reference "U5")
+					(reference "U6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "M20-7821546:M20-7821546")
+		(at 168.91 140.97 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e15cb0d1-ee7a-41f6-b37b-c31d5bf5caec")
+		(property "Reference" "J7"
+			(at 168.91 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "M20-7821546"
+			(at 168.91 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "M20-7821546:HARWIN_M20-7821546"
+			(at 168.91 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 168.91 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 168.91 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Harwin"
+			(at 168.91 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 168.91 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "None"
+			(at 168.91 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 168.91 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/M20-7821546/Harwin/view-part/?ref=eda"
+			(at 168.91 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 168.91 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" ""
+			(at 168.91 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/M20-7821546/Harwin/view-part/?ref=snap"
+			(at 168.91 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "M20-7821546"
+			(at 168.91 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "2.54mm (0.1) Pitch SIL Vertical Throughboard Socket Assembly, tin, 15 contacts"
+			(at 168.91 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 168.91 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "HARWIN"
+			(at 168.91 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "14"
+			(uuid "ce26bea5-ea6c-49ac-9ecb-fe44ca9e5d93")
+		)
+		(pin "1"
+			(uuid "c6c4981f-6091-4016-b726-1d396f85b7ac")
+		)
+		(pin "5"
+			(uuid "f4fac46c-2774-4b19-887e-1617ee7e8f7c")
+		)
+		(pin "10"
+			(uuid "37727599-3698-4fbc-97a7-20ef1aade838")
+		)
+		(pin "15"
+			(uuid "e1d2dfef-b61a-4411-9290-93b174eb3775")
+		)
+		(pin "3"
+			(uuid "2192e3b1-1210-47cc-b1b6-67b0ff7fc620")
+		)
+		(pin "2"
+			(uuid "7ab2a2ca-67c8-4f41-8e55-2bbbc7cbbb9d")
+		)
+		(pin "11"
+			(uuid "4c352be5-3d46-4903-b85b-d20da9936e64")
+		)
+		(pin "8"
+			(uuid "d2ca60e9-13a1-40fb-99d8-32f740624a9b")
+		)
+		(pin "4"
+			(uuid "43038bf8-303f-4466-ba4d-700141d8fe6a")
+		)
+		(pin "13"
+			(uuid "0ed95bd0-38a2-48fc-a224-719c3d28b0bc")
+		)
+		(pin "6"
+			(uuid "1973ff7d-085e-4716-92a1-f2f957ba7f3c")
+		)
+		(pin "12"
+			(uuid "4a69a7fa-aebc-4ee3-baca-4e039d03ddb3")
+		)
+		(pin "7"
+			(uuid "203878f8-4a6a-4ad8-8077-3bf50096895c")
+		)
+		(pin "9"
+			(uuid "c065bd6c-1337-4c90-b249-0ba9d9637842")
+		)
+		(instances
+			(project "Adrion_1"
+				(path "/ca8b9c62-24ed-451b-8ada-8e095e6c3e3b/c394d021-dbd4-4b5e-82f1-8db0ed20e57b"
+					(reference "J7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "M20-7821546:M20-7821546")
+		(at 128.27 143.51 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e3a358a7-e479-4ef9-98b1-fa2ed3c0b0ec")
+		(property "Reference" "J6"
+			(at 128.27 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "M20-7821546"
+			(at 128.27 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "M20-7821546:HARWIN_M20-7821546"
+			(at 128.27 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 128.27 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 128.27 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Harwin"
+			(at 128.27 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 128.27 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "None"
+			(at 128.27 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 128.27 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/M20-7821546/Harwin/view-part/?ref=eda"
+			(at 128.27 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 128.27 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" ""
+			(at 128.27 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/M20-7821546/Harwin/view-part/?ref=snap"
+			(at 128.27 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "M20-7821546"
+			(at 128.27 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "2.54mm (0.1) Pitch SIL Vertical Throughboard Socket Assembly, tin, 15 contacts"
+			(at 128.27 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 128.27 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "HARWIN"
+			(at 128.27 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "14"
+			(uuid "1d286d1e-f2ed-4eb0-b223-7f39725c0cac")
+		)
+		(pin "1"
+			(uuid "3751173a-2c83-4d05-868b-6c700e073bde")
+		)
+		(pin "5"
+			(uuid "b1d312dc-6e0d-4c99-98fc-b0b74e92e9ac")
+		)
+		(pin "10"
+			(uuid "a5b5e5e4-4018-42c8-bd03-a23e6fc333a7")
+		)
+		(pin "15"
+			(uuid "4656564a-8745-47a0-8a83-a460707a49d0")
+		)
+		(pin "3"
+			(uuid "7f374c05-d87a-4505-a4b5-3e664b343825")
+		)
+		(pin "2"
+			(uuid "077519a8-10e4-4b9d-8bd5-2110a427b893")
+		)
+		(pin "11"
+			(uuid "48306b17-86b7-484d-9b43-f1895f68ab6d")
+		)
+		(pin "8"
+			(uuid "a7d1b273-41ad-483a-9b76-a2fecd08ec63")
+		)
+		(pin "4"
+			(uuid "3dcbfa56-8918-44f9-9167-58ed9f08e5f4")
+		)
+		(pin "13"
+			(uuid "cb17ed92-435d-4360-b71f-0aad5d814840")
+		)
+		(pin "6"
+			(uuid "723e54a4-85e3-4721-bc2b-dd7a073f14a4")
+		)
+		(pin "12"
+			(uuid "cfe7efdf-80dc-4fa1-9b1f-9d28bda86410")
+		)
+		(pin "7"
+			(uuid "da76ecea-b705-4170-824e-798f678d36ae")
+		)
+		(pin "9"
+			(uuid "f76314c1-1fda-4dec-bc5d-a16f0a456152")
+		)
+		(instances
+			(project ""
+				(path "/ca8b9c62-24ed-451b-8ada-8e095e6c3e3b/c394d021-dbd4-4b5e-82f1-8db0ed20e57b"
+					(reference "J6")
 					(unit 1)
 				)
 			)

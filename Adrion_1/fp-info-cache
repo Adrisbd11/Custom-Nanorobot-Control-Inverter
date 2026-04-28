@@ -1,4 +1,25 @@
-26738487564096854
+26752704344057414
+1705469
+1705469
+1705469-1
+Connector
+0
+2
+2
+1729128_2.0
+1729128
+1729128
+Connector
+0
+2
+2
+61301811821
+61301811821
+
+
+0
+18
+18
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -2820,6 +2841,13 @@ Capacitor Polarised
 0
 2
 2
+CKSR6NP
+CKSR6NP
+CKSR 6-NP
+Undefined or Miscellaneous
+0
+12
+12
 Calibration_Scale
 Gauge_10mm_Type1_CopperTop
 Gauge, Massstab, 10mm, CopperTop, Type 1,
@@ -62467,6 +62495,13 @@ GDT 3R-6
 0
 3
 3
+HARWIN_M20-7821546
+HARWIN_M20-7821546
+
+
+0
+15
+15
 Heatsink
 Heatsink_35x26mm_1xFixation3mm_Fischer-SK486-35
 Heatsink, 35mm x 26mm, 1x Fixation 3mm, Fischer SK486-35
@@ -70622,6 +70657,13 @@ Capacitor
 0
 2
 2
+MODULE_NUCLEO-G431KB
+MODULE_NUCLEO-G431KB
+
+
+0
+34
+34
 MSS1P4-M3_89A
 MICROSMP
 MicroSMP
@@ -74780,6 +74822,13 @@ DIL DIP PDIP 2.54mm 7.62mm 300mil
 0
 4
 4
+PHOENIX_1729128
+PHOENIX_1729128
+
+
+0
+2
+2
 Package_BGA
 Alliance_TFBGA-36_6x8mm_Layout6x8_P0.75mm
 Alliance TFBGA-36, NSMD, 6.0x8.0mm, 36 Ball, 6x8 Layout, 0.75mm Pitch, generated with kicad-footprint-generator ipc_bga_generator.py, https://www.alliancememory.com/wp-content/uploads/pdf/AS6C1008_Mar_2023V1.2.pdf#page=13
@@ -97322,8 +97371,8 @@ rotary encoder illuminated switch vertical
 8
 SOIC127P1030X265-16N
 SOIC127P1030X265-16N
-
-
+DW0016B
+Integrated Circuit
 0
 16
 16
@@ -99448,6 +99497,13 @@ Logo WEEE
 0
 0
 0
+TO254P457X1003X2115-3P
+TO254P457X1003X2115-3P
+IGP40N65F5
+MOSFET (N-Channel)
+0
+3
+3
 TO255P460X1020X1905-3P
 TO255P460X1020X1905-3P
 TO-220AB narrow

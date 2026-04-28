@@ -1444,43 +1444,28 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "IPP111N15N3GXKSA1:IPP111N15N3GXKSA1"
-			(pin_names
-				(hide yes)
-			)
+		(symbol "IPT034N15NM6ATMA1_1"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "Q"
-				(at 11.43 3.81 0)
+			(property "Reference" "Q3"
+				(at 13.462 -22.606 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left top)
 				)
 			)
-			(property "Value" "IPP111N15N3GXKSA1"
-				(at 11.43 1.27 0)
+			(property "Value" "IPT034N15NM6ATMA1"
+				(at 11.176 -24.13 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left top)
 				)
 			)
-			(property "Footprint" "TO254P457X1003X2115-3P"
-				(at 11.43 -98.73 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://componentsearchengine.com/Datasheets/2/IPP111N15N3GXKSA1.pdf"
-				(at 11.43 -198.73 0)
+			(property "Footprint" "IAUT150N10S5N035ATMA1"
+				(at 21.59 -94.92 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1489,7 +1474,17 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "MOSFET N-Ch 150V 83A TO220-3 OptiMOS 3"
+			(property "Datasheet" "https://www.infineon.com/assets/row/public/documents/24/49/infineon-ipt034n15nm6-datasheet-en.pdf"
+				(at 21.59 -194.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "MOSFETs OptiMOS 6 power MOSFET 150 V normal level in TOLL package"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1498,8 +1493,8 @@
 					(hide yes)
 				)
 			)
-			(property "Height" "4.57"
-				(at 11.43 -398.73 0)
+			(property "Height" ""
+				(at 21.59 -394.92 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1509,7 +1504,7 @@
 				)
 			)
 			(property "Manufacturer_Name" "Infineon"
-				(at 11.43 -498.73 0)
+				(at 21.59 -494.92 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1518,8 +1513,8 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer_Part_Number" "IPP111N15N3GXKSA1"
-				(at 11.43 -598.73 0)
+			(property "Manufacturer_Part_Number" "IPT034N15NM6ATMA1"
+				(at 21.59 -594.92 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1528,8 +1523,8 @@
 					(hide yes)
 				)
 			)
-			(property "Mouser Part Number" "726-IPP111N15N3GXKSA"
-				(at 11.43 -698.73 0)
+			(property "Mouser Part Number" "726-IPT034N15NM6ATMA"
+				(at 21.59 -694.92 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1538,8 +1533,8 @@
 					(hide yes)
 				)
 			)
-			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Infineon-Technologies/IPP111N15N3GXKSA1?qs=OwbwYO03UsJO1bujDVMB%2Fw%3D%3D"
-				(at 11.43 -798.73 0)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Infineon-Technologies/IPT034N15NM6ATMA1?qs=7%2F6SraaimPSH5LUgDMi%2FsQ%3D%3D"
+				(at 21.59 -794.92 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1548,8 +1543,8 @@
 					(hide yes)
 				)
 			)
-			(property "Arrow Part Number" "IPP111N15N3GXKSA1"
-				(at 11.43 -898.73 0)
+			(property "Arrow Part Number" ""
+				(at 21.59 -894.92 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1558,8 +1553,8 @@
 					(hide yes)
 				)
 			)
-			(property "Arrow Price/Stock" "https://www.arrow.com/en/products/ipp111n15n3gxksa1/infineon-technologies-ag?region=europe"
-				(at 11.43 -998.73 0)
+			(property "Arrow Price/Stock" ""
+				(at 21.59 -994.92 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1568,153 +1563,165 @@
 					(hide yes)
 				)
 			)
-			(symbol "IPP111N15N3GXKSA1_1_1"
-				(polyline
-					(pts
-						(xy 2.54 0) (xy 5.08 0)
-					)
+			(symbol "IPT034N15NM6ATMA1_1_1_1"
+				(rectangle
+					(start 5.08 0)
+					(end 16.51 -21.59)
 					(stroke
 						(width 0.254)
 						(type default)
 					)
 					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 5.08) (xy 5.08 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.842 5.588) (xy 5.842 4.572)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.842 2.54) (xy 6.858 3.048) (xy 6.858 2.032) (xy 5.842 2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.842 2.032) (xy 5.842 3.048)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.842 0) (xy 7.62 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.842 -0.508) (xy 5.842 0.508)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 6.35 2.54)
-					(radius 3.81)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 5.08) (xy 5.842 5.08)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 5.08) (xy 7.62 7.62)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 2.54) (xy 5.842 2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 2.54) (xy 7.62 -2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
+						(type background)
 					)
 				)
 				(pin passive line
-					(at 0 0 0)
-					(length 2.54)
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "S_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 0)
+					(length 5.08)
+					(name "S_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -7.62 0)
+					(length 5.08)
+					(name "S_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -10.16 0)
+					(length 5.08)
+					(name "S_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -12.7 0)
+					(length 5.08)
+					(name "S_5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -15.24 0)
+					(length 5.08)
+					(name "S_6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -17.78 0)
+					(length 5.08)
+					(name "S_7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -20.32 0)
+					(length 5.08)
+					(name "S_8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 11.43 5.08 270)
+					(length 5.08)
 					(name "G"
 						(effects
 							(font
@@ -1731,16 +1738,16 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 10.16 270)
-					(length 2.54)
-					(name "D"
+					(at 21.59 -5.08 180)
+					(length 5.08)
+					(name "D_1"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "2"
+					(number "9"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1749,16 +1756,34 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 -5.08 90)
-					(length 2.54)
-					(name "S"
+					(at 21.59 -7.62 180)
+					(length 5.08)
+					(name "D_2"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "3"
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 21.59 -10.16 180)
+					(length 5.08)
+					(name "D_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1993,42 +2018,52 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "MSS1P4-M3_89A_2:MSS1P4-M3_89A"
+		(symbol "MSS1P4-M3_89A:MSS1P4-M3_89A"
 			(pin_names
-				(offset 1.016)
+				(offset 0.762)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "D"
-				(at -2.2887 1.9072 0)
+				(at 12.7 8.89 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left bottom)
+					(justify left)
 				)
 			)
 			(property "Value" "MSS1P4-M3_89A"
-				(at -2.2926 -3.4388 0)
+				(at 12.7 6.35 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left bottom)
+					(justify left)
 				)
 			)
-			(property "Footprint" "MSS1P4-M3_89A:DIODE_MSS1P4-M3_89A"
-				(at 0 0 0)
+			(property "Footprint" "MICROSMP"
+				(at 12.7 3.81 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify bottom)
+					(justify left)
 					(hide yes)
 				)
 			)
-			(property "Datasheet" ""
+			(property "Datasheet" "https://www.vishay.com/docs/89019/mss1p4.pdf"
+				(at 12.7 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "Vishay MSS1P4-M3/89A SMT Schottky Diode, 40V 1A, 2-Pin uSMP"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2037,258 +2072,195 @@
 					(hide yes)
 				)
 			)
-			(property "Description" ""
-				(at 0 0 0)
+			(property "Description_1" "Vishay MSS1P4-M3/89A SMT Schottky Diode, 40V 1A, 2-Pin uSMP"
+				(at 12.7 -1.27 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 					(hide yes)
 				)
 			)
-			(property "MF" "Vishay Semiconductor"
-				(at 0 0 0)
+			(property "Height" ""
+				(at 12.7 -3.81 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify bottom)
+					(justify left)
 					(hide yes)
 				)
 			)
-			(property "DESCRIPTION" "MSS2P3 Series 30 V 2 A Surface Mount Schottky Barrier Rectifier - MicroSMP"
-				(at 0 0 0)
+			(property "Manufacturer_Name" "Vishay"
+				(at 12.7 -6.35 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify bottom)
+					(justify left)
 					(hide yes)
 				)
 			)
-			(property "PACKAGE" "MicroSMP Vishay Semiconductor"
-				(at 0 0 0)
+			(property "Manufacturer_Part_Number" "MSS1P4-M3/89A"
+				(at 12.7 -8.89 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify bottom)
+					(justify left)
 					(hide yes)
 				)
 			)
-			(property "Price" "None"
-				(at 0 0 0)
+			(property "Mouser Part Number" "625-MSS1P4-M3"
+				(at 12.7 -11.43 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify bottom)
+					(justify left)
 					(hide yes)
 				)
 			)
-			(property "Package" "MicroSMP Vishay Semiconductor"
-				(at 0 0 0)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Vishay-General-Semiconductor/MSS1P4-M3-89A?qs=fLSHF8TigmUkO6GnwlXAxQ%3D%3D"
+				(at 12.7 -13.97 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify bottom)
+					(justify left)
 					(hide yes)
 				)
 			)
-			(property "Check_prices" "https://www.snapeda.com/parts/MSS1P4-M3/89A/Vishay/view-part/?ref=eda"
-				(at 0 0 0)
+			(property "Arrow Part Number" "MSS1P4-M3/89A"
+				(at 12.7 -16.51 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify bottom)
+					(justify left)
 					(hide yes)
 				)
 			)
-			(property "SnapEDA_Link" "https://www.snapeda.com/parts/MSS1P4-M3/89A/Vishay/view-part/?ref=snap"
-				(at 0 0 0)
+			(property "Arrow Price/Stock" "https://www.arrow.com/en/products/mss1p4-m389a/vishay?utm_currency=USD&region=europe"
+				(at 12.7 -19.05 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "MP" "MSS1P4-M3/89A"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Availability" "In Stock"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Description_1" "Diode Schottky 40 V 1A Surface Mount MicroSMP (DO-219AD)"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
+					(justify left)
 					(hide yes)
 				)
 			)
 			(symbol "MSS1P4-M3_89A_0_0"
-				(polyline
-					(pts
-						(xy -1.27 1.27) (xy -1.27 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -1.27) (xy 1.27 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.635 -1.016) (xy 0.635 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 1.27) (xy 1.27 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy -1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy 1.27 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -1.27) (xy 0.635 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.905 1.27) (xy 1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.905 1.27) (xy 1.905 1.016)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
 				(pin passive line
-					(at -2.54 0 0)
+					(at 2.54 0 0)
 					(length 2.54)
 					(name "~"
 						(effects
 							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 0 180)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
 					(number "1"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
+					)
+				)
+				(pin passive line
+					(at 17.78 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "MSS1P4-M3_89A_0_1"
+				(polyline
+					(pts
+						(xy 5.08 0) (xy 7.62 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 2.54) (xy 7.62 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 2.54) (xy 8.636 2.54) (xy 8.636 1.524)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 0) (xy 12.7 2.54) (xy 12.7 -2.54) (xy 7.62 0)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -2.54) (xy 6.604 -2.54) (xy 6.604 -1.524)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 12.7 0) (xy 15.24 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
 					)
 				)
 			)
@@ -3396,47 +3368,42 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "UCC21521DW_2:UCC21521DW"
+		(symbol "UCC21521DW:UCC21521DW"
+			(pin_names
+				(offset 1.016)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "IC2"
-				(at 14.732 15.24 0)
+			(property "Reference" "U"
+				(at -12.7 21.32 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left bottom)
 				)
 			)
 			(property "Value" "UCC21521DW"
-				(at 14.986 13.462 0)
+				(at -12.7 -24.32 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left bottom)
 				)
 			)
-			(property "Footprint" "SOIC127P1030X265-16N"
-				(at 26.67 -94.92 0)
+			(property "Footprint" "UCC21521DW:SOIC127P1030X265-16N"
+				(at 1.778 26.67 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left top)
+					(justify bottom)
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "http://www.ti.com/lit/gpn/ucc21521"
-				(at 26.67 -194.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Description" "4-A, 6-A, 5.7-kVRMS Isolated Dual-Channel Gate Driver with Enable"
+			(property "Datasheet" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -3445,372 +3412,337 @@
 					(hide yes)
 				)
 			)
-			(property "Height" "2.65"
-				(at 26.67 -394.92 0)
+			(property "Description" ""
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left top)
 					(hide yes)
 				)
 			)
-			(property "Manufacturer_Name" "Texas Instruments"
-				(at 26.67 -494.92 0)
+			(property "MF" "Texas Instruments"
+				(at -0.254 24.638 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left top)
+					(justify bottom)
 					(hide yes)
 				)
 			)
-			(property "Manufacturer_Part_Number" "UCC21521DW"
-				(at 26.67 -594.92 0)
+			(property "Description_1" "5.7kVrms, 4A/6A dual-channel isolated gate driver with dual input, enable, 8V UVLO & LGA pack"
+				(at 1.016 32.766 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left top)
+					(justify bottom)
 					(hide yes)
 				)
 			)
-			(property "Mouser Part Number" "595-UCC21521DW"
-				(at 26.67 -694.92 0)
+			(property "Package" "SOIC-16 Texas Instruments"
+				(at -2.032 27.178 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left top)
+					(justify bottom)
 					(hide yes)
 				)
 			)
-			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/UCC21521DW?qs=8N88piwwHEh1S1VLrhQOJw%3D%3D"
-				(at 26.67 -794.92 0)
+			(property "Price" "None"
+				(at 0 26.162 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left top)
+					(justify bottom)
 					(hide yes)
 				)
 			)
-			(property "Arrow Part Number" "UCC21521DW"
-				(at 26.67 -894.92 0)
+			(property "SnapEDA_Link" "https://www.snapeda.com/parts/UCC21521DW/Texas+Instruments/view-part/?ref=snap"
+				(at 2.286 28.956 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left top)
+					(justify bottom)
 					(hide yes)
 				)
 			)
-			(property "Arrow Price/Stock" "https://www.arrow.com/en/products/ucc21521dw/texas-instruments?region=nac"
-				(at 26.67 -994.92 0)
+			(property "MP" "UCC21521DW"
+				(at 1.524 22.606 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left top)
+					(justify bottom)
 					(hide yes)
 				)
 			)
-			(symbol "UCC21521DW_1_1"
+			(property "Availability" "In Stock"
+				(at -0.254 25.654 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Check_prices" "https://www.snapeda.com/parts/UCC21521DW/Texas+Instruments/view-part/?ref=eda"
+				(at 0.508 31.242 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(symbol "UCC21521DW_0_0"
 				(rectangle
-					(start 5.08 11.43)
-					(end 25.4 -27.94)
+					(start -12.7 20.32)
+					(end 12.7 -20.32)
 					(stroke
-						(width 0.254)
+						(width 0.41)
 						(type default)
 					)
 					(fill
 						(type background)
 					)
 				)
-				(pin passive line
-					(at 0 8.89 0)
+				(pin input line
+					(at -17.78 13.97 0)
 					(length 5.08)
 					(name "INA"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 					(number "1"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 				)
-				(pin passive line
-					(at 0 5.08 0)
+				(pin input line
+					(at -17.78 10.16 0)
 					(length 5.08)
 					(name "INB"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 					(number "2"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 				)
-				(pin passive line
-					(at 0 1.27 0)
+				(pin power_in line
+					(at -17.78 7.62 0)
 					(length 5.08)
-					(name "VCCI_1"
+					(name "VCCI-1"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 					(number "3"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 				)
-				(pin passive line
-					(at 0 -5.08 0)
+				(pin power_in line
+					(at -17.78 0 0)
 					(length 5.08)
 					(name "GND"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 					(number "4"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 				)
-				(pin passive line
-					(at 0 -11.43 0)
+				(pin input line
+					(at -17.78 -6.35 0)
 					(length 5.08)
 					(name "EN"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 					(number "5"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 				)
-				(pin passive line
-					(at 0 -16.51 0)
+				(pin input line
+					(at -17.78 -10.16 0)
 					(length 5.08)
 					(name "DT"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 					(number "6"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 				)
-				(pin passive line
-					(at 0 -25.4 0)
+				(pin power_in line
+					(at -17.78 -15.24 0)
 					(length 5.08)
-					(name "VCCI_2"
+					(name "VCCI"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 					(number "8"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 				)
-				(pin passive line
-					(at 1.27 -21.59 0)
-					(length 5.08)
-					(name "NC_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 30.48 8.89 180)
+				(pin power_in line
+					(at 17.78 12.7 180)
 					(length 5.08)
 					(name "VDDA"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 					(number "16"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 				)
-				(pin passive line
-					(at 30.48 5.08 180)
+				(pin output line
+					(at 17.78 8.89 180)
 					(length 5.08)
 					(name "OUTA"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 					(number "15"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 				)
-				(pin passive line
-					(at 30.48 1.27 180)
+				(pin power_in line
+					(at 17.78 5.08 180)
 					(length 5.08)
 					(name "VSSA"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 					(number "14"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 				)
-				(pin passive line
-					(at 30.48 -2.54 180)
-					(length 5.08)
-					(name "NC_3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "13"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 30.48 -5.08 180)
-					(length 5.08)
-					(name "NC_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 30.48 -10.16 180)
+				(pin power_in line
+					(at 17.78 -6.35 180)
 					(length 5.08)
 					(name "VDDB"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 					(number "11"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 				)
-				(pin passive line
-					(at 30.48 -15.24 180)
+				(pin output line
+					(at 17.78 -10.16 180)
 					(length 5.08)
 					(name "OUTB"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 					(number "10"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 				)
-				(pin passive line
-					(at 30.48 -20.32 180)
+				(pin power_in line
+					(at 17.78 -13.97 180)
 					(length 5.08)
 					(name "VSSB"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 					(number "9"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
@@ -4384,28 +4316,6 @@
 		)
 		(uuid "6ca42adb-d026-4899-ac36-398628741232")
 	)
-	(text_box "D1,D2,D3,D4 No tienen courtyard\n"
-		(exclude_from_sim no)
-		(at 11.43 96.52 0)
-		(size 22.86 5.08)
-		(margins 0.9525 0.9525 0.9525 0.9525)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(fill
-			(type color)
-			(color 255 8 0 1)
-		)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(color 22 23 255 1)
-			)
-			(justify left top)
-		)
-		(uuid "87cf794c-218e-4d16-91b3-561de821765f")
-	)
 	(text_box "Flyback Diodes"
 		(exclude_from_sim no)
 		(at 279.4 165.1 0)
@@ -4485,7 +4395,7 @@
 		(uuid "0387cc69-af87-449c-8200-c904c7273989")
 	)
 	(junction
-		(at 83.82 93.98)
+		(at 83.82 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "067022f1-6895-4e0e-94b4-12c05b61649b")
@@ -4563,6 +4473,18 @@
 		(uuid "1168b352-0fb1-4826-bdad-9dd6e565e81b")
 	)
 	(junction
+		(at 198.12 185.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "14d46bdc-6c2e-4468-87f2-c9fe95878b59")
+	)
+	(junction
+		(at 205.74 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "166fad23-3c7e-4508-9067-d76a67eab9df")
+	)
+	(junction
 		(at 176.53 142.24)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4581,22 +4503,40 @@
 		(uuid "1f3f77cb-6616-47b0-9dc1-6cbb570b3b54")
 	)
 	(junction
+		(at 337.82 251.46)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1f959125-f000-4750-adc0-bc3bb78e0691")
+	)
+	(junction
 		(at 166.37 189.23)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "249d6600-c24b-4056-bd37-c4b1b7b6f435")
 	)
 	(junction
-		(at 72.39 182.88)
+		(at 205.74 231.14)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "2949f7a2-77cf-4b08-8fad-46d0a80ef1ce")
+		(uuid "25ac3f5f-8b4b-426c-98d6-ce14c114bb82")
 	)
 	(junction
-		(at 39.37 210.82)
+		(at 213.36 114.3)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "29c82d41-b6a9-424c-93d3-6164690af822")
+		(uuid "289deee0-6314-41b2-9ef0-aa0e160a09e0")
+	)
+	(junction
+		(at 203.2 114.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "29436f54-874b-4ff4-8b5c-7f6c4ab333b4")
+	)
+	(junction
+		(at 205.74 114.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "29563d8c-2867-43e2-8333-4e811447f447")
 	)
 	(junction
 		(at 370.84 251.46)
@@ -4635,16 +4575,16 @@
 		(uuid "37ae8b19-5b69-4eb0-b3c0-5b6c199a1b84")
 	)
 	(junction
+		(at 193.04 163.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "38e3ed6c-eef9-4f72-b516-70dc42bb650d")
+	)
+	(junction
 		(at 187.96 189.23)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "392736f5-9c6e-46c6-a789-f958b0ffd4c9")
-	)
-	(junction
-		(at 195.58 91.44)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3bd68cc2-e9a0-4265-b88b-16351cb9d707")
 	)
 	(junction
 		(at 135.89 135.89)
@@ -4665,6 +4605,18 @@
 		(uuid "451b5a42-87fd-42a8-9d4a-58fb06382a95")
 	)
 	(junction
+		(at 46.99 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "47ae3445-0941-4ac2-8cb1-5205cdea82d5")
+	)
+	(junction
+		(at 193.04 208.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "481b420d-e22e-488a-8d51-8fce57e7f0fd")
+	)
+	(junction
 		(at 66.04 91.44)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4675,6 +4627,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4b2d207b-06ff-4cdf-b2bc-7d4d75f74056")
+	)
+	(junction
+		(at 189.23 163.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4db7fe5f-fafa-4554-930b-97378b364780")
 	)
 	(junction
 		(at 166.37 173.99)
@@ -4701,10 +4659,34 @@
 		(uuid "539f5ab1-fe9f-422c-b3c7-04f94ab71d1c")
 	)
 	(junction
+		(at 190.5 185.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "53df1f54-d0b8-417d-b288-1a288d95ff62")
+	)
+	(junction
+		(at 208.28 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "54334a19-3fcd-4509-9ce6-8ddd332c5ae5")
+	)
+	(junction
+		(at 200.66 114.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5afd5cd3-5689-46e3-a5b6-1cbeae949567")
+	)
+	(junction
 		(at 143.51 19.05)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5b1a593f-9196-4c05-8c36-04b68f36cd6d")
+	)
+	(junction
+		(at 345.44 251.46)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5c1c59e8-f612-4580-8d6d-6df0b267d0fd")
 	)
 	(junction
 		(at 72.39 190.5)
@@ -4737,6 +4719,12 @@
 		(uuid "6baeb2bb-ac7e-4df9-981a-695cdf4fd2f3")
 	)
 	(junction
+		(at 72.39 182.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6bb4684f-6336-4754-a8f2-6691764e35dd")
+	)
+	(junction
 		(at 196.85 46.99)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4747,6 +4735,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6c8e17bc-00c4-4d3d-8b43-07a8df56ef38")
+	)
+	(junction
+		(at 198.12 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6f197555-ba45-4b6a-88ca-c06618d2c019")
 	)
 	(junction
 		(at 133.35 57.15)
@@ -4767,6 +4761,18 @@
 		(uuid "70d5f588-4298-4049-8a3b-f1b89856114a")
 	)
 	(junction
+		(at 337.82 231.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "71933db9-4417-44ad-a26d-bc4bf1f78158")
+	)
+	(junction
+		(at 190.5 163.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "719b6383-b93c-4e47-aa0e-04b3f2eacf8d")
+	)
+	(junction
 		(at 256.54 78.74)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4777,6 +4783,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7230e16b-57c2-47c2-ab86-280873819ed7")
+	)
+	(junction
+		(at 208.28 114.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7261b8c9-4d13-4926-ae99-ad45a7d1de04")
 	)
 	(junction
 		(at 199.39 194.31)
@@ -4797,16 +4809,16 @@
 		(uuid "73c778eb-e63e-4045-9dac-983edfc7c90b")
 	)
 	(junction
-		(at 46.99 80.01)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "74db5c1f-15d1-4d64-b40c-41c05c205e87")
-	)
-	(junction
 		(at 144.78 92.71)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "759bfd30-c826-483c-a638-9b4c3214e5f9")
+	)
+	(junction
+		(at 176.53 219.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "77ea545a-7562-4d80-aabf-93b23a05d619")
 	)
 	(junction
 		(at 137.16 194.31)
@@ -4869,6 +4881,24 @@
 		(uuid "82233494-325f-4d8e-96c0-5a282826e8af")
 	)
 	(junction
+		(at 210.82 114.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "834366fc-d8f3-4325-927c-0c5835e44016")
+	)
+	(junction
+		(at 195.58 231.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "83ec1b68-6353-440d-b3aa-a4da19142a5f")
+	)
+	(junction
+		(at 190.5 208.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "842b6064-f5f2-4a38-8bfb-ed03a136be59")
+	)
+	(junction
 		(at 289.56 99.06)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4899,13 +4929,19 @@
 		(uuid "892ce366-1c45-4afc-b9cb-a6cfc249a555")
 	)
 	(junction
+		(at 200.66 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "89e25a50-2ce3-4c8e-870a-803584d7ff23")
+	)
+	(junction
 		(at 289.56 96.52)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8a210eaa-0d57-4cc6-a273-2260d704a3e8")
 	)
 	(junction
-		(at 80.01 210.82)
+		(at 76.2 205.74)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8b18a988-eab5-4f60-b1da-36648378572e")
@@ -4917,16 +4953,28 @@
 		(uuid "8cb85d7c-907d-4615-8363-5dde6697ebdd")
 	)
 	(junction
+		(at 193.04 231.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8ced51d3-c45d-4336-98dc-fd539327c88b")
+	)
+	(junction
+		(at 193.04 185.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8d7ea54f-dc8b-4a0c-b85f-b31b82ca60a0")
+	)
+	(junction
+		(at 203.2 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "901fab0a-92a7-4259-aa6e-dda9c685fc35")
+	)
+	(junction
 		(at 325.12 99.06)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9099d353-680e-40b3-9d7d-cca514f67bdc")
-	)
-	(junction
-		(at 176.53 218.44)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "919558c7-befe-4a84-ba74-9ae4e03946d6")
 	)
 	(junction
 		(at 148.59 217.17)
@@ -4965,10 +5013,16 @@
 		(uuid "95c3789a-7093-433d-9564-906066320cc5")
 	)
 	(junction
-		(at 187.96 208.28)
+		(at 345.44 231.14)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "9793f98a-b525-4243-a55b-4a548ecd6f42")
+		(uuid "9702557b-8846-422e-be7d-be0e4ecafb65")
+	)
+	(junction
+		(at 203.2 231.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9740ed4f-3c07-4d32-84ba-2f5a9f8a906e")
 	)
 	(junction
 		(at 247.65 231.14)
@@ -4989,6 +5043,12 @@
 		(uuid "9d72ec55-14e8-40d5-b018-70ed2cf6fc38")
 	)
 	(junction
+		(at 200.66 231.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9ee48adf-c63b-4da3-b700-b65af3f64172")
+	)
+	(junction
 		(at 59.69 180.34)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5001,16 +5061,16 @@
 		(uuid "a11b729c-a06c-4c1b-8fd9-86d2ccd1d880")
 	)
 	(junction
+		(at 198.12 46.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a3848524-a35c-497d-a245-008b35fe77e1")
+	)
+	(junction
 		(at 140.97 173.99)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a3b9b5a5-a586-4057-9d50-2dd1b2eef894")
-	)
-	(junction
-		(at 189.23 189.23)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a51d4e7d-1bb2-49e7-b8e7-b55e1bdae9b0")
 	)
 	(junction
 		(at 55.88 59.69)
@@ -5023,6 +5083,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a5de6af5-50e7-4358-8a00-5bfb824715f4")
+	)
+	(junction
+		(at 200.66 185.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "aa542d55-70d0-48b8-a362-ba7245189844")
 	)
 	(junction
 		(at 361.95 251.46)
@@ -5043,10 +5109,28 @@
 		(uuid "af30d505-d546-401c-83cb-cdf74a9d8f68")
 	)
 	(junction
+		(at 195.58 208.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "afe97996-629b-4282-abf2-9fec66979e5b")
+	)
+	(junction
 		(at 218.44 72.39)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b40f945d-c1aa-48a5-8764-83ae3f4db747")
+	)
+	(junction
+		(at 190.5 231.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b50d2559-b596-450e-a7b7-c9c82a42894b")
+	)
+	(junction
+		(at 39.37 210.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b6a588bf-4690-4e8f-95b2-bb4d4b3a34ed")
 	)
 	(junction
 		(at 391.16 251.46)
@@ -5059,6 +5143,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b859b641-a4aa-4151-9507-9b33d8f5503f")
+	)
+	(junction
+		(at 198.12 231.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b99c5f92-e9e9-42bf-a5cb-ce9afb173c19")
 	)
 	(junction
 		(at 128.27 194.31)
@@ -5077,6 +5167,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ba464d63-c7c7-49d1-bce0-37cd58342a5b")
+	)
+	(junction
+		(at 198.12 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bf19833f-6a5b-49ee-9ca0-3e0fd7855f2e")
 	)
 	(junction
 		(at 199.39 201.93)
@@ -5133,10 +5229,28 @@
 		(uuid "d3b4bb5e-3206-4092-90ff-cd14d0686f4e")
 	)
 	(junction
+		(at 200.66 46.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d3fab827-fbd6-46fa-a6b3-04b52c0d422e")
+	)
+	(junction
+		(at 187.96 185.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d9070899-59ff-4dae-b8ad-10abfbc45026")
+	)
+	(junction
 		(at 264.16 203.2)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "da3d39b1-4d02-41a1-9209-be821bed03d8")
+	)
+	(junction
+		(at 195.58 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dcda9006-b60d-47cf-b930-3514a9c001ba")
 	)
 	(junction
 		(at 176.53 134.62)
@@ -5145,10 +5259,22 @@
 		(uuid "dd04c3e4-2d37-4f54-ae9e-755f4b3115ad")
 	)
 	(junction
+		(at 125.73 185.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dd7470d8-d2a6-4b21-8b25-ae71700b37e8")
+	)
+	(junction
 		(at 314.96 231.14)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "df1100a2-a854-4abf-bebc-ef8085abc854")
+	)
+	(junction
+		(at 124.46 57.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e0f3bc44-8c8d-454f-ba69-b96be99c80db")
 	)
 	(junction
 		(at 322.58 231.14)
@@ -5205,16 +5331,16 @@
 		(uuid "f3cb0810-78c7-472f-9d69-cbb4ab7493b1")
 	)
 	(junction
-		(at 125.73 184.15)
+		(at 195.58 185.42)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "f4a1003a-b487-475d-a5d8-47948d58fb54")
+		(uuid "f4b631bb-91d0-444a-937a-51cdcc7009e3")
 	)
 	(junction
-		(at 124.46 55.88)
+		(at 203.2 91.44)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "f4c59394-a10f-45db-802a-a06f52a7e9e2")
+		(uuid "f74354cd-112a-4e21-87e8-7741dc9e6682")
 	)
 	(junction
 		(at 289.56 101.6)
@@ -5223,10 +5349,10 @@
 		(uuid "f87dd793-3faa-4aad-b9bf-936d6418b5c5")
 	)
 	(junction
-		(at 189.23 163.83)
+		(at 198.12 114.3)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "f9cabee1-0ec8-43d9-86ce-2ccfa4a272ac")
+		(uuid "f8c6e5cb-4455-467e-ad59-4d2881cfb42e")
 	)
 	(junction
 		(at 278.13 231.14)
@@ -5234,33 +5360,15 @@
 		(color 0 0 0 0)
 		(uuid "f9efdbcc-1ab2-4af7-bb9a-49d4af2bcdf4")
 	)
-	(no_connect
-		(at 113.03 187.96)
-		(uuid "109e86fa-5a41-49b2-923d-02c430420fdb")
-	)
-	(no_connect
-		(at 116.84 73.66)
-		(uuid "3fd97e44-59a7-4314-a3b6-14726b91e604")
-	)
-	(no_connect
-		(at 87.63 90.17)
-		(uuid "a9aea29c-82c9-42e4-95c2-47029a4ade67")
-	)
-	(no_connect
-		(at 83.82 207.01)
-		(uuid "d5181319-bb3f-4bc5-a5e5-992654bd4eb0")
-	)
-	(no_connect
-		(at 113.03 190.5)
-		(uuid "ded59415-d069-4409-81cd-5b0e1cf6d61e")
-	)
-	(no_connect
-		(at 116.84 71.12)
-		(uuid "edb53508-4e18-4fa6-a06c-d8ba6fe9a727")
+	(junction
+		(at 200.66 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fb2e0c4d-1230-465a-b7ce-30a444579ad5")
 	)
 	(wire
 		(pts
-			(xy 66.04 85.09) (xy 86.36 85.09)
+			(xy 66.04 83.82) (xy 86.36 83.82)
 		)
 		(stroke
 			(width 0)
@@ -5290,16 +5398,6 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 189.23) (xy 187.96 189.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "01937ef9-1b10-4b86-b3b2-18b7bf069f18")
-	)
-	(wire
-		(pts
 			(xy 219.71 85.09) (xy 220.98 85.09)
 		)
 		(stroke
@@ -5320,13 +5418,13 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 165.1) (xy 171.45 165.1)
+			(xy 198.12 68.58) (xy 200.66 68.58)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "03708efe-a2a6-450a-bb34-39962d1d75e7")
+		(uuid "03cf0115-4198-4ee3-83fb-abb9c61db425")
 	)
 	(wire
 		(pts
@@ -5360,6 +5458,16 @@
 	)
 	(wire
 		(pts
+			(xy 198.12 114.3) (xy 200.66 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "07d59274-f372-452a-95f7-a98f603ac646")
+	)
+	(wire
+		(pts
 			(xy 128.27 209.55) (xy 128.27 231.14)
 		)
 		(stroke
@@ -5370,17 +5478,7 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 189.23) (xy 210.82 189.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "08aa7988-5eda-42a5-a88d-60ee82481907")
-	)
-	(wire
-		(pts
-			(xy 196.85 46.99) (xy 218.44 46.99)
+			(xy 196.85 46.99) (xy 198.12 46.99)
 		)
 		(stroke
 			(width 0)
@@ -5390,7 +5488,7 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 114.3) (xy 218.44 114.3)
+			(xy 210.82 114.3) (xy 213.36 114.3)
 		)
 		(stroke
 			(width 0)
@@ -5420,6 +5518,16 @@
 	)
 	(wire
 		(pts
+			(xy 179.07 48.26) (xy 172.72 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "09a51222-bb0e-402b-9bd1-49db36adb824")
+	)
+	(wire
+		(pts
 			(xy 153.67 173.99) (xy 166.37 173.99)
 		)
 		(stroke
@@ -5430,7 +5538,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 195.58) (xy 118.11 195.58)
+			(xy 114.3 196.85) (xy 119.38 196.85)
 		)
 		(stroke
 			(width 0)
@@ -5447,6 +5555,26 @@
 			(type default)
 		)
 		(uuid "0a440692-8b5e-492c-8531-9b9222847679")
+	)
+	(wire
+		(pts
+			(xy 200.66 185.42) (xy 203.2 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a4da2d5-ddae-4c58-8902-4ce234deb435")
+	)
+	(wire
+		(pts
+			(xy 198.12 92.71) (xy 198.12 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b33459b-9f89-477a-a51f-aaa173e6e316")
 	)
 	(wire
 		(pts
@@ -5470,7 +5598,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 200.66) (xy 119.38 217.17)
+			(xy 120.65 200.66) (xy 120.65 217.17)
 		)
 		(stroke
 			(width 0)
@@ -5480,7 +5608,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 83.82) (xy 123.19 83.82)
+			(xy 121.92 83.82) (xy 128.27 83.82)
 		)
 		(stroke
 			(width 0)
@@ -5530,6 +5658,16 @@
 	)
 	(wire
 		(pts
+			(xy 189.23 163.83) (xy 190.5 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0fc5c811-77bc-4463-8af1-cc4228254762")
+	)
+	(wire
+		(pts
 			(xy 116.84 162.56) (xy 118.11 162.56)
 		)
 		(stroke
@@ -5550,7 +5688,7 @@
 	)
 	(wire
 		(pts
-			(xy 330.2 251.46) (xy 361.95 251.46)
+			(xy 345.44 251.46) (xy 361.95 251.46)
 		)
 		(stroke
 			(width 0)
@@ -5590,7 +5728,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 91.44) (xy 83.82 91.44)
+			(xy 81.28 86.36) (xy 83.82 86.36)
 		)
 		(stroke
 			(width 0)
@@ -5620,7 +5758,7 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 163.83) (xy 210.82 163.83)
+			(xy 193.04 163.83) (xy 210.82 163.83)
 		)
 		(stroke
 			(width 0)
@@ -5640,13 +5778,33 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 91.44) (xy 218.44 91.44)
+			(xy 198.12 91.44) (xy 200.66 91.44)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "156acdb2-71d2-44d0-a68f-d9dd7ff915bc")
+	)
+	(wire
+		(pts
+			(xy 187.96 185.42) (xy 190.5 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "15886e12-92d4-49d9-9164-ab0d4ee265ef")
+	)
+	(wire
+		(pts
+			(xy 203.2 114.3) (xy 205.74 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "15e3ad23-f13d-487e-9e66-14a77ebc1e7c")
 	)
 	(wire
 		(pts
@@ -5667,6 +5825,16 @@
 			(type default)
 		)
 		(uuid "1672527e-0ec1-42eb-a408-e5a923fc3b1b")
+	)
+	(wire
+		(pts
+			(xy 208.28 68.58) (xy 210.82 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "16c04970-5a3c-4eb4-9b97-83a7fab74d63")
 	)
 	(wire
 		(pts
@@ -5730,6 +5898,16 @@
 	)
 	(wire
 		(pts
+			(xy 345.44 231.14) (xy 361.95 231.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c00ceaa-c627-42fb-8f2e-57561c866e7c")
+	)
+	(wire
+		(pts
 			(xy 124.46 19.05) (xy 124.46 45.72)
 		)
 		(stroke
@@ -5737,16 +5915,6 @@
 			(type default)
 		)
 		(uuid "1d55e524-905c-4707-be57-0f8c5062ff1e")
-	)
-	(wire
-		(pts
-			(xy 77.47 182.88) (xy 72.39 182.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1de0c6ac-e3d7-4422-abbb-84d6726557e1")
 	)
 	(wire
 		(pts
@@ -5760,7 +5928,7 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 100.33) (xy 156.21 100.33)
+			(xy 128.27 100.33) (xy 156.21 100.33)
 		)
 		(stroke
 			(width 0)
@@ -5780,7 +5948,7 @@
 	)
 	(wire
 		(pts
-			(xy 330.2 231.14) (xy 361.95 231.14)
+			(xy 330.2 231.14) (xy 337.82 231.14)
 		)
 		(stroke
 			(width 0)
@@ -5850,6 +6018,16 @@
 	)
 	(wire
 		(pts
+			(xy 200.66 114.3) (xy 203.2 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "233cc631-1aa6-4c27-bc61-527670bdea0a")
+	)
+	(wire
+		(pts
 			(xy 48.26 176.53) (xy 48.26 181.61)
 		)
 		(stroke
@@ -5857,6 +6035,16 @@
 			(type default)
 		)
 		(uuid "23b413eb-3402-4349-ae43-527cdc00a857")
+	)
+	(wire
+		(pts
+			(xy 195.58 209.55) (xy 195.58 208.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "25c27bc2-01ba-4d68-bc49-41109574db62")
 	)
 	(wire
 		(pts
@@ -5880,6 +6068,26 @@
 	)
 	(wire
 		(pts
+			(xy 193.04 231.14) (xy 195.58 231.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "27e5bad5-edc2-41b1-83b3-28ce8ca77d0a")
+	)
+	(wire
+		(pts
+			(xy 187.96 189.23) (xy 210.82 189.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "28039728-d5f9-474f-bd18-193775fff01c")
+	)
+	(wire
+		(pts
 			(xy 370.84 251.46) (xy 382.27 251.46)
 		)
 		(stroke
@@ -5897,16 +6105,6 @@
 			(type default)
 		)
 		(uuid "2a55aab2-76f0-4952-896f-62c37568f2c9")
-	)
-	(wire
-		(pts
-			(xy 177.8 95.25) (xy 184.15 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2c5f44dc-e6b6-4fd9-8f19-3928eaa39cb9")
 	)
 	(wire
 		(pts
@@ -5940,6 +6138,16 @@
 	)
 	(wire
 		(pts
+			(xy 200.66 91.44) (xy 203.2 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2da2c966-5675-46cf-adf0-f4947704addc")
+	)
+	(wire
+		(pts
 			(xy 187.96 231.14) (xy 187.96 236.22)
 		)
 		(stroke
@@ -5950,7 +6158,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 93.98) (xy 86.36 93.98)
+			(xy 83.82 88.9) (xy 86.36 88.9)
 		)
 		(stroke
 			(width 0)
@@ -5960,7 +6168,7 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 201.93) (xy 82.55 201.93)
+			(xy 58.42 200.66) (xy 78.74 200.66)
 		)
 		(stroke
 			(width 0)
@@ -6020,7 +6228,7 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 210.82) (xy 82.55 210.82)
+			(xy 76.2 205.74) (xy 78.74 205.74)
 		)
 		(stroke
 			(width 0)
@@ -6030,13 +6238,23 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 179.07) (xy 189.23 189.23)
+			(xy 187.96 185.42) (xy 187.96 189.23)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "312f1a4e-bfd9-47d8-a893-3a1610df9006")
+	)
+	(wire
+		(pts
+			(xy 345.44 234.95) (xy 345.44 231.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "318d5ea1-a87b-4297-8a39-952540f02df3")
 	)
 	(wire
 		(pts
@@ -6060,7 +6278,7 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 85.09) (xy 66.04 91.44)
+			(xy 66.04 83.82) (xy 66.04 91.44)
 		)
 		(stroke
 			(width 0)
@@ -6080,7 +6298,7 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 231.14) (xy 210.82 231.14)
+			(xy 198.12 231.14) (xy 200.66 231.14)
 		)
 		(stroke
 			(width 0)
@@ -6100,7 +6318,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 173.99) (xy 125.73 184.15)
+			(xy 125.73 173.99) (xy 125.73 185.42)
 		)
 		(stroke
 			(width 0)
@@ -6140,13 +6358,23 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 184.15) (xy 125.73 184.15)
+			(xy 114.3 185.42) (xy 125.73 185.42)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "377dd307-a3f1-4a17-8a6d-27daf4972fdb")
+	)
+	(wire
+		(pts
+			(xy 213.36 114.3) (xy 218.44 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "379dd5c3-b4ed-49bc-a983-305dc53b5d2f")
 	)
 	(wire
 		(pts
@@ -6170,6 +6398,26 @@
 	)
 	(wire
 		(pts
+			(xy 203.2 92.71) (xy 203.2 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "38b222cd-bb6d-4c04-8b1f-d7ff49416ee9")
+	)
+	(wire
+		(pts
+			(xy 203.2 231.14) (xy 205.74 231.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3aa6007b-99d0-44af-b141-47de784e0f49")
+	)
+	(wire
+		(pts
 			(xy 116.84 162.56) (xy 116.84 173.99)
 		)
 		(stroke
@@ -6177,16 +6425,6 @@
 			(type default)
 		)
 		(uuid "3b6bef1e-162a-400b-9cde-c4a15c837325")
-	)
-	(wire
-		(pts
-			(xy 196.85 62.23) (xy 195.58 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3b6ec029-f9f4-4e55-b88d-3d7894c0be3c")
 	)
 	(wire
 		(pts
@@ -6210,7 +6448,7 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 180.34) (xy 82.55 180.34)
+			(xy 59.69 180.34) (xy 78.74 180.34)
 		)
 		(stroke
 			(width 0)
@@ -6340,13 +6578,23 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 209.55) (xy 128.27 209.55)
+			(xy 114.3 209.55) (xy 128.27 209.55)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "4b3612b2-ad40-4ad1-834d-95f0627c430d")
+	)
+	(wire
+		(pts
+			(xy 187.96 231.14) (xy 190.5 231.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d298596-982c-43a0-975c-e3afc7eea846")
 	)
 	(wire
 		(pts
@@ -6360,7 +6608,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 78.74) (xy 121.92 78.74)
+			(xy 121.92 80.01) (xy 127 80.01)
 		)
 		(stroke
 			(width 0)
@@ -6390,13 +6638,33 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 95.25) (xy 172.72 95.25)
+			(xy 166.37 95.25) (xy 168.91 95.25)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "56100c41-b2dd-4e72-bb40-060b54419e0c")
+	)
+	(wire
+		(pts
+			(xy 210.82 208.28) (xy 195.58 208.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "56425848-71cc-4593-928b-100a6c1092bd")
+	)
+	(wire
+		(pts
+			(xy 196.85 46.99) (xy 195.58 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "564b48b6-dfb1-4ba5-97ea-6124686a4f05")
 	)
 	(wire
 		(pts
@@ -6470,7 +6738,7 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 194.31) (xy 128.27 194.31)
+			(xy 119.38 194.31) (xy 128.27 194.31)
 		)
 		(stroke
 			(width 0)
@@ -6540,7 +6808,17 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 63.5) (xy 116.84 63.5)
+			(xy 205.74 68.58) (xy 208.28 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ee4f3b7-992e-465a-91e1-d6633d50e52c")
+	)
+	(wire
+		(pts
+			(xy 148.59 64.77) (xy 121.92 64.77)
 		)
 		(stroke
 			(width 0)
@@ -6600,7 +6878,17 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 57.15) (xy 143.51 63.5)
+			(xy 218.44 91.44) (xy 203.2 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "62e2ccd9-4765-4b54-be43-e9fd3039e027")
+	)
+	(wire
+		(pts
+			(xy 148.59 57.15) (xy 148.59 64.77)
 		)
 		(stroke
 			(width 0)
@@ -6620,7 +6908,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 67.31) (xy 128.27 67.31)
+			(xy 121.92 68.58) (xy 133.35 68.58)
 		)
 		(stroke
 			(width 0)
@@ -6630,13 +6918,23 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 176.53) (xy 82.55 176.53)
+			(xy 48.26 176.53) (xy 78.74 176.53)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "64670584-5ef4-451b-be1c-68cde1886129")
+	)
+	(wire
+		(pts
+			(xy 193.04 185.42) (xy 195.58 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "64e7ea0b-2ef0-4163-8580-989b1dd4fdef")
 	)
 	(wire
 		(pts
@@ -6660,6 +6958,36 @@
 	)
 	(wire
 		(pts
+			(xy 193.04 209.55) (xy 193.04 208.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "65da8c74-7a5f-4369-9ae6-06b7d69eb4dc")
+	)
+	(wire
+		(pts
+			(xy 205.74 231.14) (xy 210.82 231.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "66b98e63-8ab5-4ce0-af02-0bead8df4e54")
+	)
+	(wire
+		(pts
+			(xy 190.5 163.83) (xy 193.04 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "679fe280-b711-42c9-96b4-9ae9afdfca51")
+	)
+	(wire
+		(pts
 			(xy 133.35 45.72) (xy 133.35 57.15)
 		)
 		(stroke
@@ -6670,13 +6998,23 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 208.28) (xy 80.01 210.82)
+			(xy 76.2 203.2) (xy 76.2 205.74)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "69d9b9cd-c978-4519-86e5-eba86302ca4b")
+	)
+	(wire
+		(pts
+			(xy 208.28 114.3) (xy 210.82 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a61c803-de45-4cd3-9acd-c822f760868b")
 	)
 	(wire
 		(pts
@@ -6697,6 +7035,16 @@
 			(type default)
 		)
 		(uuid "6ad6166a-151f-413a-932c-eb2ee68eb25c")
+	)
+	(wire
+		(pts
+			(xy 190.5 209.55) (xy 190.5 208.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "734b76be-5eb4-4990-9786-2446cea363e8")
 	)
 	(wire
 		(pts
@@ -6740,7 +7088,7 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 62.23) (xy 195.58 72.39)
+			(xy 195.58 68.58) (xy 195.58 72.39)
 		)
 		(stroke
 			(width 0)
@@ -6770,7 +7118,7 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 194.31) (xy 118.11 195.58)
+			(xy 119.38 194.31) (xy 119.38 196.85)
 		)
 		(stroke
 			(width 0)
@@ -6800,16 +7148,6 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 48.26) (xy 179.07 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7abf037c-bde4-4fe2-85b6-9adc8ea00368")
-	)
-	(wire
-		(pts
 			(xy 195.58 114.3) (xy 195.58 119.38)
 		)
 		(stroke
@@ -6817,6 +7155,16 @@
 			(type default)
 		)
 		(uuid "7df4182e-d3da-4874-a5f9-81a8157e181b")
+	)
+	(wire
+		(pts
+			(xy 195.58 185.42) (xy 198.12 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e0cebe1-8f82-405a-b51c-037cf07a6f87")
 	)
 	(wire
 		(pts
@@ -6860,6 +7208,16 @@
 	)
 	(wire
 		(pts
+			(xy 200.66 46.99) (xy 218.44 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f381861-0493-42dc-8f65-30bf19174589")
+	)
+	(wire
+		(pts
 			(xy 133.35 26.67) (xy 143.51 26.67)
 		)
 		(stroke
@@ -6870,7 +7228,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 209.55) (xy 113.03 205.74)
+			(xy 114.3 209.55) (xy 114.3 204.47)
 		)
 		(stroke
 			(width 0)
@@ -6900,13 +7258,13 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 80.01) (xy 86.36 80.01)
+			(xy 337.82 247.65) (xy 337.82 251.46)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "808a1a9f-232f-4c99-a83b-4b5b0c37ed34")
+		(uuid "80c6c467-d663-4d82-8a0c-812d0a5cd1e6")
 	)
 	(wire
 		(pts
@@ -6940,7 +7298,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 180.34) (xy 113.03 180.34)
+			(xy 140.97 181.61) (xy 114.3 181.61)
 		)
 		(stroke
 			(width 0)
@@ -6950,7 +7308,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 45.72) (xy 124.46 55.88)
+			(xy 124.46 45.72) (xy 124.46 57.15)
 		)
 		(stroke
 			(width 0)
@@ -7010,16 +7368,6 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 66.04) (xy 86.36 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8579eccb-42a9-4462-97de-6287cbf16f87")
-	)
-	(wire
-		(pts
 			(xy 370.84 231.14) (xy 382.27 231.14)
 		)
 		(stroke
@@ -7027,16 +7375,6 @@
 			(type default)
 		)
 		(uuid "858cef58-305e-4e0a-bf8c-eb3f8941c168")
-	)
-	(wire
-		(pts
-			(xy 187.96 223.52) (xy 187.96 231.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "865fdd64-e0c8-4697-9cf3-91955ba1a8ce")
 	)
 	(wire
 		(pts
@@ -7057,16 +7395,6 @@
 			(type default)
 		)
 		(uuid "879fe992-0f08-4165-bbee-cbd3455c1878")
-	)
-	(wire
-		(pts
-			(xy 128.27 68.58) (xy 133.35 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "87bf37e4-3e82-4648-bf0f-dce37a455731")
 	)
 	(wire
 		(pts
@@ -7120,23 +7448,13 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 92.71) (xy 135.89 92.71)
+			(xy 121.92 92.71) (xy 135.89 92.71)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "8a0ef236-e704-476b-939c-484f9fcffb5f")
-	)
-	(wire
-		(pts
-			(xy 124.46 55.88) (xy 124.46 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8b5bdc2b-bf38-46ea-8be4-0342cba76d37")
 	)
 	(wire
 		(pts
@@ -7170,7 +7488,7 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 208.28) (xy 80.01 208.28)
+			(xy 73.66 203.2) (xy 76.2 203.2)
 		)
 		(stroke
 			(width 0)
@@ -7187,6 +7505,16 @@
 			(type default)
 		)
 		(uuid "8c5aabe0-222b-4d8d-b349-5718600b32a3")
+	)
+	(wire
+		(pts
+			(xy 193.04 208.28) (xy 195.58 208.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8fb72208-b490-40ff-994f-e36d98a5c1cb")
 	)
 	(wire
 		(pts
@@ -7210,7 +7538,17 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 77.47) (xy 121.92 78.74)
+			(xy 337.82 234.95) (xy 337.82 231.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "91dc7ca2-1476-479d-bad4-4666606cc1a2")
+	)
+	(wire
+		(pts
+			(xy 127 77.47) (xy 127 80.01)
 		)
 		(stroke
 			(width 0)
@@ -7270,6 +7608,26 @@
 	)
 	(wire
 		(pts
+			(xy 198.12 185.42) (xy 200.66 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "953aaec1-ee31-4023-8a4f-ec0756492b71")
+	)
+	(wire
+		(pts
+			(xy 345.44 247.65) (xy 345.44 251.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "955c3854-c11d-49bd-9775-0b560f485425")
+	)
+	(wire
+		(pts
 			(xy 289.56 83.82) (xy 289.56 86.36)
 		)
 		(stroke
@@ -7310,6 +7668,16 @@
 	)
 	(wire
 		(pts
+			(xy 193.04 68.58) (xy 195.58 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "976a55d6-edbd-4441-a4e8-4b24864c16f7")
+	)
+	(wire
+		(pts
 			(xy 267.97 231.14) (xy 278.13 231.14)
 		)
 		(stroke
@@ -7330,13 +7698,13 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 107.95) (xy 195.58 114.3)
+			(xy 171.45 165.1) (xy 165.1 165.1)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "97f2ace8-fe3b-467e-a4c9-e11c6aa6b5bf")
+		(uuid "97d19864-abe7-4a42-a90d-a127dca11d75")
 	)
 	(wire
 		(pts
@@ -7400,16 +7768,6 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 91.44) (xy 195.58 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9a345c41-fcf4-408f-a0c1-8d6b3d120d22")
-	)
-	(wire
-		(pts
 			(xy 382.27 251.46) (xy 391.16 251.46)
 		)
 		(stroke
@@ -7460,7 +7818,17 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 196.85) (xy 82.55 196.85)
+			(xy 205.74 114.3) (xy 208.28 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e82927b-aae6-44f0-9939-2543c68b4911")
+	)
+	(wire
+		(pts
+			(xy 39.37 196.85) (xy 78.74 196.85)
 		)
 		(stroke
 			(width 0)
@@ -7480,7 +7848,7 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 212.09) (xy 166.37 212.09)
+			(xy 158.75 212.09) (xy 161.29 212.09)
 		)
 		(stroke
 			(width 0)
@@ -7520,7 +7888,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 55.88) (xy 124.46 55.88)
+			(xy 121.92 57.15) (xy 124.46 57.15)
 		)
 		(stroke
 			(width 0)
@@ -7530,7 +7898,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 200.66) (xy 119.38 200.66)
+			(xy 114.3 200.66) (xy 120.65 200.66)
 		)
 		(stroke
 			(width 0)
@@ -7550,7 +7918,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 77.47) (xy 135.89 77.47)
+			(xy 127 77.47) (xy 135.89 77.47)
 		)
 		(stroke
 			(width 0)
@@ -7600,7 +7968,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 92.71) (xy 116.84 88.9)
+			(xy 121.92 92.71) (xy 121.92 87.63)
 		)
 		(stroke
 			(width 0)
@@ -7630,6 +7998,16 @@
 	)
 	(wire
 		(pts
+			(xy 190.5 185.42) (xy 193.04 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a8587084-c1cd-48b6-a582-15b474e6a069")
+	)
+	(wire
+		(pts
 			(xy 62.23 213.36) (xy 62.23 208.28)
 		)
 		(stroke
@@ -7637,16 +8015,6 @@
 			(type default)
 		)
 		(uuid "a86e20d7-8a43-4c37-874f-0c2cdf91acbd")
-	)
-	(wire
-		(pts
-			(xy 128.27 67.31) (xy 128.27 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a8b6f0ef-1191-4f77-b687-fc6a73ea7ecc")
 	)
 	(wire
 		(pts
@@ -7680,6 +8048,16 @@
 	)
 	(wire
 		(pts
+			(xy 330.2 251.46) (xy 337.82 251.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ab99df85-604f-4456-89e3-e3844d8672f8")
+	)
+	(wire
+		(pts
 			(xy 63.5 95.25) (xy 63.5 91.44)
 		)
 		(stroke
@@ -7690,13 +8068,33 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 173.99) (xy 139.7 180.34)
+			(xy 140.97 173.99) (xy 140.97 181.61)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "ac69b311-8cf6-47d7-8d28-44b13ccef9df")
+	)
+	(wire
+		(pts
+			(xy 337.82 231.14) (xy 345.44 231.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad64102b-9a17-4bbb-87a2-d5a559c432d1")
+	)
+	(wire
+		(pts
+			(xy 125.73 185.42) (xy 125.73 189.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "adbf8d6a-e061-40d8-b19c-32cc4bfaf8b1")
 	)
 	(wire
 		(pts
@@ -7720,43 +8118,13 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 212.09) (xy 176.53 212.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ae928cc4-c0b2-4c3e-b4e6-30159115f114")
-	)
-	(wire
-		(pts
-			(xy 119.38 217.17) (xy 148.59 217.17)
+			(xy 120.65 217.17) (xy 148.59 217.17)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "aed8ab8b-ceca-4977-9c0f-cb6963a91881")
-	)
-	(wire
-		(pts
-			(xy 139.7 173.99) (xy 140.97 173.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "af48cfc4-b5a3-43ac-a401-0e475b3c079d")
-	)
-	(wire
-		(pts
-			(xy 77.47 184.15) (xy 77.47 182.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b0c97042-7ad5-48df-990f-ade2a2a66527")
 	)
 	(wire
 		(pts
@@ -7767,16 +8135,6 @@
 			(type default)
 		)
 		(uuid "b165884e-60d0-405d-946c-9582c01a6663")
-	)
-	(wire
-		(pts
-			(xy 39.37 212.09) (xy 39.37 210.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b17b9c88-a876-4d21-9376-e9404b77d995")
 	)
 	(wire
 		(pts
@@ -7797,6 +8155,16 @@
 			(type default)
 		)
 		(uuid "b3421ed0-8bef-4d0e-a045-6e27f24a37ab")
+	)
+	(wire
+		(pts
+			(xy 114.3 173.99) (xy 114.3 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b351da14-8552-4723-b8a8-e8297dc308cb")
 	)
 	(wire
 		(pts
@@ -7827,6 +8195,16 @@
 			(type default)
 		)
 		(uuid "b591d4e7-1cc0-4b40-a22c-46c3b293fda4")
+	)
+	(wire
+		(pts
+			(xy 189.23 163.83) (xy 187.96 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b7bcee7c-35d6-4aa4-b39c-b26ba8608df7")
 	)
 	(wire
 		(pts
@@ -7880,6 +8258,16 @@
 	)
 	(wire
 		(pts
+			(xy 185.42 185.42) (xy 187.96 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bbd5fbd1-b8cd-41e6-980c-50f59453fc1a")
+	)
+	(wire
+		(pts
 			(xy 361.95 231.14) (xy 361.95 234.95)
 		)
 		(stroke
@@ -7900,6 +8288,26 @@
 	)
 	(wire
 		(pts
+			(xy 195.58 68.58) (xy 198.12 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bccdd8f3-7cd4-4c28-bdfb-c6943569ec7f")
+	)
+	(wire
+		(pts
+			(xy 198.12 46.99) (xy 200.66 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be1c92b0-781c-4e84-a87e-f9699b5e1cd9")
+	)
+	(wire
+		(pts
 			(xy 137.16 209.55) (xy 128.27 209.55)
 		)
 		(stroke
@@ -7910,13 +8318,23 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 57.15) (xy 189.23 57.15)
+			(xy 179.07 57.15) (xy 185.42 57.15)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "bed42d32-56c2-4088-b6d4-c986e03e9ba1")
+	)
+	(wire
+		(pts
+			(xy 337.82 251.46) (xy 345.44 251.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bee4ad67-d7fb-4551-bbef-06ac27a0a8e9")
 	)
 	(wire
 		(pts
@@ -7970,7 +8388,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 55.88) (xy 116.84 59.69)
+			(xy 121.92 57.15) (xy 121.92 60.96)
 		)
 		(stroke
 			(width 0)
@@ -8030,6 +8448,16 @@
 	)
 	(wire
 		(pts
+			(xy 200.66 231.14) (xy 203.2 231.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c87512e2-0c51-4615-ae05-3bc014596488")
+	)
+	(wire
+		(pts
 			(xy 307.34 231.14) (xy 314.96 231.14)
 		)
 		(stroke
@@ -8050,7 +8478,7 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 190.5) (xy 82.55 190.5)
+			(xy 72.39 190.5) (xy 78.74 190.5)
 		)
 		(stroke
 			(width 0)
@@ -8080,17 +8508,7 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 57.15) (xy 148.59 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cb414d47-4d24-4b86-8ece-aa79dd2ad7fb")
-	)
-	(wire
-		(pts
-			(xy 123.19 83.82) (xy 123.19 100.33)
+			(xy 128.27 83.82) (xy 128.27 100.33)
 		)
 		(stroke
 			(width 0)
@@ -8107,6 +8525,16 @@
 			(type default)
 		)
 		(uuid "cbc67511-cf5e-4dd8-8499-30264264c1a7")
+	)
+	(wire
+		(pts
+			(xy 46.99 80.01) (xy 86.36 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc146eb8-5edf-4afc-a56c-8b7008fd4159")
 	)
 	(wire
 		(pts
@@ -8137,6 +8565,16 @@
 			(type default)
 		)
 		(uuid "cd3caa37-54f2-4775-ba40-4b2e07f45342")
+	)
+	(wire
+		(pts
+			(xy 195.58 114.3) (xy 198.12 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd4c084d-1a4c-467e-a92b-d06982e36580")
 	)
 	(wire
 		(pts
@@ -8260,6 +8698,16 @@
 	)
 	(wire
 		(pts
+			(xy 176.53 219.71) (xy 176.53 220.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d314b6db-1aed-4a6c-a153-dc60bb55ddc8")
+	)
+	(wire
+		(pts
 			(xy 173.99 57.15) (xy 179.07 57.15)
 		)
 		(stroke
@@ -8287,16 +8735,6 @@
 			(type default)
 		)
 		(uuid "d3fee13e-98d7-4f26-91dc-30f04385d9ba")
-	)
-	(wire
-		(pts
-			(xy 31.75 210.82) (xy 39.37 210.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d4d5986d-d2aa-4e38-b8dd-3ae52b113a6b")
 	)
 	(wire
 		(pts
@@ -8360,16 +8798,6 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 184.15) (xy 77.47 184.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "da8bd9eb-16d7-4f24-aa1e-c4a66ee452ab")
-	)
-	(wire
-		(pts
 			(xy 245.11 231.14) (xy 245.11 236.22)
 		)
 		(stroke
@@ -8387,16 +8815,6 @@
 			(type default)
 		)
 		(uuid "dd643aa3-f1e2-4a4e-b028-19f23e4958c2")
-	)
-	(wire
-		(pts
-			(xy 114.3 176.53) (xy 113.03 176.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "de42cb69-e542-4de0-a338-ef13996d1930")
 	)
 	(wire
 		(pts
@@ -8420,13 +8838,13 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 165.1) (xy 154.94 165.1)
+			(xy 190.5 208.28) (xy 193.04 208.28)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e21dabb0-5dc0-481c-9de0-9574ca67a1b4")
+		(uuid "e15b267e-4adc-49e9-b377-d729da498f1c")
 	)
 	(wire
 		(pts
@@ -8460,7 +8878,17 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 173.99) (xy 181.61 173.99)
+			(xy 72.39 182.88) (xy 78.74 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e3a7ba29-5a2b-41c9-bb04-e81db3736f63")
+	)
+	(wire
+		(pts
+			(xy 171.45 173.99) (xy 177.8 173.99)
 		)
 		(stroke
 			(width 0)
@@ -8490,13 +8918,13 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 173.99) (xy 114.3 176.53)
+			(xy 198.12 91.44) (xy 195.58 91.44)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e4e4901e-931c-458d-ae2f-9471ff12a9ac")
+		(uuid "e4feb9c4-a56b-4152-9fd9-52e692990af2")
 	)
 	(wire
 		(pts
@@ -8540,6 +8968,16 @@
 	)
 	(wire
 		(pts
+			(xy 200.66 68.58) (xy 203.2 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e61f35e7-43fc-41aa-acd0-a634138e54b2")
+	)
+	(wire
+		(pts
 			(xy 195.58 72.39) (xy 218.44 72.39)
 		)
 		(stroke
@@ -8547,6 +8985,16 @@
 			(type default)
 		)
 		(uuid "e650e076-4654-4cd9-b412-2fdfec89e209")
+	)
+	(wire
+		(pts
+			(xy 195.58 231.14) (xy 198.12 231.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e666e4dd-c8be-491e-8c25-816328b0472e")
 	)
 	(wire
 		(pts
@@ -8640,16 +9088,6 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 218.44) (xy 176.53 220.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eee9b417-f8a3-4dd2-87a0-cf684329a318")
-	)
-	(wire
-		(pts
 			(xy 143.51 26.67) (xy 147.32 26.67)
 		)
 		(stroke
@@ -8670,7 +9108,17 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 218.44) (xy 180.34 218.44)
+			(xy 190.5 231.14) (xy 193.04 231.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef5cb570-2572-4a3e-bbf3-b45c59b2fe32")
+	)
+	(wire
+		(pts
+			(xy 176.53 219.71) (xy 180.34 219.71)
 		)
 		(stroke
 			(width 0)
@@ -8690,13 +9138,23 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 212.09) (xy 176.53 218.44)
+			(xy 176.53 212.09) (xy 176.53 219.71)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "f0fd9b2d-7a08-4c8b-a615-38f1b1a6f877")
+	)
+	(wire
+		(pts
+			(xy 200.66 92.71) (xy 200.66 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f123014b-1287-4919-96af-aca5c7009033")
 	)
 	(wire
 		(pts
@@ -8710,17 +9168,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 48.26) (xy 165.1 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f2d83a02-cead-4cae-9d45-f0ed44fddf4b")
-	)
-	(wire
-		(pts
-			(xy 83.82 91.44) (xy 83.82 93.98)
+			(xy 83.82 86.36) (xy 83.82 88.9)
 		)
 		(stroke
 			(width 0)
@@ -8740,7 +9188,7 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 201.93) (xy 58.42 208.28)
+			(xy 58.42 200.66) (xy 58.42 208.28)
 		)
 		(stroke
 			(width 0)
@@ -8767,6 +9215,16 @@
 			(type default)
 		)
 		(uuid "f5b66ebc-e22b-42a7-b194-69c89cabbe2e")
+	)
+	(wire
+		(pts
+			(xy 203.2 68.58) (xy 205.74 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f68c1ddc-cf51-4287-bd65-63310c382895")
 	)
 	(wire
 		(pts
@@ -8830,7 +9288,7 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 208.28) (xy 210.82 208.28)
+			(xy 190.5 208.28) (xy 187.96 208.28)
 		)
 		(stroke
 			(width 0)
@@ -8857,16 +9315,6 @@
 			(type default)
 		)
 		(uuid "fba2f0f0-8afa-46a7-9280-682f9f2a1982")
-	)
-	(wire
-		(pts
-			(xy 125.73 184.15) (xy 125.73 189.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fc876d1e-1be2-4478-bb13-ed77ca6c2300")
 	)
 	(wire
 		(pts
@@ -10809,495 +11257,6 @@
 			"JEkZySnBkobEKsGSJElKt/8f1c6Z2CNWkVsAAAAASUVORK5CYII="
 		)
 	)
-	(image
-		(at 477.52 13.97)
-		(uuid "7850a687-b304-4bc3-a6f1-9f8d92aa5945")
-		(data "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"
-			"Fy/3dXpamnyheJx8sfQLUnjhsJCzWhISEiQxMVF69eqcDXPu4HPk8+NGy40i8vHBQ/JC3cvy2+df"
-			"kH9+rOeSzU72NYvvAmZLZNYL/Iz+hlepXO8l0gNMJ0QaAkTir+8OinlnftqcRxWNxlx2T/nStUiy"
-			"aez87XWviaHrADUxMVEmTfic/LjqDrlrySIp/uyYkMFLuFrnD8uTWxfMlZ/cu1RKJnxO2Ti7cvJU"
-			"jWgW31VF5ayXaNdt9GJf5/TLlvk3XiO/WPF9WfTvN8uoERfEdDpRTr9suXb6l+ThH90tN153laSm"
-			"pCgZZ3dO9rWTlwwHYE8iB6bwO3ocXqR6vRc/Sso6N+YadfUNvg5gGr79jO21XHRepcoU/+/ujRHP"
-			"BtN9Woau4CXv3MHyg++Vy/9b9K+Sd+7g8A+wYWBuf/n2on+Vr//LPEnp1UtpbRFnD1T71NZqrd8T"
-			"1bNeopnB7rW+Tk9Lk69eP10e+tEyuXb6l6RvltqAIS0tVW689iqpuqtc+uf0U1rb4mRfO3E6GQD7"
-			"EsPfBQDgNFXrvdhZ08Ipka4/Eo6qbVRX3yBZBXcbua2iZQUo0S6i27x9v+y64ifK/lameKsxVf5U"
-			"myUHD0U+7X9BTpq28WRNaQtc/eXBp1uV1b3yslK57+7vyMjh5yur2ZMrLi2R224tk+Rk9QuZWtsj"
-			"dWi7ZE3RtzhrZl2dttrBqJ71Es2XTF7q64SEBLn9G7fIrGu+Ir3T9YYK5w/Ll6rvlcuA/noCGKf6"
-			"WuffF0D0CF8AwDAq13sx8ZLK4S55bIfStXFW1gRCmDoDt1skWva/JIc3/0jef+hpJVcvOvDY5kAI"
-			"49WrIR08nBwIXfY12jvlRue3x6lDOyTz0s6DL1VXf0lKTJQFN90gC2/5atSnF9n1hYs/J3NvmKm8"
-			"btcZE5mXtknqUPUL/Vqcnv2iMnwxbdaLjr7u6OiQ3214IeY6kTr7rFz5z9tvldRU9acgOdnXzH4B"
-			"zEP4AgCGUbneiwkL7Xan8iBe5bayVK2skWlzVn16hSjzQ5i6+kapWtEZHP3g09k7A76mbhaFSGcI"
-			"0/DtZ2KaTeO0g4eTZcu23rJlW2/boYtF52Kk1t/ogadOKLvs7r+W3SjTr7ws4vu3trbK/vf/Ia9s"
-			"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"
-			"wQs8y4jwxQvn661Zt0F7CMPpR510pdkEXPACr50+Y4UwI5//puTOGx/x4+zcNxyvbTM3WNPYW/YZ"
-			"8c++sXQcnFjb3MlTNKZeWhL0to6ODvnVut85NhZddPa0roNUtw4Y/dDXfTIytNWefuUX5fqZoWe9"
-			"7Nj1hrz97nvaxmDxYl9bdB7HWKGLF44ZgVCM2QszefZLVzpDGCcW+PUKXR+uBDAwnZdPn8mdWywj"
-			"n/+m4zNhvLzNnGJ9k3qUWS8haVkfw+FZAsnJyTL2ohFBb3//Hwek8W3vX1ZaZ0/rXBfDN+u+ONzX"
-			"C782R+7+z2/JF4rHSVpaqpKaWZmZ8o1/mSe3zLsh5MLUHR0d8ut1v1fynOF4ta9F9BzHELrAbxIr"
-			"y8vcHoNyql5TqDpWCKP6W4xgp8ZUlpcFfmJl2t+8p/HoWIxZJPzlp53oHTeY9LrirZejqVHn8Zkc"
-			"kZyKpGq9F1Xbqk+fDJlYPM7WT4h9dUlPT424Tv55esOqCSOTAjv0Tl45w6TPnUjpmSHQuc27/h10"
-			"Gpo3RLL7ZgW9/eODh2TC+M/Y7vdofnTR3dPd+0BlL6vcb4x0poHX+zohIUEuOD9fxl40UpZ869/l"
-			"f1ZWyX984xaZWDxOcvplhwxOuktOTpYLCvLllnnXy0M/WiZTLy0J+/iX6l+Vra/pX+/Fib7W9bms"
-			"+tR+a9mHSEMXk/YpTdtXVmXKxLFK6pi0nVXVsVMj+Y77q2N+QtOoek2R1FmzboMUFaqbTRHs8oEq"
-			"/06m/c2Djadz26pfq+X/t3fvsVVcdwLHf7bBFByDkxC2KWntxNniECshkVoSGtsBaZ0/ImFIUKGI"
-			"PFxVakFa0kSugO2iOMVdoLG6AtQgVSyGBKW4agJm1WrrrSAGlsTZLg/XUDu7jk2C0wYbDBjbMX7t"
-			"H7dz/b73zr3nzJyZ+X4kK3Fy/Ztz5/48nvOb84i0/bSTueMkk95XEHPZboxN6wsk72+7FXlV1uvP"
-			"SMuP3pXuuvFP2FWOjDn5QYuSOOlpabLxhz9QEktEJOfvs2XjD2O7dh2oPCwtGkciuLXLkUnXHTtO"
-			"9/TLo9PVbakuEjr36UsG5OVnp8r7F/TulnJfhK1yRURyH/i65D7wda1tEAntDHOq9rSW2Hp3gxlf"
-			"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"
-			"rkJggg=="
-		)
-	)
 	(global_label "I_Sense"
 		(shape output)
 		(at 377.19 90.17 0)
@@ -11342,7 +11301,7 @@
 			)
 		)
 	)
-	(global_label "EN_B"
+	(global_label "EN_TOTAL"
 		(shape input)
 		(at 33.02 196.85 180)
 		(fields_autoplaced yes)
@@ -11354,7 +11313,7 @@
 		)
 		(uuid "1ebf315f-1baf-413b-ae92-94736f333470")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 25.3177 196.85 0)
+			(at 21.2053 196.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11410,7 +11369,7 @@
 	)
 	(global_label "3.3V"
 		(shape input)
-		(at 77.47 208.28 180)
+		(at 73.66 203.2 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11420,7 +11379,7 @@
 		)
 		(uuid "494d7b5b-768c-4914-bd16-915a41df4f45")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 70.3724 208.28 0)
+			(at 66.5624 203.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11518,7 +11477,7 @@
 			)
 		)
 	)
-	(global_label "EN_A"
+	(global_label "EN_TOTAL"
 		(shape input)
 		(at 40.64 80.01 180)
 		(fields_autoplaced yes)
@@ -11530,7 +11489,7 @@
 		)
 		(uuid "64f5cca5-9089-4b34-8575-04b4814793fb")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 33.1191 80.01 0)
+			(at 28.8253 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11608,7 +11567,7 @@
 	)
 	(global_label "3.3V"
 		(shape input)
-		(at 81.28 91.44 180)
+		(at 81.28 86.36 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11618,7 +11577,7 @@
 		)
 		(uuid "83c0d32d-2a68-4d25-ac70-d1cb25e709b8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 74.1824 91.44 0)
+			(at 74.1824 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11961,175 +11920,6 @@
 			(project ""
 				(path "/ca8b9c62-24ed-451b-8ada-8e095e6c3e3b/fa7ca0dd-ef0e-4471-8085-0b8f7bb7729a"
 					(reference "C38")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "MSS1P4-M3_89A_2:MSS1P4-M3_89A")
-		(at 167.64 48.26 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "088954ad-18b1-44ec-afe4-b64ffff5ad35")
-		(property "Reference" "D1"
-			(at 167.3225 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "MSS1P4-M3_89A"
-			(at 167.3225 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "DIODE_MSS1P4-M3_89A:DIODE_MSS1P4-M3_89A"
-			(at 167.64 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 167.64 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 167.64 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" "Vishay Semiconductor"
-			(at 167.64 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "DESCRIPTION" "MSS2P3 Series 30 V 2 A Surface Mount Schottky Barrier Rectifier - MicroSMP"
-			(at 167.64 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "PACKAGE" "MicroSMP Vishay Semiconductor"
-			(at 167.64 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
-			(at 167.64 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "MicroSMP Vishay Semiconductor"
-			(at 167.64 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/MSS1P4-M3/89A/Vishay/view-part/?ref=eda"
-			(at 167.64 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/MSS1P4-M3/89A/Vishay/view-part/?ref=snap"
-			(at 167.64 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "MSS1P4-M3/89A"
-			(at 167.64 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 167.64 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "Diode Schottky 40 V 1A Surface Mount MicroSMP (DO-219AD)"
-			(at 167.64 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "624c86a2-8782-4fd6-bb9e-50d3c9657364")
-		)
-		(pin "1"
-			(uuid "0ad70b03-3111-468e-9460-5b31347b9dd2")
-		)
-		(instances
-			(project "Adrion_1"
-				(path "/ca8b9c62-24ed-451b-8ada-8e095e6c3e3b/fa7ca0dd-ef0e-4471-8085-0b8f7bb7729a"
-					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -12818,43 +12608,56 @@
 		)
 	)
 	(symbol
-		(lib_id "MSS1P4-M3_89A_2:MSS1P4-M3_89A")
-		(at 168.91 212.09 180)
+		(lib_id "B43547F2108M067:B43547F2108M067")
+		(at 337.82 234.95 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "245d18a0-04f1-4398-bbb0-d5baca16f682")
-		(property "Reference" "D3"
-			(at 168.5925 205.74 0)
+		(uuid "1fdf9f50-e4ab-4e1e-841f-7c5f7fe9d01e")
+		(property "Reference" "C36"
+			(at 341.63 240.0299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-			)
-		)
-		(property "Value" "MSS1P4-M3_89A"
-			(at 168.5925 208.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "DIODE_MSS1P4-M3_89A:DIODE_MSS1P4-M3_89A"
-			(at 168.91 212.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
+				(justify left)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 168.91 212.09 0)
+		(property "Value" "B43547F2108M067"
+			(at 312.166 256.54 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "CAPPRD1000W190D3550H4200:CAPPRD1000W190D3550H4200"
+			(at 339.09 243.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://product.tdk.com/system/files/dam/doc/product/capacitor/aluminum-electrolytic/snap-in/data_sheet/20/30/db/aec/b43547.pdf"
+			(at 336.55 243.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Snap-in Capacitors, 1000?F/250VDC, 35mm dia x 40mm length"
+			(at 337.82 234.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12862,125 +12665,96 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 168.91 212.09 0)
+		(property "Description_1" "Snap-in Capacitors, 1000?F/250VDC, 35mm dia x 40mm length"
+			(at 334.01 243.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 				(hide yes)
 			)
 		)
-		(property "MF" "Vishay Semiconductor"
-			(at 168.91 212.09 0)
+		(property "Height" "42"
+			(at 331.47 243.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
+				(justify left)
 				(hide yes)
 			)
 		)
-		(property "DESCRIPTION" "MSS2P3 Series 30 V 2 A Surface Mount Schottky Barrier Rectifier - MicroSMP"
-			(at 168.91 212.09 0)
+		(property "Manufacturer_Name" "TDK"
+			(at 328.93 243.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
+				(justify left)
 				(hide yes)
 			)
 		)
-		(property "PACKAGE" "MicroSMP Vishay Semiconductor"
-			(at 168.91 212.09 0)
+		(property "Manufacturer_Part_Number" "B43547F2108M067"
+			(at 326.39 243.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
+				(justify left)
 				(hide yes)
 			)
 		)
-		(property "Price" "None"
-			(at 168.91 212.09 0)
+		(property "Mouser Part Number" ""
+			(at 323.85 243.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
+				(justify left)
 				(hide yes)
 			)
 		)
-		(property "Package" "MicroSMP Vishay Semiconductor"
-			(at 168.91 212.09 0)
+		(property "Mouser Price/Stock" ""
+			(at 321.31 243.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
+				(justify left)
 				(hide yes)
 			)
 		)
-		(property "Check_prices" "https://www.snapeda.com/parts/MSS1P4-M3/89A/Vishay/view-part/?ref=eda"
-			(at 168.91 212.09 0)
+		(property "Arrow Part Number" ""
+			(at 318.77 243.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
+				(justify left)
 				(hide yes)
 			)
 		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/MSS1P4-M3/89A/Vishay/view-part/?ref=snap"
-			(at 168.91 212.09 0)
+		(property "Arrow Price/Stock" ""
+			(at 316.23 243.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
+				(justify left)
 				(hide yes)
 			)
-		)
-		(property "MP" "MSS1P4-M3/89A"
-			(at 168.91 212.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 168.91 212.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "Diode Schottky 40 V 1A Surface Mount MicroSMP (DO-219AD)"
-			(at 168.91 212.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "416e7a37-27cf-4934-a4c4-c401957566d6")
 		)
 		(pin "1"
-			(uuid "cc20fc31-4e07-4c68-be4f-b085c3ff7214")
+			(uuid "3fd4cccc-535f-4b52-a5ee-6bd2240e057e")
+		)
+		(pin "2"
+			(uuid "abadd73e-ad43-4c29-b5fc-86127ec80180")
 		)
 		(instances
 			(project "Adrion_1"
 				(path "/ca8b9c62-24ed-451b-8ada-8e095e6c3e3b/fa7ca0dd-ef0e-4471-8085-0b8f7bb7729a"
-					(reference "D3")
+					(reference "C36")
 					(unit 1)
 				)
 			)
@@ -13057,6 +12831,83 @@
 			(project "Adrion_1"
 				(path "/ca8b9c62-24ed-451b-8ada-8e095e6c3e3b/fa7ca0dd-ef0e-4471-8085-0b8f7bb7729a"
 					(reference "C47")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 39.37 207.01 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "25f79ffc-363e-49ea-8b50-f720ff8a459f")
+		(property "Reference" "R12"
+			(at 41.91 205.7399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 41.91 208.2799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 37.592 207.01 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 39.37 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 39.37 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field5" "0603"
+			(at 44.45 210.312 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d8bf747d-9536-46fc-aaa8-b5683902fce8")
+		)
+		(pin "2"
+			(uuid "84b537d5-18ad-4b43-8323-ae28a2c08b28")
+		)
+		(instances
+			(project "Adrion_1"
+				(path "/ca8b9c62-24ed-451b-8ada-8e095e6c3e3b/fa7ca0dd-ef0e-4471-8085-0b8f7bb7729a"
+					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -13198,6 +13049,156 @@
 			(project "Adrion_1"
 				(path "/ca8b9c62-24ed-451b-8ada-8e095e6c3e3b/fa7ca0dd-ef0e-4471-8085-0b8f7bb7729a"
 					(reference "#PWR044")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "MSS1P4-M3_89A:MSS1P4-M3_89A")
+		(at 154.94 48.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "29adb4f9-5d07-4190-9807-4e0b49c611b7")
+		(property "Reference" "D1"
+			(at 165.1 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MSS1P4-M3_89A"
+			(at 165.1 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "MSS1P4-M3_89A:MICROSMP"
+			(at 167.64 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/89019/mss1p4.pdf"
+			(at 167.64 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Vishay MSS1P4-M3/89A SMT Schottky Diode, 40V 1A, 2-Pin uSMP"
+			(at 154.94 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "Vishay MSS1P4-M3/89A SMT Schottky Diode, 40V 1A, 2-Pin uSMP"
+			(at 167.64 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Height" ""
+			(at 167.64 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Vishay"
+			(at 167.64 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "MSS1P4-M3/89A"
+			(at 167.64 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "625-MSS1P4-M3"
+			(at 167.64 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Vishay-General-Semiconductor/MSS1P4-M3-89A?qs=fLSHF8TigmUkO6GnwlXAxQ%3D%3D"
+			(at 167.64 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "MSS1P4-M3/89A"
+			(at 167.64 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/mss1p4-m389a/vishay?utm_currency=USD&region=europe"
+			(at 167.64 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c55e1e34-b58e-4d28-af93-2445cecf4dc9")
+		)
+		(pin "1"
+			(uuid "73ad3664-eb4b-4c10-8e4b-0fa464fdf0df")
+		)
+		(instances
+			(project ""
+				(path "/ca8b9c62-24ed-451b-8ada-8e095e6c3e3b/fa7ca0dd-ef0e-4471-8085-0b8f7bb7729a"
+					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -13894,7 +13895,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 83.82 101.6 0)
+		(at 83.82 96.52 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13903,7 +13904,7 @@
 		(fields_autoplaced yes)
 		(uuid "3425fba0-1704-4292-bc93-8e87ed0edb3a")
 		(property "Reference" "#PWR06"
-			(at 83.82 107.95 0)
+			(at 83.82 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13912,7 +13913,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 83.82 106.68 0)
+			(at 83.82 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13920,7 +13921,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 83.82 101.6 0)
+			(at 83.82 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13929,7 +13930,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 83.82 101.6 0)
+			(at 83.82 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13938,7 +13939,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 83.82 101.6 0)
+			(at 83.82 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13953,6 +13954,176 @@
 			(project "Adrion_1"
 				(path "/ca8b9c62-24ed-451b-8ada-8e095e6c3e3b/fa7ca0dd-ef0e-4471-8085-0b8f7bb7729a"
 					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "IPT034N15NM6ATMA1_1")
+		(lib_id "IPT034N15NM6ATMA1:IPT034N15NM6ATMA1")
+		(at 193.04 114.3 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "36285d55-4c55-4b81-b4be-c1bb5d82736e")
+		(property "Reference" "Q1"
+			(at 228.346 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "IPT034N15NM6ATMA1"
+			(at 230.886 101.854 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "IAUT150N10S5N035ATMA1:IAUT150N10S5N035ATMA1"
+			(at 287.96 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.infineon.com/assets/row/public/documents/24/49/infineon-ipt034n15nm6-datasheet-en.pdf"
+			(at 387.96 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "MOSFETs OptiMOS 6 power MOSFET 150 V normal level in TOLL package"
+			(at 193.04 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" ""
+			(at 587.96 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Infineon"
+			(at 687.96 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "IPT034N15NM6ATMA1"
+			(at 787.96 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "726-IPT034N15NM6ATMA"
+			(at 887.96 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Infineon-Technologies/IPT034N15NM6ATMA1?qs=7%2F6SraaimPSH5LUgDMi%2FsQ%3D%3D"
+			(at 987.96 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 1087.96 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 1187.96 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "8ce6c1e0-56e0-41be-a3de-d53e7d2c4ef3")
+		)
+		(pin "3"
+			(uuid "4d66e6ab-af44-40a9-bb5e-30bcb09beaaa")
+		)
+		(pin "4"
+			(uuid "facea151-421a-46bf-af0d-58f1dc1a96ad")
+		)
+		(pin "6"
+			(uuid "6c0569b2-d8b3-48f0-aee1-0710b3cefc66")
+		)
+		(pin "7"
+			(uuid "9c5b5b3a-d969-41ce-825a-3c5161804196")
+		)
+		(pin "9"
+			(uuid "cb5b5f80-876c-48df-ba21-df1dfd44abe7")
+		)
+		(pin "10"
+			(uuid "6e13a9a7-4ca4-48d9-a350-4e614f88c70f")
+		)
+		(pin "2"
+			(uuid "4f93066e-7841-4e32-b9a2-b22653b3b229")
+		)
+		(pin "8"
+			(uuid "085ee1f3-1652-4389-91ce-b39df4196056")
+		)
+		(pin "1"
+			(uuid "6e2b0007-b13f-4ef2-b10f-1e685cca825d")
+		)
+		(pin "11"
+			(uuid "e8af103b-6da9-47ac-87a8-994134b206a3")
+		)
+		(pin "12"
+			(uuid "e9b7a093-dd1a-4c77-bd04-be08ba0948bb")
+		)
+		(instances
+			(project "Adrion_1"
+				(path "/ca8b9c62-24ed-451b-8ada-8e095e6c3e3b/fa7ca0dd-ef0e-4471-8085-0b8f7bb7729a"
+					(reference "Q1")
 					(unit 1)
 				)
 			)
@@ -14488,151 +14659,6 @@
 		)
 	)
 	(symbol
-		(lib_id "IPP111N15N3GXKSA1:IPP111N15N3GXKSA1")
-		(at 180.34 218.44 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3bb7ee3c-fa68-4297-a907-152313c05831")
-		(property "Reference" "Q3"
-			(at 191.77 214.6299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "IPP111N15N3GXKSA1"
-			(at 191.77 217.1699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TO254P457X1003X2115-3P:TO254P457X1003X2115-3P"
-			(at 191.77 317.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://componentsearchengine.com/Datasheets/2/IPP111N15N3GXKSA1.pdf"
-			(at 191.77 417.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "MOSFET N-Ch 150V 83A TO220-3 OptiMOS 3"
-			(at 180.34 218.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "4.57"
-			(at 191.77 617.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Infineon"
-			(at 191.77 717.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "IPP111N15N3GXKSA1"
-			(at 191.77 817.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "726-IPP111N15N3GXKSA"
-			(at 191.77 917.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Infineon-Technologies/IPP111N15N3GXKSA1?qs=OwbwYO03UsJO1bujDVMB%2Fw%3D%3D"
-			(at 191.77 1017.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" "IPP111N15N3GXKSA1"
-			(at 191.77 1117.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/ipp111n15n3gxksa1/infineon-technologies-ag?region=europe"
-			(at 191.77 1217.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "eaddb388-3526-4c5e-8e84-81d5539de9b7")
-		)
-		(pin "1"
-			(uuid "8f8d15ee-1b72-466c-b477-36b8e79ec912")
-		)
-		(pin "3"
-			(uuid "d8859084-74b0-4438-8832-10b4db9cb356")
-		)
-		(instances
-			(project "Adrion_1"
-				(path "/ca8b9c62-24ed-451b-8ada-8e095e6c3e3b/fa7ca0dd-ef0e-4471-8085-0b8f7bb7729a"
-					(reference "Q3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 210.82 177.8 0)
 		(unit 1)
@@ -14864,8 +14890,157 @@
 		)
 	)
 	(symbol
+		(lib_id "MSS1P4-M3_89A:MSS1P4-M3_89A")
+		(at 166.37 95.25 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4665eb57-902c-4308-bff9-3de724e1877c")
+		(property "Reference" "D2"
+			(at 176.53 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MSS1P4-M3_89A"
+			(at 177.8 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "MSS1P4-M3_89A:MICROSMP"
+			(at 179.07 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/89019/mss1p4.pdf"
+			(at 179.07 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Vishay MSS1P4-M3/89A SMT Schottky Diode, 40V 1A, 2-Pin uSMP"
+			(at 166.37 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "Vishay MSS1P4-M3/89A SMT Schottky Diode, 40V 1A, 2-Pin uSMP"
+			(at 179.07 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Height" ""
+			(at 179.07 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Vishay"
+			(at 179.07 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "MSS1P4-M3/89A"
+			(at 179.07 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "625-MSS1P4-M3"
+			(at 179.07 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Vishay-General-Semiconductor/MSS1P4-M3-89A?qs=fLSHF8TigmUkO6GnwlXAxQ%3D%3D"
+			(at 179.07 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "MSS1P4-M3/89A"
+			(at 179.07 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/mss1p4-m389a/vishay?utm_currency=USD&region=europe"
+			(at 179.07 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "9ab87216-bb4e-4371-b252-1518c771b10c")
+		)
+		(pin "1"
+			(uuid "aaf3af0d-f85b-4284-94a7-117899fdc794")
+		)
+		(instances
+			(project "Adrion_1"
+				(path "/ca8b9c62-24ed-451b-8ada-8e095e6c3e3b/fa7ca0dd-ef0e-4471-8085-0b8f7bb7729a"
+					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
-		(at 80.01 218.44 0)
+		(at 76.2 213.36 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14874,7 +15049,7 @@
 		(fields_autoplaced yes)
 		(uuid "46890b7c-8af3-4c0f-b2bb-2cd27dc000e8")
 		(property "Reference" "#PWR014"
-			(at 80.01 224.79 0)
+			(at 76.2 219.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14883,7 +15058,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 80.01 223.52 0)
+			(at 76.2 218.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14891,7 +15066,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 80.01 218.44 0)
+			(at 76.2 213.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14900,7 +15075,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 80.01 218.44 0)
+			(at 76.2 213.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14909,7 +15084,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 80.01 218.44 0)
+			(at 76.2 213.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15233,6 +15408,176 @@
 		)
 	)
 	(symbol
+		(lib_name "IPT034N15NM6ATMA1_1")
+		(lib_id "IPT034N15NM6ATMA1:IPT034N15NM6ATMA1")
+		(at 190.5 68.58 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "54265840-ac8b-4131-a594-7ee1165cf5ad")
+		(property "Reference" "Q4"
+			(at 213.106 55.118 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "IPT034N15NM6ATMA1"
+			(at 214.63 57.404 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "IAUT150N10S5N035ATMA1:IAUT150N10S5N035ATMA1"
+			(at 285.42 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.infineon.com/assets/row/public/documents/24/49/infineon-ipt034n15nm6-datasheet-en.pdf"
+			(at 385.42 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "MOSFETs OptiMOS 6 power MOSFET 150 V normal level in TOLL package"
+			(at 190.5 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" ""
+			(at 585.42 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Infineon"
+			(at 685.42 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "IPT034N15NM6ATMA1"
+			(at 785.42 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "726-IPT034N15NM6ATMA"
+			(at 885.42 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Infineon-Technologies/IPT034N15NM6ATMA1?qs=7%2F6SraaimPSH5LUgDMi%2FsQ%3D%3D"
+			(at 985.42 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 1085.42 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 1185.42 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "5cc3fee3-6807-480e-980d-242ed69be253")
+		)
+		(pin "3"
+			(uuid "c8b5f8f1-7704-4e1f-9971-c934d28e611a")
+		)
+		(pin "4"
+			(uuid "281be8a1-a188-4113-a7db-af530bd402d1")
+		)
+		(pin "6"
+			(uuid "d2b88044-8e49-4718-974d-0fd476e0634a")
+		)
+		(pin "7"
+			(uuid "d1139ef6-f8df-492b-bfd4-8033a2aeb06e")
+		)
+		(pin "9"
+			(uuid "09444be2-74eb-42ec-a582-121ce615547a")
+		)
+		(pin "10"
+			(uuid "fc474b04-23d9-426a-aa6f-33a9f0535cf2")
+		)
+		(pin "2"
+			(uuid "fee91f78-72c7-472c-9007-ecb86161bc0c")
+		)
+		(pin "8"
+			(uuid "9b795c87-8eae-495f-a26c-bb5a437a91f3")
+		)
+		(pin "1"
+			(uuid "e48dd0dc-01b9-4607-a332-8bb87e0e9376")
+		)
+		(pin "11"
+			(uuid "b4da9771-ce4a-46c4-b4e2-614338d3b7ec")
+		)
+		(pin "12"
+			(uuid "a94a0ea8-77fd-4c69-876f-f026a8552969")
+		)
+		(instances
+			(project "Adrion_1"
+				(path "/ca8b9c62-24ed-451b-8ada-8e095e6c3e3b/fa7ca0dd-ef0e-4471-8085-0b8f7bb7729a"
+					(reference "Q4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 137.16 198.12 0)
 		(mirror y)
@@ -15303,6 +15648,72 @@
 			(project "Adrion_1"
 				(path "/ca8b9c62-24ed-451b-8ada-8e095e6c3e3b/fa7ca0dd-ef0e-4471-8085-0b8f7bb7729a"
 					(reference "C24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 39.37 210.82 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5b2209f4-319c-4c91-9c10-c9aeadd3d1d4")
+		(property "Reference" "#PWR01"
+			(at 39.37 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 39.37 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 39.37 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 39.37 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 39.37 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ee315194-30d6-4fd6-aed5-a2b556600024")
+		)
+		(instances
+			(project "Adrion_1"
+				(path "/ca8b9c62-24ed-451b-8ada-8e095e6c3e3b/fa7ca0dd-ef0e-4471-8085-0b8f7bb7729a"
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -15598,241 +16009,6 @@
 			(project "Adrion_1"
 				(path "/ca8b9c62-24ed-451b-8ada-8e095e6c3e3b/fa7ca0dd-ef0e-4471-8085-0b8f7bb7729a"
 					(reference "C46")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "MSS1P4-M3_89A_2:MSS1P4-M3_89A")
-		(at 175.26 95.25 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "61b4e3a6-764e-4eef-8cef-7be89990b1ef")
-		(property "Reference" "D6"
-			(at 174.9425 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "MSS1P4-M3_89A"
-			(at 174.9425 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "DIODE_MSS1P4-M3_89A:DIODE_MSS1P4-M3_89A"
-			(at 175.26 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 175.26 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 175.26 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" "Vishay Semiconductor"
-			(at 175.26 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "DESCRIPTION" "MSS2P3 Series 30 V 2 A Surface Mount Schottky Barrier Rectifier - MicroSMP"
-			(at 175.26 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "PACKAGE" "MicroSMP Vishay Semiconductor"
-			(at 175.26 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
-			(at 175.26 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "MicroSMP Vishay Semiconductor"
-			(at 175.26 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/MSS1P4-M3/89A/Vishay/view-part/?ref=eda"
-			(at 175.26 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/MSS1P4-M3/89A/Vishay/view-part/?ref=snap"
-			(at 175.26 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "MSS1P4-M3/89A"
-			(at 175.26 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 175.26 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "Diode Schottky 40 V 1A Surface Mount MicroSMP (DO-219AD)"
-			(at 175.26 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "ec2918f3-258e-4891-a6cb-b07c884b3c04")
-		)
-		(pin "1"
-			(uuid "7469939e-a700-415b-9f40-1298226853c6")
-		)
-		(instances
-			(project ""
-				(path "/ca8b9c62-24ed-451b-8ada-8e095e6c3e3b/fa7ca0dd-ef0e-4471-8085-0b8f7bb7729a"
-					(reference "D6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 31.75 210.82 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "62b52d6c-962d-4fbf-9ee5-3caf1216b366")
-		(property "Reference" "#FLG02"
-			(at 31.75 208.915 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 31.75 205.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 31.75 210.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 31.75 210.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 31.75 210.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "76c59df1-7de9-42d8-8284-f37a4634f508")
-		)
-		(instances
-			(project ""
-				(path "/ca8b9c62-24ed-451b-8ada-8e095e6c3e3b/fa7ca0dd-ef0e-4471-8085-0b8f7bb7729a"
-					(reference "#FLG02")
 					(unit 1)
 				)
 			)
@@ -16883,7 +17059,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 83.82 97.79 180)
+		(at 83.82 92.71 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16891,7 +17067,7 @@
 		(dnp no)
 		(uuid "7637994a-daf2-4396-9082-2862326861c0")
 		(property "Reference" "C51"
-			(at 80.01 97.536 0)
+			(at 80.01 92.456 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16900,7 +17076,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 80.772 95.25 0)
+			(at 80.772 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16909,7 +17085,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 82.8548 93.98 0)
+			(at 82.8548 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16918,7 +17094,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 83.82 97.79 0)
+			(at 83.82 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16927,7 +17103,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 83.82 97.79 0)
+			(at 83.82 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16936,7 +17112,7 @@
 			)
 		)
 		(property "Field5" "0603"
-			(at 88.138 101.092 0)
+			(at 88.138 96.012 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17318,55 +17494,43 @@
 		)
 	)
 	(symbol
-		(lib_id "IPP111N15N3GXKSA1:IPP111N15N3GXKSA1")
-		(at 189.23 57.15 0)
+		(lib_id "UCC21521DW:UCC21521DW")
+		(at 104.14 73.66 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "8b51a017-1931-4193-9e58-dbc226abe719")
-		(property "Reference" "Q5"
-			(at 200.66 53.3399 0)
+		(uuid "8479dacd-7c07-4113-bdbf-f847691c9a90")
+		(property "Reference" "U1"
+			(at 104.14 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "IPP111N15N3GXKSA1"
-			(at 200.66 55.8799 0)
+		(property "Value" "UCC21521DW"
+			(at 104.14 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "TO254P457X1003X2115-3P:TO254P457X1003X2115-3P"
-			(at 200.66 155.88 0)
+		(property "Footprint" "SOIC127P1030X265-16N:SOIC127P1030X265-16N"
+			(at 105.918 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
+				(justify bottom)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://componentsearchengine.com/Datasheets/2/IPP111N15N3GXKSA1.pdf"
-			(at 200.66 255.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "MOSFET N-Ch 150V 83A TO220-3 OptiMOS 3"
-			(at 189.23 57.15 0)
+		(property "Datasheet" ""
+			(at 104.14 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17374,89 +17538,138 @@
 				(hide yes)
 			)
 		)
-		(property "Height" "4.57"
-			(at 200.66 455.88 0)
+		(property "Description" ""
+			(at 104.14 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "Infineon"
-			(at 200.66 555.88 0)
+		(property "MF" "Texas Instruments"
+			(at 103.886 49.022 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
+				(justify bottom)
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "IPP111N15N3GXKSA1"
-			(at 200.66 655.88 0)
+		(property "Description_1" "5.7kVrms, 4A/6A dual-channel isolated gate driver with dual input, enable, 8V UVLO & LGA pack"
+			(at 105.156 40.894 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
+				(justify bottom)
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "726-IPP111N15N3GXKSA"
-			(at 200.66 755.88 0)
+		(property "Package" "SOIC-16 Texas Instruments"
+			(at 102.108 46.482 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
+				(justify bottom)
 				(hide yes)
 			)
 		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Infineon-Technologies/IPP111N15N3GXKSA1?qs=OwbwYO03UsJO1bujDVMB%2Fw%3D%3D"
-			(at 200.66 855.88 0)
+		(property "Price" "None"
+			(at 104.14 47.498 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
+				(justify bottom)
 				(hide yes)
 			)
 		)
-		(property "Arrow Part Number" "IPP111N15N3GXKSA1"
-			(at 200.66 955.88 0)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/UCC21521DW/Texas+Instruments/view-part/?ref=snap"
+			(at 106.426 44.704 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
+				(justify bottom)
 				(hide yes)
 			)
 		)
-		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/ipp111n15n3gxksa1/infineon-technologies-ag?region=europe"
-			(at 200.66 1055.88 0)
+		(property "MP" "UCC21521DW"
+			(at 105.664 51.054 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
+				(justify bottom)
 				(hide yes)
 			)
 		)
-		(pin "2"
-			(uuid "f68c4a0d-cfeb-41a4-b116-0896a5d7c0bd")
+		(property "Availability" "In Stock"
+			(at 103.886 48.006 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
 		)
-		(pin "1"
-			(uuid "680a5c6b-8b9d-4eee-902b-2d6ec049ab3f")
+		(property "Check_prices" "https://www.snapeda.com/parts/UCC21521DW/Texas+Instruments/view-part/?ref=eda"
+			(at 104.648 42.418 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "11"
+			(uuid "10ba30d2-ea14-4023-92b2-69ac6326483a")
+		)
+		(pin "10"
+			(uuid "7c4ad819-c391-4bd5-b55c-6558cffa1258")
+		)
+		(pin "8"
+			(uuid "9081e286-4a72-4fce-a9f1-3ae268f2c0a4")
 		)
 		(pin "3"
-			(uuid "cf3262ad-b426-405d-86a0-5edbed853ada")
+			(uuid "05a731e4-37d7-4272-ae98-cb205078aaa4")
+		)
+		(pin "9"
+			(uuid "b8080020-d10b-4346-9f63-6ae3a2f31d12")
+		)
+		(pin "2"
+			(uuid "251d7e68-8389-4093-a7bb-8f5a52bc89a1")
+		)
+		(pin "5"
+			(uuid "20712cec-e765-4c63-8ff2-5aa24c1a5e32")
+		)
+		(pin "1"
+			(uuid "43e9454d-dfee-4ea3-8410-c2d1ee50c07b")
+		)
+		(pin "14"
+			(uuid "e196d582-0509-4c18-b633-ce67bd5d0bb4")
+		)
+		(pin "4"
+			(uuid "ba831135-77ab-41f9-9937-9d4bfd2c72f7")
+		)
+		(pin "15"
+			(uuid "8e97f845-b4d1-4a65-ae1a-484ec9fcc359")
+		)
+		(pin "16"
+			(uuid "8839c0e5-ec2f-4838-8ac5-6c0a5a4e4e89")
+		)
+		(pin "6"
+			(uuid "1de00142-df6f-445d-8a01-745bc908016f")
 		)
 		(instances
 			(project ""
 				(path "/ca8b9c62-24ed-451b-8ada-8e095e6c3e3b/fa7ca0dd-ef0e-4471-8085-0b8f7bb7729a"
-					(reference "Q5")
+					(reference "U1")
 					(unit 1)
 				)
 			)
@@ -17532,6 +17745,176 @@
 			(project "Adrion_1"
 				(path "/ca8b9c62-24ed-451b-8ada-8e095e6c3e3b/fa7ca0dd-ef0e-4471-8085-0b8f7bb7729a"
 					(reference "R14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "IPT034N15NM6ATMA1_1")
+		(lib_id "IPT034N15NM6ATMA1:IPT034N15NM6ATMA1")
+		(at 182.88 185.42 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8da36a58-bafd-44f1-96ee-dc730913b5e5")
+		(property "Reference" "Q2"
+			(at 205.486 171.958 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "IPT034N15NM6ATMA1"
+			(at 207.01 174.244 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "IAUT150N10S5N035ATMA1:IAUT150N10S5N035ATMA1"
+			(at 277.8 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.infineon.com/assets/row/public/documents/24/49/infineon-ipt034n15nm6-datasheet-en.pdf"
+			(at 377.8 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "MOSFETs OptiMOS 6 power MOSFET 150 V normal level in TOLL package"
+			(at 182.88 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" ""
+			(at 577.8 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Infineon"
+			(at 677.8 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "IPT034N15NM6ATMA1"
+			(at 777.8 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "726-IPT034N15NM6ATMA"
+			(at 877.8 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Infineon-Technologies/IPT034N15NM6ATMA1?qs=7%2F6SraaimPSH5LUgDMi%2FsQ%3D%3D"
+			(at 977.8 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 1077.8 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 1177.8 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "8a9e6b03-91d6-43b4-bfd3-63108aa4843f")
+		)
+		(pin "3"
+			(uuid "757a6387-8b52-4dc6-a4b4-6e9746cff6c2")
+		)
+		(pin "4"
+			(uuid "54d7943e-8fcc-4ef5-9a78-f8ba8af44ecc")
+		)
+		(pin "6"
+			(uuid "bab5208a-8b54-4332-a0a6-9e9245b83536")
+		)
+		(pin "7"
+			(uuid "7ea4eceb-d826-4ccd-996e-bdc2bc70f93d")
+		)
+		(pin "9"
+			(uuid "a31781a7-dd03-4423-a84b-702ca2aeddae")
+		)
+		(pin "10"
+			(uuid "97ff2876-7e2c-4c27-8eb1-e40a4e0385f6")
+		)
+		(pin "2"
+			(uuid "2b529455-2941-46f0-8396-b86e234f0d00")
+		)
+		(pin "8"
+			(uuid "d988b2b3-e01b-4a96-93fc-02dfa0b41baa")
+		)
+		(pin "1"
+			(uuid "bec0484b-5596-4da7-8d86-a5374216c50c")
+		)
+		(pin "11"
+			(uuid "e796ad40-ab9a-4dfb-8570-bab5cfdb3424")
+		)
+		(pin "12"
+			(uuid "9c0bc7cd-fd50-4b35-a258-55012362c29d")
+		)
+		(instances
+			(project "Adrion_1"
+				(path "/ca8b9c62-24ed-451b-8ada-8e095e6c3e3b/fa7ca0dd-ef0e-4471-8085-0b8f7bb7729a"
+					(reference "Q2")
 					(unit 1)
 				)
 			)
@@ -17815,6 +18198,73 @@
 			(project "Adrion_1"
 				(path "/ca8b9c62-24ed-451b-8ada-8e095e6c3e3b/fa7ca0dd-ef0e-4471-8085-0b8f7bb7729a"
 					(reference "#PWR010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 39.37 210.82 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "98f9bbe8-a7ae-4ef7-8caa-83c2d2fa673f")
+		(property "Reference" "#FLG02"
+			(at 37.465 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 35.56 210.8199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 39.37 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 39.37 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 39.37 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "44148274-fe19-4a13-a1d5-c99b15ce9e02")
+		)
+		(instances
+			(project ""
+				(path "/ca8b9c62-24ed-451b-8ada-8e095e6c3e3b/fa7ca0dd-ef0e-4471-8085-0b8f7bb7729a"
+					(reference "#FLG02")
 					(unit 1)
 				)
 			)
@@ -18411,83 +18861,6 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 39.37 207.01 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a90dcf29-d3c6-4014-b9f4-bbab0ec4513c")
-		(property "Reference" "R12"
-			(at 41.91 205.7399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10k"
-			(at 41.91 208.2799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 37.592 207.01 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 39.37 207.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 39.37 207.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field5" "0603"
-			(at 44.45 210.312 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "fedbdb4a-6297-41ac-b04d-401212d3e1e1")
-		)
-		(pin "2"
-			(uuid "be98cc73-0944-404a-a8f1-47f6bb8ba071")
-		)
-		(instances
-			(project "Adrion_1"
-				(path "/ca8b9c62-24ed-451b-8ada-8e095e6c3e3b/fa7ca0dd-ef0e-4471-8085-0b8f7bb7729a"
-					(reference "R12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
 		(at 364.49 90.17 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -18563,7 +18936,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 80.01 214.63 180)
+		(at 76.2 209.55 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -18571,7 +18944,7 @@
 		(dnp no)
 		(uuid "adb89da9-2991-4ea2-bc30-6073b74a51c6")
 		(property "Reference" "C13"
-			(at 76.2 214.376 0)
+			(at 72.39 209.296 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18580,7 +18953,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 76.962 212.09 0)
+			(at 73.152 207.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18589,7 +18962,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 79.0448 210.82 0)
+			(at 75.2348 205.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18598,7 +18971,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 80.01 214.63 0)
+			(at 76.2 209.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18607,7 +18980,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 80.01 214.63 0)
+			(at 76.2 209.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18616,7 +18989,7 @@
 			)
 		)
 		(property "Field5" "0603"
-			(at 84.328 217.932 0)
+			(at 80.518 212.852 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18639,237 +19012,52 @@
 		)
 	)
 	(symbol
-		(lib_id "UCC21521DW_2:UCC21521DW")
-		(at 82.55 185.42 0)
+		(lib_id "MSS1P4-M3_89A:MSS1P4-M3_89A")
+		(at 158.75 212.09 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ae2e69de-b6fe-4bc7-9cc6-25eeda1b5e99")
-		(property "Reference" "IC2"
-			(at 97.282 170.18 0)
+		(uuid "b18e2cc5-4b6d-421d-b3b8-fb4deb45f937")
+		(property "Reference" "D4"
+			(at 168.91 204.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "UCC21521DW"
-			(at 97.536 171.958 0)
+		(property "Value" "MSS1P4-M3_89A"
+			(at 170.18 207.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "SOIC127P1030X265-16N:SOIC127P1030X265-16N"
-			(at 109.22 280.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/gpn/ucc21521"
-			(at 109.22 380.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "4-A, 6-A, 5.7-kVRMS Isolated Dual-Channel Gate Driver with Enable"
-			(at 82.55 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "2.65"
-			(at 109.22 580.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Texas Instruments"
-			(at 109.22 680.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "UCC21521DW"
-			(at 109.22 780.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "595-UCC21521DW"
-			(at 109.22 880.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/UCC21521DW?qs=8N88piwwHEh1S1VLrhQOJw%3D%3D"
-			(at 109.22 980.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" "UCC21521DW"
-			(at 109.22 1080.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/ucc21521dw/texas-instruments?region=nac"
-			(at 109.22 1180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "5"
-			(uuid "e052562f-1a59-48c8-bd12-93c803d253cc")
-		)
-		(pin "6"
-			(uuid "985124f6-823f-453a-b74b-65f75ece4baf")
-		)
-		(pin "12"
-			(uuid "39b477a7-3b85-4df8-8b1f-7595cbd849a8")
-		)
-		(pin "13"
-			(uuid "42aade13-e3ca-4bde-a418-413c02eab159")
-		)
-		(pin "16"
-			(uuid "93ec3075-1c89-4f86-b1e0-ff68d243f85d")
-		)
-		(pin "4"
-			(uuid "87d1d95d-9b85-49bb-9330-ca18fcc715fa")
-		)
-		(pin "9"
-			(uuid "3c75db72-3478-49e4-b258-3971f4e48d56")
-		)
-		(pin "2"
-			(uuid "81b40a2b-aea7-4192-aaac-6312679010d6")
-		)
-		(pin "3"
-			(uuid "77bc2a8b-40e4-4d0f-a0e3-5f13f7a097e0")
-		)
-		(pin "10"
-			(uuid "9b5aa684-f9a6-4f40-b29c-df291456f2f8")
-		)
-		(pin "15"
-			(uuid "96cfcc0a-13f0-4ca2-9ab4-27779518d221")
-		)
-		(pin "8"
-			(uuid "05840e17-5ba8-48c2-a827-c6be044a9ad4")
-		)
-		(pin "14"
-			(uuid "fbb4bfe9-603e-4769-8db7-75847b12ddbc")
-		)
-		(pin "1"
-			(uuid "9be2471f-ed78-4968-b066-3fa7cd340fef")
-		)
-		(pin "7"
-			(uuid "1bbc5360-e382-4c01-99a3-a294b4d08d1e")
-		)
-		(pin "11"
-			(uuid "13d63bc8-347f-440b-a54e-a6861f338a26")
-		)
-		(instances
-			(project "Adrion_1"
-				(path "/ca8b9c62-24ed-451b-8ada-8e095e6c3e3b/fa7ca0dd-ef0e-4471-8085-0b8f7bb7729a"
-					(reference "IC2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "IPP111N15N3GXKSA1:IPP111N15N3GXKSA1")
-		(at 181.61 173.99 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b0bce67f-7bf0-4550-a803-29b4d15381fb")
-		(property "Reference" "Q2"
-			(at 193.04 170.1799 0)
+		(property "Footprint" "MSS1P4-M3_89A:MICROSMP"
+			(at 171.45 208.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
-		(property "Value" "IPP111N15N3GXKSA1"
-			(at 193.04 172.7199 0)
+		(property "Datasheet" "https://www.vishay.com/docs/89019/mss1p4.pdf"
+			(at 171.45 210.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-			)
-		)
-		(property "Footprint" "TO254P457X1003X2115-3P:TO254P457X1003X2115-3P"
-			(at 193.04 272.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://componentsearchengine.com/Datasheets/2/IPP111N15N3GXKSA1.pdf"
-			(at 193.04 372.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "MOSFET N-Ch 150V 83A TO220-3 OptiMOS 3"
-			(at 181.61 173.99 0)
+		(property "Description" "Vishay MSS1P4-M3/89A SMT Schottky Diode, 40V 1A, 2-Pin uSMP"
+			(at 158.75 212.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18877,89 +19065,96 @@
 				(hide yes)
 			)
 		)
-		(property "Height" "4.57"
-			(at 193.04 572.72 0)
+		(property "Description_1" "Vishay MSS1P4-M3/89A SMT Schottky Diode, 40V 1A, 2-Pin uSMP"
+			(at 171.45 213.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
+				(justify left)
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "Infineon"
-			(at 193.04 672.72 0)
+		(property "Height" ""
+			(at 171.45 215.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
+				(justify left)
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "IPP111N15N3GXKSA1"
-			(at 193.04 772.72 0)
+		(property "Manufacturer_Name" "Vishay"
+			(at 171.45 218.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
+				(justify left)
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "726-IPP111N15N3GXKSA"
-			(at 193.04 872.72 0)
+		(property "Manufacturer_Part_Number" "MSS1P4-M3/89A"
+			(at 171.45 220.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
+				(justify left)
 				(hide yes)
 			)
 		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Infineon-Technologies/IPP111N15N3GXKSA1?qs=OwbwYO03UsJO1bujDVMB%2Fw%3D%3D"
-			(at 193.04 972.72 0)
+		(property "Mouser Part Number" "625-MSS1P4-M3"
+			(at 171.45 223.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
+				(justify left)
 				(hide yes)
 			)
 		)
-		(property "Arrow Part Number" "IPP111N15N3GXKSA1"
-			(at 193.04 1072.72 0)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Vishay-General-Semiconductor/MSS1P4-M3-89A?qs=fLSHF8TigmUkO6GnwlXAxQ%3D%3D"
+			(at 171.45 226.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
+				(justify left)
 				(hide yes)
 			)
 		)
-		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/ipp111n15n3gxksa1/infineon-technologies-ag?region=europe"
-			(at 193.04 1172.72 0)
+		(property "Arrow Part Number" "MSS1P4-M3/89A"
+			(at 171.45 228.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/mss1p4-m389a/vishay?utm_currency=USD&region=europe"
+			(at 171.45 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
 		(pin "2"
-			(uuid "69c725ab-2f42-4050-8294-e324898f490b")
+			(uuid "318c1447-12c9-4790-9bba-b9a8bac43866")
 		)
 		(pin "1"
-			(uuid "85eb0858-ff44-489d-895d-ef281b774a85")
-		)
-		(pin "3"
-			(uuid "31cda184-e0b5-456d-942c-5e4a5f23b1ea")
+			(uuid "88398a16-e705-4faf-b61c-c5998b702da2")
 		)
 		(instances
 			(project "Adrion_1"
 				(path "/ca8b9c62-24ed-451b-8ada-8e095e6c3e3b/fa7ca0dd-ef0e-4471-8085-0b8f7bb7729a"
-					(reference "Q2")
+					(reference "D4")
 					(unit 1)
 				)
 			)
@@ -19414,188 +19609,6 @@
 		)
 	)
 	(symbol
-		(lib_id "UCC21521DW_2:UCC21521DW")
-		(at 86.36 68.58 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c139fba7-173d-42fc-909c-069b6c565b7a")
-		(property "Reference" "IC3"
-			(at 101.092 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "UCC21521DW"
-			(at 101.346 55.118 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "SOIC127P1030X265-16N:SOIC127P1030X265-16N"
-			(at 113.03 163.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/gpn/ucc21521"
-			(at 113.03 263.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "4-A, 6-A, 5.7-kVRMS Isolated Dual-Channel Gate Driver with Enable"
-			(at 86.36 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "2.65"
-			(at 113.03 463.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Texas Instruments"
-			(at 113.03 563.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "UCC21521DW"
-			(at 113.03 663.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "595-UCC21521DW"
-			(at 113.03 763.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/UCC21521DW?qs=8N88piwwHEh1S1VLrhQOJw%3D%3D"
-			(at 113.03 863.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" "UCC21521DW"
-			(at 113.03 963.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/ucc21521dw/texas-instruments?region=nac"
-			(at 113.03 1063.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "5"
-			(uuid "e8e65353-a49e-4311-864d-6b53ca05e0df")
-		)
-		(pin "6"
-			(uuid "9b004d42-04f3-498f-866f-43a080a87470")
-		)
-		(pin "12"
-			(uuid "a75eb042-7d5d-4ef4-9ec5-281513325002")
-		)
-		(pin "13"
-			(uuid "1b9fa177-8286-463b-bdfb-1d2229421d95")
-		)
-		(pin "16"
-			(uuid "10160b7b-6746-48b6-8a22-baccf9d75669")
-		)
-		(pin "4"
-			(uuid "aa1a1015-0c89-41d9-aed9-542177904627")
-		)
-		(pin "9"
-			(uuid "3bf765c7-5d2b-4de3-8b19-c7e720bb9c2f")
-		)
-		(pin "2"
-			(uuid "66483097-b82f-4cea-ae3a-fb5eee600eb1")
-		)
-		(pin "3"
-			(uuid "c36940ba-d36e-41cb-a675-1828796454a9")
-		)
-		(pin "10"
-			(uuid "f6bfc4a3-f013-4099-ac4b-6efcdc5c36a9")
-		)
-		(pin "15"
-			(uuid "be304b19-83ff-4d6c-a7ee-9daaf12801ac")
-		)
-		(pin "8"
-			(uuid "b8eb3be3-cbc1-4892-a135-39567f7322fc")
-		)
-		(pin "14"
-			(uuid "8702f6e2-4744-45e5-8c3b-fb36e56c1191")
-		)
-		(pin "1"
-			(uuid "6af52015-d50e-48fa-b065-17fcb2ce6af4")
-		)
-		(pin "7"
-			(uuid "8bd06ce5-a149-4574-972b-464c5cf92a3c")
-		)
-		(pin "11"
-			(uuid "a9b5affd-10d2-4275-8105-e574040a41c6")
-		)
-		(instances
-			(project "Adrion_1"
-				(path "/ca8b9c62-24ed-451b-8ada-8e095e6c3e3b/fa7ca0dd-ef0e-4471-8085-0b8f7bb7729a"
-					(reference "IC3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 34.29 176.53 90)
 		(unit 1)
@@ -19658,6 +19671,188 @@
 			(project "Adrion_1"
 				(path "/ca8b9c62-24ed-451b-8ada-8e095e6c3e3b/fa7ca0dd-ef0e-4471-8085-0b8f7bb7729a"
 					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "UCC21521DW:UCC21521DW")
+		(at 96.52 190.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c64a022e-74f4-48ab-8c6f-2769a7e678b5")
+		(property "Reference" "U2"
+			(at 96.52 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "UCC21521DW"
+			(at 96.52 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SOIC127P1030X265-16N:SOIC127P1030X265-16N"
+			(at 98.298 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 96.52 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 96.52 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Texas Instruments"
+			(at 96.266 165.862 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "5.7kVrms, 4A/6A dual-channel isolated gate driver with dual input, enable, 8V UVLO & LGA pack"
+			(at 97.536 157.734 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "SOIC-16 Texas Instruments"
+			(at 94.488 163.322 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 96.52 164.338 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/UCC21521DW/Texas+Instruments/view-part/?ref=snap"
+			(at 98.806 161.544 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "UCC21521DW"
+			(at 98.044 167.894 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 96.266 164.846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/UCC21521DW/Texas+Instruments/view-part/?ref=eda"
+			(at 97.028 159.258 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "11"
+			(uuid "1c567b80-bb3e-46fe-be43-d9357d52fabb")
+		)
+		(pin "10"
+			(uuid "a7a89341-b7d5-4489-80b8-512a00c816d0")
+		)
+		(pin "8"
+			(uuid "df7b883b-b70c-4d15-bbca-0b1eea3dbd67")
+		)
+		(pin "3"
+			(uuid "85629e94-4218-4feb-a222-8c8129d1b6ba")
+		)
+		(pin "9"
+			(uuid "740656fd-0aa8-4e0d-9462-9db39519cf1f")
+		)
+		(pin "2"
+			(uuid "67bfbc8c-3477-412c-b017-a20ae868d621")
+		)
+		(pin "5"
+			(uuid "fa9ab4ed-4355-4203-ae81-0f1a5352570a")
+		)
+		(pin "1"
+			(uuid "75e358df-3d6c-4d37-8e16-85f9ffe7cc4f")
+		)
+		(pin "14"
+			(uuid "46bf69b7-d587-48ce-a574-64255482990d")
+		)
+		(pin "4"
+			(uuid "39fca09a-c69e-4bc8-b190-33c9b38b952a")
+		)
+		(pin "15"
+			(uuid "fdb0b676-1633-4e9c-9d71-67322c79ee52")
+		)
+		(pin "16"
+			(uuid "dc0cb637-b47d-452c-a63b-3901cb2e71bd")
+		)
+		(pin "6"
+			(uuid "38aa9a50-ab3d-4ba3-bdc7-2bc56d49e835")
+		)
+		(instances
+			(project "Adrion_1"
+				(path "/ca8b9c62-24ed-451b-8ada-8e095e6c3e3b/fa7ca0dd-ef0e-4471-8085-0b8f7bb7729a"
+					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -19742,6 +19937,159 @@
 		)
 	)
 	(symbol
+		(lib_id "B43547F2108M067:B43547F2108M067")
+		(at 345.44 234.95 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cc2192e6-6667-49b0-9223-124824f7d7cb")
+		(property "Reference" "C37"
+			(at 349.25 240.0299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "B43547F2108M067"
+			(at 319.786 256.54 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "CAPPRD1000W190D3550H4200:CAPPRD1000W190D3550H4200"
+			(at 346.71 243.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://product.tdk.com/system/files/dam/doc/product/capacitor/aluminum-electrolytic/snap-in/data_sheet/20/30/db/aec/b43547.pdf"
+			(at 344.17 243.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Snap-in Capacitors, 1000?F/250VDC, 35mm dia x 40mm length"
+			(at 345.44 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "Snap-in Capacitors, 1000?F/250VDC, 35mm dia x 40mm length"
+			(at 341.63 243.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Height" "42"
+			(at 339.09 243.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "TDK"
+			(at 336.55 243.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "B43547F2108M067"
+			(at 334.01 243.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 331.47 243.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 328.93 243.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 326.39 243.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 323.85 243.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "40900628-f2ce-4a98-8f20-da20779cfe3b")
+		)
+		(pin "2"
+			(uuid "ab85c58c-9824-4c67-ab6c-77c9aac11a43")
+		)
+		(instances
+			(project "Adrion_1"
+				(path "/ca8b9c62-24ed-451b-8ada-8e095e6c3e3b/fa7ca0dd-ef0e-4471-8085-0b8f7bb7729a"
+					(reference "C37")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 62.23 217.17 180)
 		(unit 1)
@@ -19813,6 +20161,176 @@
 			(project "Adrion_1"
 				(path "/ca8b9c62-24ed-451b-8ada-8e095e6c3e3b/fa7ca0dd-ef0e-4471-8085-0b8f7bb7729a"
 					(reference "R13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "IPT034N15NM6ATMA1_1")
+		(lib_id "IPT034N15NM6ATMA1:IPT034N15NM6ATMA1")
+		(at 185.42 231.14 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cf62bb78-af1b-4e14-8a0f-79f81a693a6b")
+		(property "Reference" "Q3"
+			(at 220.726 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "IPT034N15NM6ATMA1"
+			(at 223.266 218.694 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "IAUT150N10S5N035ATMA1:IAUT150N10S5N035ATMA1"
+			(at 280.34 209.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.infineon.com/assets/row/public/documents/24/49/infineon-ipt034n15nm6-datasheet-en.pdf"
+			(at 380.34 209.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "MOSFETs OptiMOS 6 power MOSFET 150 V normal level in TOLL package"
+			(at 185.42 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" ""
+			(at 580.34 209.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Infineon"
+			(at 680.34 209.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "IPT034N15NM6ATMA1"
+			(at 780.34 209.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "726-IPT034N15NM6ATMA"
+			(at 880.34 209.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Infineon-Technologies/IPT034N15NM6ATMA1?qs=7%2F6SraaimPSH5LUgDMi%2FsQ%3D%3D"
+			(at 980.34 209.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 1080.34 209.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 1180.34 209.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "7d97c7f1-7f45-419b-9ea5-039fc97249fc")
+		)
+		(pin "3"
+			(uuid "87e88e44-a646-4f84-9213-e03820ed9dd5")
+		)
+		(pin "4"
+			(uuid "5c573251-bdf5-4eb9-aab6-bd4995276d06")
+		)
+		(pin "6"
+			(uuid "83f7aa2f-1c55-47bd-88c5-b2427f561136")
+		)
+		(pin "7"
+			(uuid "b037f1a1-fc61-4da7-9727-eb9197143292")
+		)
+		(pin "9"
+			(uuid "0acced66-f675-4914-9511-e999c9168a72")
+		)
+		(pin "10"
+			(uuid "d73cd3fa-7863-48a2-b03e-9bc2c26a54a3")
+		)
+		(pin "2"
+			(uuid "8dc35b97-7015-4e89-8467-24a30cda7728")
+		)
+		(pin "8"
+			(uuid "cbe7351b-aaca-4b87-a181-6fa91480f91e")
+		)
+		(pin "1"
+			(uuid "0dec2e15-3516-413a-b09c-9e9636971ff0")
+		)
+		(pin "11"
+			(uuid "4b12496f-5edb-474e-9809-f8a8b75178c5")
+		)
+		(pin "12"
+			(uuid "d5c762cf-e9e9-48a5-964e-4dcf67efc414")
+		)
+		(instances
+			(project "Adrion_1"
+				(path "/ca8b9c62-24ed-451b-8ada-8e095e6c3e3b/fa7ca0dd-ef0e-4471-8085-0b8f7bb7729a"
+					(reference "Q3")
 					(unit 1)
 				)
 			)
@@ -20129,72 +20647,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 39.37 212.09 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d3f1d4e1-9732-4d87-8f44-45b05fe3b949")
-		(property "Reference" "#PWR01"
-			(at 39.37 218.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 39.37 217.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 39.37 212.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 39.37 212.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 39.37 212.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f0198ff9-ab89-4f2a-a980-f4d3980deb3c")
-		)
-		(instances
-			(project ""
-				(path "/ca8b9c62-24ed-451b-8ada-8e095e6c3e3b/fa7ca0dd-ef0e-4471-8085-0b8f7bb7729a"
-					(reference "#PWR01")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 41.91 63.5 90)
 		(unit 1)
@@ -20264,175 +20716,6 @@
 			(project "Adrion_1"
 				(path "/ca8b9c62-24ed-451b-8ada-8e095e6c3e3b/fa7ca0dd-ef0e-4471-8085-0b8f7bb7729a"
 					(reference "R3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "MSS1P4-M3_89A_2:MSS1P4-M3_89A")
-		(at 157.48 165.1 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d52ad269-961d-4b21-94a3-5f7d2dd98097")
-		(property "Reference" "D2"
-			(at 157.1625 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "MSS1P4-M3_89A"
-			(at 157.1625 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "DIODE_MSS1P4-M3_89A:DIODE_MSS1P4-M3_89A"
-			(at 157.48 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 157.48 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 157.48 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" "Vishay Semiconductor"
-			(at 157.48 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "DESCRIPTION" "MSS2P3 Series 30 V 2 A Surface Mount Schottky Barrier Rectifier - MicroSMP"
-			(at 157.48 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "PACKAGE" "MicroSMP Vishay Semiconductor"
-			(at 157.48 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
-			(at 157.48 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "MicroSMP Vishay Semiconductor"
-			(at 157.48 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/MSS1P4-M3/89A/Vishay/view-part/?ref=eda"
-			(at 157.48 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/MSS1P4-M3/89A/Vishay/view-part/?ref=snap"
-			(at 157.48 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "MSS1P4-M3/89A"
-			(at 157.48 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 157.48 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "Diode Schottky 40 V 1A Surface Mount MicroSMP (DO-219AD)"
-			(at 157.48 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "94dc759e-fa76-458d-84d8-90acc5501275")
-		)
-		(pin "1"
-			(uuid "d72f3f31-c974-4066-b207-485239057f4e")
-		)
-		(instances
-			(project "Adrion_1"
-				(path "/ca8b9c62-24ed-451b-8ada-8e095e6c3e3b/fa7ca0dd-ef0e-4471-8085-0b8f7bb7729a"
-					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -21047,6 +21330,156 @@
 			(project ""
 				(path "/ca8b9c62-24ed-451b-8ada-8e095e6c3e3b/fa7ca0dd-ef0e-4471-8085-0b8f7bb7729a"
 					(reference "U5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "MSS1P4-M3_89A:MSS1P4-M3_89A")
+		(at 147.32 165.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dab8003a-5a2f-497a-81ef-8a3607448d30")
+		(property "Reference" "D3"
+			(at 157.48 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MSS1P4-M3_89A"
+			(at 157.48 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "MSS1P4-M3_89A:MICROSMP"
+			(at 160.02 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/89019/mss1p4.pdf"
+			(at 160.02 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Vishay MSS1P4-M3/89A SMT Schottky Diode, 40V 1A, 2-Pin uSMP"
+			(at 147.32 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "Vishay MSS1P4-M3/89A SMT Schottky Diode, 40V 1A, 2-Pin uSMP"
+			(at 160.02 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Height" ""
+			(at 160.02 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Vishay"
+			(at 160.02 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "MSS1P4-M3/89A"
+			(at 160.02 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "625-MSS1P4-M3"
+			(at 160.02 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Vishay-General-Semiconductor/MSS1P4-M3-89A?qs=fLSHF8TigmUkO6GnwlXAxQ%3D%3D"
+			(at 160.02 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "MSS1P4-M3/89A"
+			(at 160.02 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/mss1p4-m389a/vishay?utm_currency=USD&region=europe"
+			(at 160.02 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d85bf467-aa23-49e9-aa80-00fec7af18d8")
+		)
+		(pin "1"
+			(uuid "f14bb0a8-1181-4ef8-8830-5f2902178a62")
+		)
+		(instances
+			(project "Adrion_1"
+				(path "/ca8b9c62-24ed-451b-8ada-8e095e6c3e3b/fa7ca0dd-ef0e-4471-8085-0b8f7bb7729a"
+					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -22590,151 +23023,6 @@
 			(project "Adrion_1"
 				(path "/ca8b9c62-24ed-451b-8ada-8e095e6c3e3b/fa7ca0dd-ef0e-4471-8085-0b8f7bb7729a"
 					(reference "C14")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "IPP111N15N3GXKSA1:IPP111N15N3GXKSA1")
-		(at 187.96 102.87 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f897cc57-3ed2-4f0f-b8a3-29698982f86b")
-		(property "Reference" "Q1"
-			(at 199.39 99.0599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "IPP111N15N3GXKSA1"
-			(at 199.39 101.5999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TO254P457X1003X2115-3P:TO254P457X1003X2115-3P"
-			(at 199.39 201.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://componentsearchengine.com/Datasheets/2/IPP111N15N3GXKSA1.pdf"
-			(at 199.39 301.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "MOSFET N-Ch 150V 83A TO220-3 OptiMOS 3"
-			(at 187.96 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "4.57"
-			(at 199.39 501.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Infineon"
-			(at 199.39 601.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "IPP111N15N3GXKSA1"
-			(at 199.39 701.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "726-IPP111N15N3GXKSA"
-			(at 199.39 801.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Infineon-Technologies/IPP111N15N3GXKSA1?qs=OwbwYO03UsJO1bujDVMB%2Fw%3D%3D"
-			(at 199.39 901.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" "IPP111N15N3GXKSA1"
-			(at 199.39 1001.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/ipp111n15n3gxksa1/infineon-technologies-ag?region=europe"
-			(at 199.39 1101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "915113de-4b1a-4cd5-9eaf-7c748e7cbb02")
-		)
-		(pin "1"
-			(uuid "c973127a-540c-4bb6-851b-b99e6ebb187b")
-		)
-		(pin "3"
-			(uuid "f6c82685-b9f2-4cd6-8d0f-a5e3c5667999")
-		)
-		(instances
-			(project "Adrion_1"
-				(path "/ca8b9c62-24ed-451b-8ada-8e095e6c3e3b/fa7ca0dd-ef0e-4471-8085-0b8f7bb7729a"
-					(reference "Q1")
 					(unit 1)
 				)
 			)

@@ -1,0 +1,202 @@
+(footprint "D22V0H1U2LP7B"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "X1-DFN1006-2_2023")
+	(tags "TVS Diode (Uni-directional)")
+	(property "Reference" "D**"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(uuid "5033f414-c34c-4320-915d-8512ad30a377")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "D22V0H1U2LP7B"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "57b9b872-b328-451b-9b80-4b5e52006ca4")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "02f56299-8528-4127-9178-c864571cf9f5")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ef9e2a40-715c-4fe4-a99f-d55099ec7ee8")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.1 0)
+		(end -1.1 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ff7b29e8-3f33-4f28-a956-c090ec26d48b")
+	)
+	(fp_line
+		(start -1 0)
+		(end -1 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "cfb621be-c126-421c-8856-a02e4d2e3648")
+	)
+	(fp_arc
+		(start -1.1 0)
+		(mid -1.05 -0.05)
+		(end -1 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "dd203565-03ec-4a02-a870-e021776286f6")
+	)
+	(fp_arc
+		(start -1 0)
+		(mid -1.05 0.05)
+		(end -1.1 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c76ce84f-4a00-47b3-8e9e-437ab16124e7")
+	)
+	(fp_line
+		(start -1.55 -1.35)
+		(end 1.55 -1.35)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "6f170c5c-b8f4-4ebd-944a-2d4732cf79d9")
+	)
+	(fp_line
+		(start -1.55 1.35)
+		(end -1.55 -1.35)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "09ffcd62-e6ee-4ec8-9ad0-26940c441fda")
+	)
+	(fp_line
+		(start 1.55 -1.35)
+		(end 1.55 1.35)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "e3a20dc9-fd12-4f5a-af40-614767b6f5eb")
+	)
+	(fp_line
+		(start 1.55 1.35)
+		(end -1.55 1.35)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "fcae768a-b2f8-45e0-ae7a-9020cb4d97f0")
+	)
+	(fp_line
+		(start -0.5 -0.3)
+		(end 0.5 -0.3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "d8dcb4a7-52a4-4fb7-8fac-8f66be40a686")
+	)
+	(fp_line
+		(start -0.5 0.3)
+		(end -0.5 -0.3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f729b3c9-dc76-4788-89cf-a82a1df83892")
+	)
+	(fp_line
+		(start 0.5 -0.3)
+		(end 0.5 0.3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "8644093d-8acc-46ab-b32e-ef82d3e2ad9c")
+	)
+	(fp_line
+		(start 0.5 0.3)
+		(end -0.5 0.3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "991844b5-ec38-40fb-bac9-647f051d066c")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "a2d0aa97-96c0-4159-bd47-81c697fac7ac")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -0.35 0)
+		(size 0.4 0.7)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "0f8e12f8-eccf-4035-ade2-6b14c8b070a1")
+	)
+	(pad "2" smd rect
+		(at 0.35 0)
+		(size 0.4 0.7)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "9bdaf4eb-ae59-4a39-8ded-2d7f55c8a416")
+	)
+	(embedded_fonts no)
+)

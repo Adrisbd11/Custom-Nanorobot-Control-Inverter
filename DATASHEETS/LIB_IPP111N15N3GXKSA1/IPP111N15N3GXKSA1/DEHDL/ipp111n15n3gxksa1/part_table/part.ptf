@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'IPP111N15N3GXKSA1'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Infineon", "IPP111N15N3GXKSA1" (!) = "", "TO254P457X1003X2115-3P", "Transistor Outline, Vertical", "726-IPP111N15N3GXKSA", "https://www.mouser.co.uk/ProductDetail/Infineon-Technologies/IPP111N15N3GXKSA1?qs=OwbwYO03UsJO1bujDVMB%2Fw%3D%3D", "IPP111N15N3GXKSA1", "https://www.arrow.com/en/products/ipp111n15n3gxksa1/infineon-technologies-ag?region=europe", "MOSFET N-Ch 150V 83A TO220-3 OptiMOS 3", "https://componentsearchengine.com/Datasheets/2/IPP111N15N3GXKSA1.pdf", "4.57 mm"
+END_PART
+
+END.

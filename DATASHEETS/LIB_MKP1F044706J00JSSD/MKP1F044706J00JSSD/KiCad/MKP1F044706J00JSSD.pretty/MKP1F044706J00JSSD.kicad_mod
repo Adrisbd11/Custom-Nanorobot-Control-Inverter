@@ -243,7 +243,7 @@
 		(uuid "61ff745f-31a8-4428-b379-4d03a1e1ed0f")
 	)
 	(embedded_fonts no)
-	(model "MKP1F044706J00JSSD.stp"
+	(model "${DATASHEETS}/LIB_MKP1F044706J00JSSD/MKP1F044706J00JSSD/3D/MKP1F044706J00JSSD.stp"
 		(offset
 			(xyz 0 0 0)
 		)

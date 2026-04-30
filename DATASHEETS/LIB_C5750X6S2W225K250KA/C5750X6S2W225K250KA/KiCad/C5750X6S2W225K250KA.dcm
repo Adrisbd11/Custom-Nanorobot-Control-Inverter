@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP C5750X6S2W225K250KA
+D Capacitor MLCC 2220 450V 2.2uF X6S TDK 2.2uF Multilayer Ceramic Capacitor (MLCC) 450 V dc +/-10% X6S dielectric C SMT max op. temp. +105C
+K
+F https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_commercial_midvoltage_en.pdf
+$ENDCMP
+#
+#End Doc Library

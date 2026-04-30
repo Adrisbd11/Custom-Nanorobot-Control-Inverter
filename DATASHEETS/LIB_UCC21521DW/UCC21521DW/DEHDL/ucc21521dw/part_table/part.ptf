@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'UCC21521DW'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Texas Instruments", "UCC21521DW" (!) = "", "SOIC127P1030X265-16N", "Small Outline Packages", "595-UCC21521DW", "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/UCC21521DW?qs=8N88piwwHEh1S1VLrhQOJw%3D%3D", "UCC21521DW", "https://www.arrow.com/en/products/ucc21521dw/texas-instruments?region=nac", "4-A, 6-A, 5.7-kVRMS Isolated Dual-Channel Gate Driver with Enable", "http://www.ti.com/lit/gpn/ucc21521", "2.65 mm"
+END_PART
+
+END.

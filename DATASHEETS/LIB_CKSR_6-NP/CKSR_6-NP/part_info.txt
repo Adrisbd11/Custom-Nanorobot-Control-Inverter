@@ -1,0 +1,9 @@
+Manufacturer=LEM
+PartNumber=CKSR 6-NP
+PartCategory=Undefined or Miscellaneous
+PackageCategory=Other
+PinCount=12
+Version=1.3
+Released=2018-02-09 14:04:23
+Downloaded=2026-04-21 12:22:27
+3D=Y

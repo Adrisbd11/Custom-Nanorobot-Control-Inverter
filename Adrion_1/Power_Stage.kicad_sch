@@ -627,6 +627,218 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "C5750X6S2W225K250KA:C5750X6S2W225K250KA"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 8.89 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "C5750X6S2W225K250KA"
+				(at 8.89 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "C5750_Commercial"
+				(at 8.89 -96.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_commercial_midvoltage_en.pdf"
+				(at 8.89 -196.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "Capacitor MLCC 2220 450V 2.2uF X6S TDK 2.2uF Multilayer Ceramic Capacitor (MLCC) 450 V dc +/-10% X6S dielectric C SMT max op. temp. +105C"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "2.5"
+				(at 8.89 -396.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "TDK"
+				(at 8.89 -496.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "C5750X6S2W225K250KA"
+				(at 8.89 -596.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "810-C5750X6S2W225KKA"
+				(at 8.89 -696.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/TDK/C5750X6S2W225K250KA?qs=LGR4zN7VH6VhpmZPs3%252BfMA%3D%3D"
+				(at 8.89 -796.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Arrow Part Number" "C5750X6S2W225K250KA"
+				(at 8.89 -896.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Arrow Price/Stock" "https://www.arrow.com/en/products/c5750x6s2w225k250ka/tdk?utm_currency=USD&region=europe"
+				(at 8.89 -996.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "C5750X6S2W225K250KA_1_1"
+				(polyline
+					(pts
+						(xy 5.08 0) (xy 5.588 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.588 2.54) (xy 5.588 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.112 2.54) (xy 7.112 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.112 0) (xy 7.62 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 0 180)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "CKSR_6-NP:CKSR_6-NP"
 			(pin_names
 				(offset 0.762)
@@ -1769,230 +1981,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "MKP1F044706J00JSSD:MKP1F044706J00JSSD"
-			(pin_names
-				(offset 0.762)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "C"
-				(at 8.89 6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "MKP1F044706J00JSSD"
-				(at 8.89 3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "MKP1F044706J00JSSD"
-				(at 8.89 1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.wima.de/wp-content/uploads/media/e_WIMA_MKP_10.pdf"
-				(at 8.89 -1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Description" "Film Capacitors 4.7 uF 250 VDC 5%"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description_1" "Film Capacitors 4.7 uF 250 VDC 5%"
-				(at 8.89 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Height" "39.5"
-				(at 8.89 -6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Name" "WIMA"
-				(at 8.89 -8.89 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Part_Number" "MKP1F044706J00JSSD"
-				(at 8.89 -11.43 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Mouser Part Number" "505-MKP1F044706J00JS"
-				(at 8.89 -13.97 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/WIMA/MKP1F044706J00JSSD?qs=dTJS0cRn7ogT%252BWsuB87WZQ%3D%3D"
-				(at 8.89 -16.51 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Arrow Part Number" ""
-				(at 8.89 -19.05 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Arrow Price/Stock" ""
-				(at 8.89 -21.59 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(symbol "MKP1F044706J00JSSD_0_0"
-				(pin passive line
-					(at 0 0 0)
-					(length 5.08)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 12.7 0 180)
-					(length 5.08)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "MKP1F044706J00JSSD_0_1"
-				(polyline
-					(pts
-						(xy 5.08 0) (xy 5.588 0)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.588 2.54) (xy 5.588 -2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.112 2.54) (xy 7.112 -2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.112 0) (xy 7.62 0)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "MSS1P4-M3_89A_2:MSS1P4-M3_89A"
 			(pin_names
 				(offset 1.016)
@@ -2037,16 +2025,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "MF" "Vishay Semiconductor"
+			(property "Description" "MSS2P3 Series 30 V 2 A Surface Mount Schottky Barrier Rectifier - MicroSMP"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2056,7 +2035,7 @@
 					(hide yes)
 				)
 			)
-			(property "DESCRIPTION" "MSS2P3 Series 30 V 2 A Surface Mount Schottky Barrier Rectifier - MicroSMP"
+			(property "MF" "Vishay Semiconductor"
 				(at 0 0 0)
 				(effects
 					(font
@@ -4563,16 +4542,34 @@
 		(uuid "1168b352-0fb1-4826-bdad-9dd6e565e81b")
 	)
 	(junction
+		(at 373.38 231.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1742d10c-6405-4cf1-b2a2-360d7b0ef115")
+	)
+	(junction
 		(at 176.53 142.24)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1759e67d-2313-4bba-badb-20484d275ca0")
 	)
 	(junction
+		(at 341.63 251.46)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "17f51a9f-f0dd-4d72-9345-4bc7314c96db")
+	)
+	(junction
 		(at 271.78 78.74)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1980003e-8364-4b7f-9061-a36d5d556873")
+	)
+	(junction
+		(at 341.63 231.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1a363d46-60c4-4fc2-a90a-45b7e23bcb55")
 	)
 	(junction
 		(at 125.73 135.89)
@@ -4599,10 +4596,10 @@
 		(uuid "29c82d41-b6a9-424c-93d3-6164690af822")
 	)
 	(junction
-		(at 370.84 251.46)
+		(at 364.49 251.46)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "2b9cc7a2-6240-41fc-b652-00f5db641bca")
+		(uuid "2b91cedd-5a60-45b7-8969-dd5f84744aea")
 	)
 	(junction
 		(at 314.96 251.46)
@@ -4701,6 +4698,12 @@
 		(uuid "539f5ab1-fe9f-422c-b3c7-04f94ab71d1c")
 	)
 	(junction
+		(at 354.33 231.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "577b4ecb-a71b-4f97-8476-a979b44ed1ee")
+	)
+	(junction
 		(at 143.51 19.05)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4713,6 +4716,12 @@
 		(uuid "5dd9bf70-074c-4674-a73c-0c32c7f45650")
 	)
 	(junction
+		(at 354.33 251.46)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5ff7fb7b-d6fb-4772-9e1a-7c82a745b851")
+	)
+	(junction
 		(at 193.04 142.24)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4723,6 +4732,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "648dedb1-4bdc-4f31-bbed-168d81456bab")
+	)
+	(junction
+		(at 373.38 251.46)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "69a6ada5-3a1c-4989-9279-63b20f6f662d")
 	)
 	(junction
 		(at 167.64 220.98)
@@ -4759,12 +4774,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "70c1d69b-662e-44ca-9ed3-2119f7ff58a7")
-	)
-	(junction
-		(at 361.95 231.14)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "70d5f588-4298-4049-8a3b-f1b89856114a")
 	)
 	(junction
 		(at 256.54 78.74)
@@ -4941,12 +4950,6 @@
 		(uuid "926bbaaf-d426-4182-8313-bce2e643d476")
 	)
 	(junction
-		(at 370.84 231.14)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9426e37d-1ef6-47b1-9e25-ebc945999b3f")
-	)
-	(junction
 		(at 173.99 72.39)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5013,6 +5016,12 @@
 		(uuid "a51d4e7d-1bb2-49e7-b8e7-b55e1bdae9b0")
 	)
 	(junction
+		(at 364.49 231.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a546be85-1d68-4068-95e3-38e3dd48f81a")
+	)
+	(junction
 		(at 55.88 59.69)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5023,12 +5032,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a5de6af5-50e7-4358-8a00-5bfb824715f4")
-	)
-	(junction
-		(at 361.95 251.46)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ad62cff4-38cb-48b6-abfc-ca4264b572a4")
 	)
 	(junction
 		(at 173.99 57.15)
@@ -5360,6 +5363,16 @@
 	)
 	(wire
 		(pts
+			(xy 354.33 231.14) (xy 354.33 234.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "050cacbd-d38e-44c5-a4c8-56698db3e014")
+	)
+	(wire
+		(pts
 			(xy 128.27 209.55) (xy 128.27 231.14)
 		)
 		(stroke
@@ -5550,7 +5563,7 @@
 	)
 	(wire
 		(pts
-			(xy 330.2 251.46) (xy 361.95 251.46)
+			(xy 330.2 251.46) (xy 341.63 251.46)
 		)
 		(stroke
 			(width 0)
@@ -5647,6 +5660,16 @@
 			(type default)
 		)
 		(uuid "156acdb2-71d2-44d0-a68f-d9dd7ff915bc")
+	)
+	(wire
+		(pts
+			(xy 341.63 251.46) (xy 354.33 251.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "156f6cf1-e20a-482f-97d3-1323b6b037f5")
 	)
 	(wire
 		(pts
@@ -5760,6 +5783,16 @@
 	)
 	(wire
 		(pts
+			(xy 354.33 247.65) (xy 354.33 251.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1eacdbaa-0d5a-4645-bc5a-83759a99aaa2")
+	)
+	(wire
+		(pts
 			(xy 123.19 100.33) (xy 156.21 100.33)
 		)
 		(stroke
@@ -5780,7 +5813,7 @@
 	)
 	(wire
 		(pts
-			(xy 330.2 231.14) (xy 361.95 231.14)
+			(xy 330.2 231.14) (xy 341.63 231.14)
 		)
 		(stroke
 			(width 0)
@@ -5877,16 +5910,6 @@
 			(type default)
 		)
 		(uuid "26e1bdd6-746f-4bf6-81f5-4fc19d4be505")
-	)
-	(wire
-		(pts
-			(xy 370.84 251.46) (xy 382.27 251.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "28711e08-2842-4f9f-9a96-b08691b658e4")
 	)
 	(wire
 		(pts
@@ -6157,16 +6180,6 @@
 			(type default)
 		)
 		(uuid "38416542-dc48-4361-afd8-f1bc41ebf6fe")
-	)
-	(wire
-		(pts
-			(xy 370.84 247.65) (xy 370.84 251.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3863aa94-6d08-4765-9d72-803d8467180a")
 	)
 	(wire
 		(pts
@@ -6700,6 +6713,16 @@
 	)
 	(wire
 		(pts
+			(xy 364.49 251.46) (xy 373.38 251.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6fca274d-5103-4f0b-9031-ca3eecb6fb66")
+	)
+	(wire
+		(pts
 			(xy 307.34 251.46) (xy 314.96 251.46)
 		)
 		(stroke
@@ -6750,16 +6773,6 @@
 	)
 	(wire
 		(pts
-			(xy 361.95 247.65) (xy 361.95 251.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "77726eb4-8d93-4231-8473-15685e393142")
-	)
-	(wire
-		(pts
 			(xy 314.96 234.95) (xy 314.96 231.14)
 		)
 		(stroke
@@ -6807,6 +6820,16 @@
 			(type default)
 		)
 		(uuid "7abf037c-bde4-4fe2-85b6-9adc8ea00368")
+	)
+	(wire
+		(pts
+			(xy 364.49 231.14) (xy 364.49 234.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7bb40063-f2d1-47b6-99d5-caec896371d4")
 	)
 	(wire
 		(pts
@@ -7020,16 +7043,6 @@
 	)
 	(wire
 		(pts
-			(xy 370.84 231.14) (xy 382.27 231.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "858cef58-305e-4e0a-bf8c-eb3f8941c168")
-	)
-	(wire
-		(pts
 			(xy 187.96 223.52) (xy 187.96 231.14)
 		)
 		(stroke
@@ -7107,16 +7120,6 @@
 			(type default)
 		)
 		(uuid "895bd094-29e6-4b01-9613-c0645163f97a")
-	)
-	(wire
-		(pts
-			(xy 370.84 231.14) (xy 370.84 234.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "89d75a3c-197b-4e83-a92a-f87b51667b91")
 	)
 	(wire
 		(pts
@@ -7320,6 +7323,16 @@
 	)
 	(wire
 		(pts
+			(xy 341.63 231.14) (xy 341.63 234.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "979e1acf-b5dc-43ee-acf4-b35ff6440675")
+	)
+	(wire
+		(pts
 			(xy 320.04 99.06) (xy 325.12 99.06)
 		)
 		(stroke
@@ -7347,6 +7360,16 @@
 			(type default)
 		)
 		(uuid "983aadac-2e8f-4e59-9337-2909567e3d36")
+	)
+	(wire
+		(pts
+			(xy 354.33 251.46) (xy 364.49 251.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9873b34d-91d3-4a2e-be03-7e8703867aad")
 	)
 	(wire
 		(pts
@@ -7430,6 +7453,16 @@
 	)
 	(wire
 		(pts
+			(xy 373.38 251.46) (xy 382.27 251.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b8c757e-e4c9-4dc2-bd0c-efa827df1361")
+	)
+	(wire
+		(pts
 			(xy 176.53 142.24) (xy 193.04 142.24)
 		)
 		(stroke
@@ -7457,6 +7490,16 @@
 			(type default)
 		)
 		(uuid "9e389c88-72d7-48df-90bb-eacfeb4ca306")
+	)
+	(wire
+		(pts
+			(xy 341.63 231.14) (xy 354.33 231.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a0362d8f-2a04-4c63-be60-244306cf8a4b")
 	)
 	(wire
 		(pts
@@ -7537,6 +7580,16 @@
 			(type default)
 		)
 		(uuid "a3467c97-2c04-4804-acd1-5f34be1815b4")
+	)
+	(wire
+		(pts
+			(xy 373.38 231.14) (xy 382.27 231.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a349617b-1889-4d02-947f-f2991d3d42e2")
 	)
 	(wire
 		(pts
@@ -7710,6 +7763,16 @@
 	)
 	(wire
 		(pts
+			(xy 364.49 247.65) (xy 364.49 251.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "add04a55-bfec-4985-98e8-9cf34b004d2b")
+	)
+	(wire
+		(pts
 			(xy 314.96 231.14) (xy 322.58 231.14)
 		)
 		(stroke
@@ -7790,6 +7853,16 @@
 	)
 	(wire
 		(pts
+			(xy 373.38 247.65) (xy 373.38 251.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b1e556b7-d3eb-4926-a974-102f2dd72b5f")
+	)
+	(wire
+		(pts
 			(xy 278.13 251.46) (xy 284.48 251.46)
 		)
 		(stroke
@@ -7827,6 +7900,16 @@
 			(type default)
 		)
 		(uuid "b591d4e7-1cc0-4b40-a22c-46c3b293fda4")
+	)
+	(wire
+		(pts
+			(xy 341.63 247.65) (xy 341.63 251.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b5a2321e-3fc8-4508-9a14-02d3ae313446")
 	)
 	(wire
 		(pts
@@ -7877,16 +7960,6 @@
 			(type default)
 		)
 		(uuid "b9586b9f-a356-498c-83be-1f17fa209f69")
-	)
-	(wire
-		(pts
-			(xy 361.95 231.14) (xy 361.95 234.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bbe2419a-bf26-4d42-9c62-e33f9dc57ca3")
 	)
 	(wire
 		(pts
@@ -8090,6 +8163,16 @@
 	)
 	(wire
 		(pts
+			(xy 364.49 231.14) (xy 373.38 231.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb4a7fd8-89a3-400e-94b1-c3e0d1dcd606")
+	)
+	(wire
+		(pts
 			(xy 123.19 83.82) (xy 123.19 100.33)
 		)
 		(stroke
@@ -8127,16 +8210,6 @@
 			(type default)
 		)
 		(uuid "ccb3d542-04d6-4f6a-b1c0-e675c2f0bf20")
-	)
-	(wire
-		(pts
-			(xy 361.95 251.46) (xy 370.84 251.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cd3caa37-54f2-4775-ba40-4b2e07f45342")
 	)
 	(wire
 		(pts
@@ -8280,6 +8353,16 @@
 	)
 	(wire
 		(pts
+			(xy 373.38 231.14) (xy 373.38 234.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d3ce6f1f-3cf8-4af9-8742-d5c71685e7d2")
+	)
+	(wire
+		(pts
 			(xy 325.12 97.79) (xy 325.12 99.06)
 		)
 		(stroke
@@ -8307,16 +8390,6 @@
 			(type default)
 		)
 		(uuid "d78103a0-cee0-4c87-bc7e-4c59baa178d9")
-	)
-	(wire
-		(pts
-			(xy 361.95 231.14) (xy 370.84 231.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d78be111-c964-4939-90f7-c15d6aaaf840")
 	)
 	(polyline
 		(pts
@@ -8437,6 +8510,16 @@
 			(type default)
 		)
 		(uuid "e2c8d1eb-aa5c-4e04-b368-69ceffa585b3")
+	)
+	(wire
+		(pts
+			(xy 354.33 231.14) (xy 364.49 231.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2eb71dc-28eb-489f-96b6-665f5728ee5f")
 	)
 	(wire
 		(pts
@@ -11735,6 +11818,148 @@
 				)
 				(justify left)
 				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "C5750X6S2W225K250KA:C5750X6S2W225K250KA")
+		(at 354.33 247.65 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0148c616-b40b-4ae9-8010-82371b7ca669")
+		(property "Reference" "C59"
+			(at 358.14 240.0299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "C5750X6S2W225K250KA"
+			(at 354.838 250.444 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "C5750_Commercial:C5750_Commercial"
+			(at 450.52 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_commercial_midvoltage_en.pdf"
+			(at 550.52 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Capacitor MLCC 2220 450V 2.2uF X6S TDK 2.2uF Multilayer Ceramic Capacitor (MLCC) 450 V dc +/-10% X6S dielectric C SMT max op. temp. +105C"
+			(at 354.33 247.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "2.5"
+			(at 750.52 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "TDK"
+			(at 850.52 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "C5750X6S2W225K250KA"
+			(at 950.52 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "810-C5750X6S2W225KKA"
+			(at 1050.52 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/TDK/C5750X6S2W225K250KA?qs=LGR4zN7VH6VhpmZPs3%252BfMA%3D%3D"
+			(at 1150.52 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "C5750X6S2W225K250KA"
+			(at 1250.52 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/c5750x6s2w225k250ka/tdk?utm_currency=USD&region=europe"
+			(at 1350.52 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "0bcee7e3-55b3-41c1-a1e9-fd916f37c5a5")
+		)
+		(pin "1"
+			(uuid "dd062144-e14c-4e9e-b98c-d841f95bc48d")
+		)
+		(instances
+			(project "Adrion_1"
+				(path "/ca8b9c62-24ed-451b-8ada-8e095e6c3e3b/fa7ca0dd-ef0e-4471-8085-0b8f7bb7729a"
+					(reference "C59")
+					(unit 1)
+				)
 			)
 		)
 	)
@@ -16281,6 +16506,148 @@
 		)
 	)
 	(symbol
+		(lib_id "C5750X6S2W225K250KA:C5750X6S2W225K250KA")
+		(at 373.38 247.65 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6ae285f6-9e6b-49d7-9a33-565521455912")
+		(property "Reference" "C39"
+			(at 377.19 240.0299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "C5750X6S2W225K250KA"
+			(at 373.888 250.444 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "C5750_Commercial:C5750_Commercial"
+			(at 469.57 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_commercial_midvoltage_en.pdf"
+			(at 569.57 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Capacitor MLCC 2220 450V 2.2uF X6S TDK 2.2uF Multilayer Ceramic Capacitor (MLCC) 450 V dc +/-10% X6S dielectric C SMT max op. temp. +105C"
+			(at 373.38 247.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "2.5"
+			(at 769.57 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "TDK"
+			(at 869.57 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "C5750X6S2W225K250KA"
+			(at 969.57 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "810-C5750X6S2W225KKA"
+			(at 1069.57 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/TDK/C5750X6S2W225K250KA?qs=LGR4zN7VH6VhpmZPs3%252BfMA%3D%3D"
+			(at 1169.57 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "C5750X6S2W225K250KA"
+			(at 1269.57 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/c5750x6s2w225k250ka/tdk?utm_currency=USD&region=europe"
+			(at 1369.57 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "4c2ebc34-7788-42d7-bd11-d413fef8c68c")
+		)
+		(pin "1"
+			(uuid "85268c80-fa86-484d-94ec-7bf3ddec4104")
+		)
+		(instances
+			(project "Adrion_1"
+				(path "/ca8b9c62-24ed-451b-8ada-8e095e6c3e3b/fa7ca0dd-ef0e-4471-8085-0b8f7bb7729a"
+					(reference "C39")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "B43547F2108M067:B43547F2108M067")
 		(at 330.2 234.95 270)
 		(unit 1)
@@ -16428,6 +16795,148 @@
 			(project "Adrion_1"
 				(path "/ca8b9c62-24ed-451b-8ada-8e095e6c3e3b/fa7ca0dd-ef0e-4471-8085-0b8f7bb7729a"
 					(reference "C33")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "C5750X6S2W225K250KA:C5750X6S2W225K250KA")
+		(at 364.49 247.65 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6d3f259d-316d-4600-afa8-6e2936fc9e08")
+		(property "Reference" "C37"
+			(at 368.3 240.0299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "C5750X6S2W225K250KA"
+			(at 364.998 250.444 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "C5750_Commercial:C5750_Commercial"
+			(at 460.68 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_commercial_midvoltage_en.pdf"
+			(at 560.68 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Capacitor MLCC 2220 450V 2.2uF X6S TDK 2.2uF Multilayer Ceramic Capacitor (MLCC) 450 V dc +/-10% X6S dielectric C SMT max op. temp. +105C"
+			(at 364.49 247.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "2.5"
+			(at 760.68 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "TDK"
+			(at 860.68 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "C5750X6S2W225K250KA"
+			(at 960.68 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "810-C5750X6S2W225KKA"
+			(at 1060.68 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/TDK/C5750X6S2W225K250KA?qs=LGR4zN7VH6VhpmZPs3%252BfMA%3D%3D"
+			(at 1160.68 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "C5750X6S2W225K250KA"
+			(at 1260.68 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/c5750x6s2w225k250ka/tdk?utm_currency=USD&region=europe"
+			(at 1360.68 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e58d4bd7-3741-42f5-9ed0-ec6461446ea2")
+		)
+		(pin "1"
+			(uuid "20626cb8-cf55-4450-993a-d0a39f4d1da3")
+		)
+		(instances
+			(project "Adrion_1"
+				(path "/ca8b9c62-24ed-451b-8ada-8e095e6c3e3b/fa7ca0dd-ef0e-4471-8085-0b8f7bb7729a"
+					(reference "C37")
 					(unit 1)
 				)
 			)
@@ -16953,156 +17462,6 @@
 			(project "Adrion_1"
 				(path "/ca8b9c62-24ed-451b-8ada-8e095e6c3e3b/fa7ca0dd-ef0e-4471-8085-0b8f7bb7729a"
 					(reference "C51")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "MKP1F044706J00JSSD:MKP1F044706J00JSSD")
-		(at 361.95 234.95 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "7661d470-1a94-4d32-8193-e1d3fb2ed121")
-		(property "Reference" "C39"
-			(at 363.474 226.06 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "4.7 uF"
-			(at 363.22 228.854 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MKP1F044706J00JSSD:MKP1F044706J00JSSD"
-			(at 363.22 243.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.wima.de/wp-content/uploads/media/e_WIMA_MKP_10.pdf"
-			(at 360.68 243.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "Film Capacitors 4.7 uF 250 VDC 5%"
-			(at 377.952 220.98 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description_1" "Film Capacitors 4.7 uF 250 VDC 5%"
-			(at 358.14 243.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Height" "39.5"
-			(at 355.6 243.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "WIMA"
-			(at 353.06 243.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "MKP1F044706J00JSSD"
-			(at 350.52 243.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "505-MKP1F044706J00JS"
-			(at 347.98 243.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/WIMA/MKP1F044706J00JSSD?qs=dTJS0cRn7ogT%252BWsuB87WZQ%3D%3D"
-			(at 345.44 243.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" ""
-			(at 342.9 243.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at 340.36 243.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "9e25cc75-332c-4c05-b9f2-d553e7f218c2")
-		)
-		(pin "1"
-			(uuid "dac706d5-4e77-440a-8eba-75a81e1e9a8a")
-		)
-		(instances
-			(project ""
-				(path "/ca8b9c62-24ed-451b-8ada-8e095e6c3e3b/fa7ca0dd-ef0e-4471-8085-0b8f7bb7729a"
-					(reference "C39")
 					(unit 1)
 				)
 			)
@@ -18110,157 +18469,6 @@
 			(project "Adrion_1"
 				(path "/ca8b9c62-24ed-451b-8ada-8e095e6c3e3b/fa7ca0dd-ef0e-4471-8085-0b8f7bb7729a"
 					(reference "#PWR09")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "MKP1F044706J00JSSD:MKP1F044706J00JSSD")
-		(at 370.84 234.95 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a0e80823-57b5-4564-af94-c2ac97140940")
-		(property "Reference" "C41"
-			(at 372.364 226.06 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MKP1F044706J00JSSD"
-			(at 372.11 228.854 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MKP1F044706J00JSSD"
-			(at 372.11 243.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.wima.de/wp-content/uploads/media/e_WIMA_MKP_10.pdf"
-			(at 369.57 243.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "Film Capacitors 4.7 uF 250 VDC 5%"
-			(at 370.84 234.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "Film Capacitors 4.7 uF 250 VDC 5%"
-			(at 367.03 243.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Height" "39.5"
-			(at 364.49 243.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "WIMA"
-			(at 361.95 243.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "MKP1F044706J00JSSD"
-			(at 359.41 243.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "505-MKP1F044706J00JS"
-			(at 356.87 243.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/WIMA/MKP1F044706J00JSSD?qs=dTJS0cRn7ogT%252BWsuB87WZQ%3D%3D"
-			(at 354.33 243.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" ""
-			(at 351.79 243.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at 349.25 243.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "b81a8df8-e16e-4c9a-b6a9-ebc17da09181")
-		)
-		(pin "1"
-			(uuid "f60e6642-385b-48de-bc84-2ced0318152a")
-		)
-		(instances
-			(project "Adrion_1"
-				(path "/ca8b9c62-24ed-451b-8ada-8e095e6c3e3b/fa7ca0dd-ef0e-4471-8085-0b8f7bb7729a"
-					(reference "C41")
 					(unit 1)
 				)
 			)
@@ -21260,6 +21468,147 @@
 			(project "Adrion_1"
 				(path "/ca8b9c62-24ed-451b-8ada-8e095e6c3e3b/fa7ca0dd-ef0e-4471-8085-0b8f7bb7729a"
 					(reference "PS4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "C5750X6S2W225K250KA:C5750X6S2W225K250KA")
+		(at 341.63 247.65 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e1a3069c-b942-4aa6-8ae7-1b60cb7abbb0")
+		(property "Reference" "C36"
+			(at 345.44 240.0299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "C5750X6S2W225K250KA"
+			(at 342.138 250.444 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "C5750_Commercial:C5750_Commercial"
+			(at 437.82 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_commercial_midvoltage_en.pdf"
+			(at 537.82 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Capacitor MLCC 2220 450V 2.2uF X6S TDK 2.2uF Multilayer Ceramic Capacitor (MLCC) 450 V dc +/-10% X6S dielectric C SMT max op. temp. +105C"
+			(at 341.63 247.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "2.5"
+			(at 737.82 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "TDK"
+			(at 837.82 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "C5750X6S2W225K250KA"
+			(at 937.82 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "810-C5750X6S2W225KKA"
+			(at 1037.82 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/TDK/C5750X6S2W225K250KA?qs=LGR4zN7VH6VhpmZPs3%252BfMA%3D%3D"
+			(at 1137.82 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "C5750X6S2W225K250KA"
+			(at 1237.82 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/c5750x6s2w225k250ka/tdk?utm_currency=USD&region=europe"
+			(at 1337.82 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "35225eeb-9d07-4444-93e2-548adeac3e2c")
+		)
+		(pin "1"
+			(uuid "e6884c28-5546-4851-9024-c130e7f52c1e")
+		)
+		(instances
+			(project ""
+				(path "/ca8b9c62-24ed-451b-8ada-8e095e6c3e3b/fa7ca0dd-ef0e-4471-8085-0b8f7bb7729a"
+					(reference "C36")
 					(unit 1)
 				)
 			)

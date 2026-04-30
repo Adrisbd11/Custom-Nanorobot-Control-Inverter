@@ -1,0 +1,18 @@
+.IPP111N15N3GXKSA1 :1 ;MOSFET N-Ch 150V 83A TO220-3 OptiMOS 3
+TO254P457X1003X2115-3P
+*STM Q
+*NGS
+*PLB 1="G" 2="D" 3="S"
+*MXP 3
+*DFN IPP111N15N3GXKSA1
+~!Manufacturer_Name (Infineon)
+~!Manufacturer_Part_Number (IPP111N15N3GXKSA1)
+~!Mouser Part Number (726-IPP111N15N3GXKSA)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Infineon-Technologies/IPP111N15N3GXKSA1?qs=OwbwYO03UsJO1bujDVMB%2Fw%3D%3D)
+~!Arrow Part Number (IPP111N15N3GXKSA1)
+~!Link Arrow Price/Stock (https://www.arrow.com/en/products/ipp111n15n3gxksa1/infineon-technologies-ag?region=europe)
+~!Link Datasheet (https://componentsearchengine.com/Datasheets/2/IPP111N15N3GXKSA1.pdf)
+~!Height (4.57mm)
+~!3D_Model (IPP111N15N3GXKSA1)
+IPP111N15N3GXKSA1
+1.1!U 2.1!U 3.1!U 

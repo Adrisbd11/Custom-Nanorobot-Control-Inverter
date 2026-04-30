@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP CKSR_6-NP
+D Current Transducer 6A, Low Drift +5V Vs
+K
+F https://www.farnell.com/datasheets/3760989.pdf
+$ENDCMP
+#
+#End Doc Library

@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "C5750X6S2W225K250KA"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2021-06-17-12:00:42)
+    (mountForm default
+        (footprintRef "C5750_Commercial")
+        (spec "System")
+    )
+)

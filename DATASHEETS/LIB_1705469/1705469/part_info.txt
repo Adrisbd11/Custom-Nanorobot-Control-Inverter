@@ -1,0 +1,9 @@
+Manufacturer=Phoenix Contact
+PartNumber=1705469
+PartCategory=Connector
+PackageCategory=Other
+PinCount=2
+Version=5.2
+Released=2021-03-20 12:04:54
+Downloaded=2026-04-19 11:33:21
+3D=Y

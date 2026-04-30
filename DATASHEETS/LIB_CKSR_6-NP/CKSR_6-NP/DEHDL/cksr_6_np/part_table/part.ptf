@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'CKSR_6_NP'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "LEM", "CKSR 6-NP" (!) = "", "CKSR6NP", "Other", "61-CKSR6-NP", "https://www.mouser.co.uk/ProductDetail/LEM/CKSR-6-NP?qs=Vi0JKjFBtYnGKGFrcOKHHQ%3D%3D", "", "", "Current Transducer 6A, Low Drift +5V Vs", "https://www.farnell.com/datasheets/3760989.pdf", "16 mm"
+END_PART
+
+END.

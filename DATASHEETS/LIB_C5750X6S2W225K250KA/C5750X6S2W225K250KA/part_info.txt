@@ -1,0 +1,9 @@
+Manufacturer=TDK
+PartNumber=C5750X6S2W225K250KA
+PartCategory=Capacitor
+PackageCategory=Other
+PinCount=2
+Version=4.1
+Released=2017-06-11 22:09:59
+Downloaded=2026-04-30 10:19:22
+3D=Y

@@ -1,0 +1,18 @@
+.CKSR_6-NP :1 ;Current Transducer 6A, Low Drift +5V Vs
+CKSR6NP
+*STM U
+*NGS
+*PLB 2="IN_1" 3="IN_2" 4="IN_3" 5="IN_4" 6="OUT_1" 7="OUT_2" 8="OUT_3" 9="OUT_4" 11="VREF" 12="VOUT" 13="GND" 14="UC"
+*MXP 12
+*DFN CKSR_6-NP
+~!Manufacturer_Name (LEM)
+~!Manufacturer_Part_Number (CKSR 6-NP)
+~!Mouser Part Number (61-CKSR6-NP)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/LEM/CKSR-6-NP?qs=Vi0JKjFBtYnGKGFrcOKHHQ%3D%3D)
+~!Arrow Part Number (-)
+~!Arrow Price/Stock (-)
+~!Link Datasheet (https://www.farnell.com/datasheets/3760989.pdf)
+~!Height (16mm)
+~!3D_Model (CKSR_6-NP)
+CKSR_6-NP
+2.1!U 3.1!U 4.1!U 5.1!U 6.1!U 7.1!U 8.1!U 9.1!U 11.1!U 12.1!U 13.1!U 14.1!U 

@@ -103,15 +103,15 @@
 		(uuid "b2b66cd8-597e-403a-9822-7e2c8aeefad6")
 	)
 	(embedded_fonts no)
-	(model "B43547F2108M067.stp"
+	(model "${DATASHEETS}/LIB_B43547F2108M067/B43547F2108M067/3D/B43547F2108M067.stp"
 		(offset
-			(xyz 0 0 0)
+			(xyz 5.235 -0.25 0)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz 0 0 0)
+			(xyz -0 -0 -50.95)
 		)
 	)
 )

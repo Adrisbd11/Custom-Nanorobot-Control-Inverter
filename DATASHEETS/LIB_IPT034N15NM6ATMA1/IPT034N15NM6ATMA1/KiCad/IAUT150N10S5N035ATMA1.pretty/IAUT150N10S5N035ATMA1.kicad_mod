@@ -440,15 +440,15 @@
 		(uuid "4084571c-80f1-47de-8f10-953f6674761c")
 	)
 	(embedded_fonts no)
-	(model "IPT034N15NM6ATMA1.stp"
+	(model "${DATASHEETS}/LIB_IPT034N15NM6ATMA1/IPT034N15NM6ATMA1/3D/IPT034N15NM6ATMA1.stp"
 		(offset
 			(xyz 0 0 0)
 		)
 		(scale
-			(xyz 1 1 1)
+			(xyz 1.0001 1 1)
 		)
 		(rotate
-			(xyz 0 0 0)
+			(xyz -0 -0 -90)
 		)
 	)
 )

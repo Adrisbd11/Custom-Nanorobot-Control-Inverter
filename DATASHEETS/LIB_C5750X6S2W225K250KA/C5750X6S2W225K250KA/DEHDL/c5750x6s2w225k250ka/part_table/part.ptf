@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'C5750X6S2W225K250KA'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "TDK", "C5750X6S2W225K250KA" (!) = "", "C5750_Commercial", "Other", "810-C5750X6S2W225KKA", "https://www.mouser.co.uk/ProductDetail/TDK/C5750X6S2W225K250KA?qs=LGR4zN7VH6VhpmZPs3%252BfMA%3D%3D", "C5750X6S2W225K250KA", "https://www.arrow.com/en/products/c5750x6s2w225k250ka/tdk?utm_currency=USD&region=europe", "Capacitor MLCC 2220 450V 2.2uF X6S TDK 2.2uF Multilayer Ceramic Capacitor (MLCC) 450 V dc +/-10% X6S dielectric C SMT max op. temp. +105C", "https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_commercial_midvoltage_en.pdf", "2.5 mm"
+END_PART
+
+END.

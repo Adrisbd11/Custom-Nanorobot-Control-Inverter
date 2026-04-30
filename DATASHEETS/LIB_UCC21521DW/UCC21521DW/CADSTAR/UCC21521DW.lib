@@ -1,0 +1,18 @@
+.UCC21521DW :1 ;4-A, 6-A, 5.7-kVRMS Isolated Dual-Channel Gate Driver with Enable
+SOIC127P1030X265-16N
+*STM IC
+*NGS
+*PLB 1="INA" 2="INB" 3="VCCI_1" 4="GND" 5="EN" 6="DT" 7="NC_1" 8="VCCI_2" 9="VSSB" 10="OUTB" 11="VDDB" 12="NC_2" 13="NC_3" 14="VSSA" 15="OUTA" 16="VDDA"
+*MXP 16
+*DFN UCC21521DW
+~!Manufacturer_Name (Texas Instruments)
+~!Manufacturer_Part_Number (UCC21521DW)
+~!Mouser Part Number (595-UCC21521DW)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Texas-Instruments/UCC21521DW?qs=8N88piwwHEh1S1VLrhQOJw%3D%3D)
+~!Arrow Part Number (UCC21521DW)
+~!Link Arrow Price/Stock (https://www.arrow.com/en/products/ucc21521dw/texas-instruments?region=nac)
+~!Link Datasheet (http://www.ti.com/lit/gpn/ucc21521)
+~!Height (2.65mm)
+~!3D_Model (UCC21521DW)
+UCC21521DW
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 6.1!U 7.1!U 8.1!U 16.1!U 15.1!U 14.1!U 13.1!U 12.1!U 11.1!U 10.1!U 9.1!U 

@@ -1,0 +1,9 @@
+Manufacturer=Texas Instruments
+PartNumber=UCC21521DW
+PartCategory=Integrated Circuit
+PackageCategory=Small Outline Packages
+PinCount=16
+Version=1.1
+Released=2021-04-24 06:38:24
+Downloaded=2026-04-27 09:09:53
+3D=Y

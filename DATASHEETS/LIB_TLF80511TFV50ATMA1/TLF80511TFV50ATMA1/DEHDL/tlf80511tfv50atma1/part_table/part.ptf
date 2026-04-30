@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'TLF80511TFV50ATMA1'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Infineon", "TLF80511TFV50ATMA1" (!) = "", "IDD09E60", "Other", "726-TLF80511TFV50ATM", "https://www.mouser.co.uk/ProductDetail/Infineon-Technologies/TLF80511TFV50ATMA1?qs=3Bi3m9r5MQYvpz38q4PWQw%3D%3D", "TLF80511TFV50ATMA1", "null?region=nac", "INFINEON - TLF80511TFV50ATMA1 - LDO, FIXED, AEC-Q100, 5V, 0.4A, TO-252-3", "https://www.infineon.com/dgdl/Infineon-TLF80511TF-DS-v01_00-EN.pdf?fileId=5546d46259d9a4bf0159fa3199ac3f4b", "2 mm"
+END_PART
+
+END.

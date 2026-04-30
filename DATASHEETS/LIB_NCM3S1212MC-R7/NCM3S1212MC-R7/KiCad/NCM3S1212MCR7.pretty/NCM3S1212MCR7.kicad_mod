@@ -291,7 +291,7 @@
 		(uuid "44a959d3-a49c-47d0-b678-5aaccbddaf43")
 	)
 	(embedded_fonts no)
-	(model "NCM3S1212MC-R7.stp"
+	(model "${DATASHEETS}/LIB_NCM3S1212MC-R7/NCM3S1212MC-R7/3D/NCM3S1212MC-R7.stp"
 		(offset
 			(xyz 0 0 0)
 		)
@@ -299,7 +299,7 @@
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz 0 0 0)
+			(xyz -0 -0 -0)
 		)
 	)
 )

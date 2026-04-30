@@ -1,0 +1,18 @@
+.C5750X6S2W225K250KA :1 ;Capacitor MLCC 2220 450V 2.2uF X6S TDK 2.2uF Multilayer Ceramic Capacitor (MLCC) 450 V dc +/-10% X6S dielectric C SMT max op. temp. +105C
+C5750_Commercial
+*STM C
+*NGS
+*PLB 1="1" 2="2"
+*MXP 2
+*DFN C5750X6S2W225K250KA
+~!Manufacturer_Name (TDK)
+~!Manufacturer_Part_Number (C5750X6S2W225K250KA)
+~!Mouser Part Number (810-C5750X6S2W225KKA)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/TDK/C5750X6S2W225K250KA?qs=LGR4zN7VH6VhpmZPs3%252BfMA%3D%3D)
+~!Arrow Part Number (C5750X6S2W225K250KA)
+~!Link Arrow Price/Stock (https://www.arrow.com/en/products/c5750x6s2w225k250ka/tdk?utm_currency=USD&region=europe)
+~!Link Datasheet (https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_commercial_midvoltage_en.pdf)
+~!Height (2.5mm)
+~!3D_Model (C5750X6S2W225K250KA)
+C5750X6S2W225K250KA
+1.1!U 2.1!U 

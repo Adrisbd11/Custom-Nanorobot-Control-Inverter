@@ -1,0 +1,18 @@
+.TLF80511TFV50ATMA1 :1 ;INFINEON - TLF80511TFV50ATMA1 - LDO, FIXED, AEC-Q100, 5V, 0.4A, TO-252-3
+IDD09E60
+*STM IC
+*NGS
+*PLB 1="I" 2="GND" 3="Q"
+*MXP 3
+*DFN TLF80511TFV50ATMA1
+~!Manufacturer_Name (Infineon)
+~!Manufacturer_Part_Number (TLF80511TFV50ATMA1)
+~!Mouser Part Number (726-TLF80511TFV50ATM)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Infineon-Technologies/TLF80511TFV50ATMA1?qs=3Bi3m9r5MQYvpz38q4PWQw%3D%3D)
+~!Arrow Part Number (TLF80511TFV50ATMA1)
+~!Link Arrow Price/Stock (null?region=nac)
+~!Link Datasheet (https://www.infineon.com/dgdl/Infineon-TLF80511TF-DS-v01_00-EN.pdf?fileId=5546d46259d9a4bf0159fa3199ac3f4b)
+~!Height (2mm)
+~!3D_Model (TLF80511TFV50ATMA1)
+TLF80511TFV50ATMA1
+1.1!U 2.1!U 3.1!U 

@@ -1,0 +1,10 @@
+(unit MM)
+
+(package "CKSR6NP"
+    (type UNDEF)
+    (uver 2)
+    (mountForm default
+        (footprintRef "CKSR6NP")
+        (spec "default")
+    )
+)

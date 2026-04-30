@@ -1,0 +1,68 @@
+(Japanese_coding: sjis)
+(function "ECS_292007"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2021-03-20-12:04:54)
+    (utime 2026-02-26-16:28:16)
+    (interface
+        (port "1" (symbPinId 1) (portType INOUT))
+        (port "2" (symbPinId 2) (portType INOUT))
+    )
+    (property "symbolName" "1705469")
+)
+
+
+(pinAssign "ECS_292007"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2021-03-20-12:04:54)
+    (utime 2026-02-26-16:28:16)
+    (interface
+        (port "1" (symbPinId 1) (portName "1") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "2") (portType INOUT))
+    )
+    (internal
+        (funcInst (functionRef "ECS_292007")
+                (port "1" (match "1"))
+                (port "2" (match "2"))
+        )
+    )
+    (property "usePowerBox" "No")
+    (property "symbolName" "1705469")
+)
+
+
+(part "1705469"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2021-03-20-12:04:54)
+    (utime 2026-02-26-16:28:16)
+    (packageRef "1705469")
+    (pinAssignRef "ECS_292007")
+    (interface
+        (port "1" (symbPinId 1) (portName "1") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "2") (portType INOUT))
+    )
+    (partClass UNDEF)
+    (useInSchema Y)
+    (useInLayout Y)
+    (inPartsList Y)
+    (partType NORMAL)
+    (placeRestriction FREE)
+    (property "enetNonSeries" "YES")
+    (property "refDesPrefix" "J")
+    (property "description" "Fixed Terminal Blocks 2P 5.08mm 40DEG")
+    (property "Manufacturer_Name" "Phoenix Contact")
+    (property "Manufacturer_Part_Number" "1705469")
+    (property "Mouser_Part_Number" "651-1705469")
+    (property "Mouser_Price/Stock" "https://www.mouser.co.uk/ProductDetail/Phoenix-Contact/1705469?qs=qgZcrvoyHAeKr1p0qncEog%3D%3D")
+    (property "Arrow_Part_Number" "1705469")
+    (property "Arrow_Price/Stock" "https://www.arrow.com/en/products/1705469/phoenix-contact?utm_currency=USD&region=nac")
+    (property "Datasheet_Link" "https://www.phoenixcontact.com/en-us/products/printed-circuit-board-terminal-smkds-25-2-508-1705469?type=pdf")
+    (property "compAreaTopHeight" 19.6)
+)
+
+

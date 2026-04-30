@@ -1,0 +1,18 @@
+.1705469 :1 ;Fixed Terminal Blocks 2P 5.08mm 40DEG
+"1705469"
+*STM J
+*NGS
+*PLB 1="1" 2="2"
+*MXP 2
+*DFN 1705469
+~!Manufacturer_Name (Phoenix Contact)
+~!Manufacturer_Part_Number (1705469)
+~!Mouser Part Number (651-1705469)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Phoenix-Contact/1705469?qs=qgZcrvoyHAeKr1p0qncEog%3D%3D)
+~!Arrow Part Number (1705469)
+~!Link Arrow Price/Stock (https://www.arrow.com/en/products/1705469/phoenix-contact?utm_currency=USD&region=nac)
+~!Link Datasheet (https://www.phoenixcontact.com/en-us/products/printed-circuit-board-terminal-smkds-25-2-508-1705469?type=pdf)
+~!Height (19.6mm)
+~!3D_Model (1705469)
+"1705469"
+1.1!U 2.1!U 

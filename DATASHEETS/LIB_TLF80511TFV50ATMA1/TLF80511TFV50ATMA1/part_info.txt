@@ -1,0 +1,9 @@
+Manufacturer=Infineon
+PartNumber=TLF80511TFV50ATMA1
+PartCategory=Integrated Circuit
+PackageCategory=Other
+PinCount=3
+Version=1.2
+Released=2019-01-12 00:49:52
+Downloaded=2026-04-30 14:50:47
+3D=Y

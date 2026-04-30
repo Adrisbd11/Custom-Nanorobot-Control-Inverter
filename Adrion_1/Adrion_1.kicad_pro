@@ -226,12 +226,16 @@
           "drill": 0.0
         },
         {
-          "diameter": 0.7,
-          "drill": 0.3
+          "diameter": 1.0,
+          "drill": 0.4
+        },
+        {
+          "diameter": 1.5,
+          "drill": 0.6
         },
         {
           "diameter": 2.0,
-          "drill": 0.5
+          "drill": 0.8
         }
       ],
       "zones_allow_external_fillets": false
@@ -623,6 +627,14 @@
       "version": 1
     },
     "net_format_name": "",
+    "ngspice": {
+      "fix_include_paths": true,
+      "meta": {
+        "version": 0
+      },
+      "model_mode": 4,
+      "workbook_filename": ""
+    },
     "page_layout_descr_file": "",
     "plot_directory": "",
     "space_save_all_events": true,

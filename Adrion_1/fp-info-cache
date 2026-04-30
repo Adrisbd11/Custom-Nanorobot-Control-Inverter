@@ -1,4 +1,4 @@
-26756259244206667
+26761592625550741
 1705469
 1705469
 1705469-1
@@ -6,6 +6,13 @@ Connector
 0
 2
 2
+1705469
+Untitled
+
+
+0
+0
+0
 1729128_2.0
 1729128
 1729128
@@ -62516,6 +62523,13 @@ HARWIN_M20-7821546
 0
 15
 15
+HSINK_577202B04000G
+HSINK_577202B04000G
+
+
+0
+1
+1
 Heatsink
 Heatsink_35x26mm_1xFixation3mm_Fischer-SK486-35
 Heatsink, 35mm x 26mm, 1x Fixation 3mm, Fischer SK486-35
@@ -62740,6 +62754,13 @@ MOSFET (N-Channel)
 0
 12
 12
+IDD09E60
+IDD09E60
+PG-TO252 -3_ffw
+Integrated Circuit
+0
+3
+3
 INF-PG-TO252-3-11_N
 INF-PG-TO252-3-11_N
 Original name <b>INF-PG-TO252-3-11_N</b><p>Max Component Height - 2.35mm

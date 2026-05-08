@@ -1,0 +1,148 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "ca8b9c62-24ed-451b-8ada-8e095e6c3e3b")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 205.74 31.75)
+		(size 52.07 26.67)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "1fe46f15-e332-4cdc-b189-550c3fd1d399")
+		(property "Sheetname" "Supply"
+			(at 205.74 31.0384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "supply.kicad_sch"
+			(at 205.74 59.0046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Field2" ""
+			(at 205.74 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "Adrion_1"
+				(path "/ca8b9c62-24ed-451b-8ada-8e095e6c3e3b"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 116.84 31.75)
+		(size 54.61 26.67)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "c394d021-dbd4-4b5e-82f1-8db0ed20e57b")
+		(property "Sheetname" "Control"
+			(at 116.84 31.0384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "untitled.kicad_sch"
+			(at 116.84 59.0046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Adrion_1"
+				(path "/ca8b9c62-24ed-451b-8ada-8e095e6c3e3b"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 27.94 31.75)
+		(size 54.61 26.67)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "fa7ca0dd-ef0e-4471-8085-0b8f7bb7729a")
+		(property "Sheetname" "Power_Stage"
+			(at 27.94 31.0384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Power_Stage.kicad_sch"
+			(at 27.94 59.0046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Adrion_1"
+				(path "/ca8b9c62-24ed-451b-8ada-8e095e6c3e3b"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
